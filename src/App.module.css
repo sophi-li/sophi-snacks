@@ -1,0 +1,103 @@
+.App {
+  display: block;
+  color: #2e2e40;
+}
+
+.blurbContainer {
+  width: 25%;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  border-right: 2px solid #c11e01;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  line-height: 1.5;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 0 2rem;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.titleSnack {
+  color: #c11e01;
+}
+
+.restaurantContainer {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-left: auto;
+  margin-top: 4rem;
+}
+
+.cityDropdown {
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  color: white;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 1200px) {
+  .restaurantContainer {
+    width: 75%;
+    justify-content: flex-end;
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .blurbContainer {
+    width: 30%;
+  }
+
+  .restaurantContainer {
+    width: 60%;
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blurbContainer {
+    background-color: white;
+    width: 80%;
+    border-bottom: 2px solid #c11e01;
+    border-right: none;
+    position: sticky;
+    margin-top: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+    margin-bottom: -3rem;
+  }
+
+  .restaurantContainer {
+    width: 90%;
+  }
+
+  .description {
+    display: none;
+  }
+}

@@ -1,23 +1,77 @@
-import logo from './logo.svg';
-import './App.css';
+import stylesheet from "./App.module.css";
+import React from "react";
+import data from "./data";
+import RestaurantCard from "./components/RestaurantCard/RestaurantCard";
+
+import Select from "react-select";
 
 function App() {
+  let cities = [
+    ...new Set(
+      data.map((d) => {
+        return d.city;
+      })
+    ),
+  ];
+  let cityOptions = cities.map((c) => {
+    return { value: c, label: c };
+  });
+  let initRestaurants = [];
+  const [selectedCity, setSelectedState] = React.useState(cityOptions[0].value);
+  const [selectedCityRestaurants, setSelectedCityRestaurants] = React.useState(
+    data.reduce(function (result, d) {
+      if (d.city === selectedCity) {
+        initRestaurants.push(d);
+      }
+      return initRestaurants;
+    }, [])
+  );
+
+  function handleCityChange(e) {
+    setSelectedState(e.value);
+    let restaurants = [];
+    let newSelectedCityRestaurants = data.reduce(function (result, d) {
+      if (d.city === e.value) {
+        restaurants.push(d);
+      }
+      return restaurants;
+    }, []);
+    setSelectedCityRestaurants(newSelectedCityRestaurants);
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+    <div className={stylesheet.App}>
+      <div className={stylesheet.blurbContainer}>
+        <h1 className={stylesheet.title}>
+          Sophi <span className={stylesheet.titleSnack}>Snacks</span>
+        </h1>
+        <Select
+          isSearchable={false}
+          defaultValue={cityOptions[0]}
+          options={cityOptions}
+          onChange={(e) => handleCityChange(e)}
+        />
+
+        <p className={stylesheet.description}>
+          Hi! I’m{" "}
+          <a
+            href="https://twitter.com/sophia_wyl"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Sophia
+          </a>
+          , lover of travel and trying new food. These are some of my favorite
+          restaurants in {selectedCity}.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <p className={stylesheet.description}>
+          Use the dropdown above to browse through different cities.
+        </p>
+      </div>
+      <div className={stylesheet.restaurantContainer}>
+        {selectedCityRestaurants.map((restaurant) => {
+          return <RestaurantCard restaurant={restaurant} />;
+        })}
+      </div>
     </div>
   );
 }
