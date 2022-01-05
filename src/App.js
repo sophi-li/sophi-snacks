@@ -63,8 +63,17 @@ function App() {
           , lover of travel and trying new food. These are some of my favorite
           restaurants, cafes, and bars in {selectedCity}.
         </p>
-        <p>
-          Use the dropdown above to browse through different cities.
+        <p>Use the dropdown above to browse through different cities.</p>
+        <p className={stylesheet.description}>
+          View{" "}
+          <a
+            href="https://github.com/sophi-li/sophi-snacks"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            source code here
+          </a>
+          .
         </p>
       </div>
       <div className={stylesheet.restaurantContainer}>

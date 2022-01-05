@@ -356,9 +356,9 @@ const data = [
     items: [{ item: "Original NY Plain Cheesecake", isVeg: false }],
     contact: [
       {
-        order:
-            "https://www.juniorscheesecake.com/all-items/",
-        website: "https://www.juniorscheesecake.com/blog/restaurants/times-square/",
+        order: "https://www.juniorscheesecake.com/all-items/",
+        website:
+          "https://www.juniorscheesecake.com/blog/restaurants/times-square/",
       },
     ],
   },
@@ -596,9 +596,7 @@ const data = [
     name: "Sushi Ohana",
     city: "Portland",
     neighborhood: "Irvington",
-    items: [
-      { item: "Salmon", isVeg: false },
-    ],
+    items: [{ item: "Salmon", isVeg: false }],
     contact: [
       {
         website: "https://www.sushiohanapdx.com/",
@@ -641,12 +639,11 @@ const data = [
     name: "Deschutes",
     city: "Portland",
     neighborhood: "Pearl District",
-    items: [
-      { item: "Fresh Squeezed IPA", isVeg: false },
-    ],
+    items: [{ item: "Fresh Squeezed IPA", isVeg: false }],
     contact: [
       {
-        website: "https://www.deschutesbrewery.com/visit-us/portland-public-house/",
+        website:
+          "https://www.deschutesbrewery.com/visit-us/portland-public-house/",
       },
     ],
   },
@@ -654,9 +651,7 @@ const data = [
     name: "A Roadside Attraction",
     city: "Portland",
     neighborhood: "Buckman Neighborhood",
-    items: [
-      { item: "Go for the vibes", isVeg: false },
-    ],
+    items: [{ item: "Go for the vibes", isVeg: false }],
     contact: [
       {
         website: "https://www.instagram.com/roadsidepdx/?hl=en",
