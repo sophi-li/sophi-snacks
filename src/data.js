@@ -593,6 +593,51 @@ const data = [
     ],
   },
   {
+    name: "Sushi Ohana",
+    city: "Portland",
+    neighborhood: "Irvington",
+    items: [
+      { item: "Salmon", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://www.sushiohanapdx.com/",
+        order: "https://www.sushiohanapdx.com/order-online-takeout-delivery",
+      },
+    ],
+  },
+  {
+    name: "Botto’s BBQ",
+    city: "Portland",
+    neighborhood: "Hosford Abernethy",
+    items: [
+      { item: "Brisket", isVeg: false },
+      { item: "Potato Salad", isVeg: false },
+      { item: "Baked Mac+Cheese", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://bottosbbq.com/",
+        order: "https://bottosbbq.square.site/",
+      },
+    ],
+  },
+  {
+    name: "Matt’s BBQ",
+    city: "Portland",
+    neighborhood: "Boise",
+    items: [
+      { item: "Sliced Brisket", isVeg: false },
+      { item: "Cherry Chipotle BBQ Sauce", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://www.mattsbbqpdx.com/",
+        order: "https://www.mattsbbqpdx.com/order-now/",
+      },
+    ],
+  },
+  {
     name: "Deschutes",
     city: "Portland",
     neighborhood: "Pearl District",

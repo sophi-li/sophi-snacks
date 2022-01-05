@@ -1,5 +1,5 @@
 # Sophi Snacks
-List of my favorite restaurants in San Francisco and New York.
+List of my favorite restaurants in San Francisco, New York, and Portland.
 
 ## Features
 - dropdown of cities to choose from
