@@ -30,6 +30,10 @@
   color: #c11e01;
 }
 
+.selectLabel {
+  padding-top: 0.5rem;
+}
+
 .restaurantContainer {
   width: 80%;
   display: flex;

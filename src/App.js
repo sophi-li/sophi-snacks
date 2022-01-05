@@ -39,20 +39,24 @@ function App() {
     setSelectedCityRestaurants(newSelectedCityRestaurants);
   }
   return (
-    <div className={stylesheet.App}>
+    <main className={stylesheet.App}>
       <div className={stylesheet.blurbContainer}>
         <h1 className={stylesheet.title}>
           Sophi <span className={stylesheet.titleSnack}>Snacks</span>
         </h1>
         <Select
+          id="cityDropdown"
           isSearchable={false}
           defaultValue={cityOptions[0]}
           options={cityOptions}
           onChange={(e) => handleCityChange(e)}
         />
+        <label htmlFor="cityDropdown" className={stylesheet.selectLabel}>
+          Use the dropdown above to browse through different cities.
+        </label>
 
         <p className={stylesheet.description}>
-          Hi! I’m{" "}
+          Welcome! I’m{" "}
           <a
             href="https://twitter.com/sophia_wyl"
             target="_blank"
@@ -63,7 +67,6 @@ function App() {
           , lover of travel and trying new food. These are some of my favorite
           restaurants, cafes, and bars in {selectedCity}.
         </p>
-        <p>Use the dropdown above to browse through different cities.</p>
         <p className={stylesheet.description}>
           View{" "}
           <a
@@ -81,7 +84,7 @@ function App() {
           return <RestaurantCard restaurant={restaurant} />;
         })}
       </div>
-    </div>
+    </main>
   );
 }
 
