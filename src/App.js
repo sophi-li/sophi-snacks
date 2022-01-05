@@ -13,10 +13,15 @@ function App() {
       })
     ),
   ];
-  let cityOptions = cities.map((c) => {
-    return { value: c, label: c };
-  });
+  let cityOptions = cities
+    .map((c) => {
+      return { value: c, label: c };
+    })
+    .sort((a, b) => {
+      return a.value > b.value ? 1 : -1;
+    });
   let initRestaurants = [];
+
   const [selectedCity, setSelectedState] = React.useState(cityOptions[0].value);
   const [selectedCityRestaurants, setSelectedCityRestaurants] = React.useState(
     data.reduce(function (result, d) {

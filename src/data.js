@@ -154,7 +154,7 @@ const data = [
     ],
   },
   {
-    name: "Bodhi Kosher Vegetarian Restaurant ⓥ",
+    name: "Bodhi ⓥ",
     city: "Manhattan",
     neighborhood: "Chinatown",
     items: [
