@@ -2,6 +2,8 @@
 
 List of my favorite restaurants in San Francisco, New York, and Portland.
 
+![City dropdown and description on left column. restaurants on right column](screenshot-sophi-snacks.png)
+
 ## Features
 
 - dropdown of cities to choose from
