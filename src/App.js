@@ -61,9 +61,9 @@ function App() {
             Sophia
           </a>
           , lover of travel and trying new food. These are some of my favorite
-          restaurants in {selectedCity}.
+          restaurants, cafes, and bars in {selectedCity}.
         </p>
-        <p className={stylesheet.description}>
+        <p>
           Use the dropdown above to browse through different cities.
         </p>
       </div>

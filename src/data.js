@@ -154,7 +154,7 @@ const data = [
     ],
   },
   {
-    name: "Bodhi Kosher Vegetarian Restaurant",
+    name: "Bodhi Kosher Vegetarian Restaurant ⓥ",
     city: "Manhattan",
     neighborhood: "Chinatown",
     items: [
@@ -350,6 +350,19 @@ const data = [
     ],
   },
   {
+    name: "Junior’s Restaurant and Bakery",
+    city: "Manhattan",
+    neighborhood: "Times Square",
+    items: [{ item: "Original NY Plain Cheesecake", isVeg: false }],
+    contact: [
+      {
+        order:
+            "https://www.juniorscheesecake.com/all-items/",
+        website: "https://www.juniorscheesecake.com/blog/restaurants/times-square/",
+      },
+    ],
+  },
+  {
     name: "Abraco",
     city: "Manhattan",
     neighborhood: "East Village",
@@ -456,6 +469,152 @@ const data = [
       {
         website: "https://www.pocha32.com/",
         order: "https://www.makeitbutter.com/pocha/main",
+      },
+    ],
+  },
+  {
+    name: "Nong’s Khao Man Gai",
+    city: "Portland",
+    neighborhood: "South East Side",
+    items: [
+      { item: "Khao Man Gai", isVeg: false },
+      { item: "Khao Kha Muu", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://khaomangai.com/",
+        order: "https://nongskhaomangai.square.site/",
+      },
+    ],
+  },
+  {
+    name: "Pambiche",
+    city: "Portland",
+    neighborhood: "Kerns",
+    items: [
+      { item: "Arroz Con Pollo", isVeg: false },
+      { item: "Ropa Veja", isVeg: false },
+      { item: "Vaca Frita", isVeg: false },
+      { item: "Tres Leches", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://www.pambiche.com/",
+      },
+    ],
+  },
+  {
+    name: "Ken’s Artisan Pizza",
+    city: "Portland",
+    neighborhood: "Kerns",
+    items: [
+      { item: "Margherita", isVeg: false },
+      { item: "Fennel Sausage & Onions", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://kensartisan.com/pizza",
+        order: "https://nongskhaomangai.square.site/",
+      },
+    ],
+  },
+  {
+    name: "Blue Star Donut",
+    city: "Portland",
+    neighborhood: "South East Side",
+    items: [
+      { item: "Lemon Poppy Buttermilk Old-Fashioned", isVeg: false },
+      { item: "Chocolate Buttermilk Old Fashioned", isVeg: false },
+      { item: "Orange Olive Oil", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://bluestardonuts.com/",
+      },
+    ],
+  },
+  {
+    name: "Screen Door",
+    city: "Portland",
+    neighborhood: "South East Side",
+    items: [
+      { item: "Chicken Dinner", isVeg: false },
+      { item: "Screen Door Mac & Cheese", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://screendoorrestaurant.com/",
+        order: "https://direct.chownow.com/order/11490/locations/15935",
+      },
+    ],
+  },
+  {
+    name: "Jam on Hawthorne",
+    city: "Portland",
+    neighborhood: "Hawthorne",
+    items: [
+      { item: "Bennie Hashbrowns", isVeg: false },
+      { item: "Corned Beef Hash", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://www.jamonhawthorne.com/",
+      },
+    ],
+  },
+  {
+    name: "Fried Egg I’m In Love",
+    city: "Portland",
+    neighborhood: "Hawthorne",
+    items: [
+      { item: "Yolko Ono", isVeg: false },
+      { item: "Egg Zeppelin", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://www.friedegglove.com/",
+        order: "https://www.friedegglove.com/orderonline",
+      },
+    ],
+  },
+  {
+    name: "Fried Egg I’m In Love",
+    city: "Portland",
+    neighborhood: "Buckman Neighborhood",
+    items: [
+      { item: "Meat Mezza", isVeg: false },
+      { item: "Vegetarian Mezza", isVeg: true },
+    ],
+    contact: [
+      {
+        website: "https://www.nicholasrestaurant.com/",
+        order: "https://www.nicholasrestaurant.com/order-now",
+      },
+    ],
+  },
+  {
+    name: "Deschutes",
+    city: "Portland",
+    neighborhood: "Pearl District",
+    items: [
+      { item: "Fresh Squeezed IPA", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://www.deschutesbrewery.com/visit-us/portland-public-house/",
+      },
+    ],
+  },
+  {
+    name: "A Roadside Attraction",
+    city: "Portland",
+    neighborhood: "Buckman Neighborhood",
+    items: [
+      { item: "Go for the vibes", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://www.instagram.com/roadsidepdx/?hl=en",
       },
     ],
   },
