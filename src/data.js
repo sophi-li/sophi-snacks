@@ -504,6 +504,21 @@ const data = [
     ],
   },
   {
+    name: "Broder Cafe",
+    city: "Portland",
+    neighborhood: "Hosford-Abernethy",
+    items: [
+      { item: "Aebleskiver (Danish Pancakes)", isVeg: false },
+      { item: "Lefse (Norwegian Potato Crepe)", isVeg: false },
+      { item: "Fölorade Ägg (Lost Eggs)", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://www.broderpdx.com/",
+      },
+    ],
+  },
+  {
     name: "Ken’s Artisan Pizza",
     city: "Portland",
     neighborhood: "Kerns",
@@ -622,7 +637,7 @@ const data = [
   {
     name: "Botto’s BBQ",
     city: "Portland",
-    neighborhood: "Hosford Abernethy",
+    neighborhood: "Hosford-Abernethy",
     items: [
       { item: "Brisket", isVeg: false },
       { item: "Potato Salad", isVeg: false },
