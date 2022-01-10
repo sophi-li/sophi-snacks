@@ -363,6 +363,19 @@ const data = [
     ],
   },
   {
+    name: "7th Street Burger",
+    city: "Manhattan",
+    neighborhood: "East Village",
+    items: [{ item: "Cheeseburger", isVeg: false }],
+    contact: [
+      {
+        order:
+          "https://www.toasttab.com/7th-street-burger-91-e-7th-st/v3/?mode=fulfillment",
+        website: "https://www.7thstreetburger.com/",
+      },
+    ],
+  },
+  {
     name: "Abraco",
     city: "Manhattan",
     neighborhood: "East Village",
@@ -578,6 +591,18 @@ const data = [
     ],
   },
   {
+    name: "Sengatera Ethiopian Restaurant",
+    city: "Portland",
+    neighborhood: "Kings",
+    items: [{ item: "Senga-tera special", isVeg: false }],
+    contact: [
+      {
+        phone: "503-288-3787",
+        website: "https://sengateraethiopianrestaurant.com/index.html",
+      },
+    ],
+  },
+  {
     name: "Fried Egg I’m In Love",
     city: "Portland",
     neighborhood: "Hawthorne",
@@ -593,7 +618,7 @@ const data = [
     ],
   },
   {
-    name: "Fried Egg I’m In Love",
+    name: "Nicholas Restaurant",
     city: "Portland",
     neighborhood: "Buckman Neighborhood",
     items: [
@@ -604,6 +629,37 @@ const data = [
       {
         website: "https://www.nicholasrestaurant.com/",
         order: "https://www.nicholasrestaurant.com/order-now",
+      },
+    ],
+  },
+  {
+    name: "Stammisch",
+    city: "Portland",
+    neighborhood: "Kerns",
+    items: [
+      { item: "Currywurst", isVeg: false },
+      { item: "Wienerschnitzel", isVeg: true },
+    ],
+    contact: [
+      {
+        website: "https://www.stammtischpdx.com/",
+        phone: "503-206-7983",
+      },
+    ],
+  },
+  {
+    name: "Nepali Kitchen and Chai Garden",
+    city: "Portland",
+    neighborhood: "Beaumont-Wilshire",
+    items: [
+      { item: "Chai", isVeg: false },
+      { item: "Pork Momo", isVeg: true },
+      { item: "Chicken Curry", isVeg: true },
+    ],
+    contact: [
+      {
+        phone: "(503) 477-6683",
+        website: "https://cybergardencafenepali-kitchen.business.site/",
       },
     ],
   },
