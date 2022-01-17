@@ -667,8 +667,8 @@ const data = [
     neighborhood: "Beaumont-Wilshire",
     items: [
       { item: "Chai", isVeg: false },
-      { item: "Pork Momo", isVeg: true },
-      { item: "Chicken Curry", isVeg: true },
+      { item: "Pork Momo", isVeg: false },
+      { item: "Chicken Curry", isVeg: false },
     ],
     contact: [
       {
