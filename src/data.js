@@ -532,6 +532,20 @@ const data = [
     ],
   },
   {
+    name: "Sabor Casero Pupuseria",
+    city: "Portland",
+    neighborhood: "Woodlawn",
+    items: [
+      { item: "Pupusa with pork and cheese", isVeg: false },
+      { item: "Pupusa with bean and cheese", isVeg: false },
+    ],
+    contact: [
+      {
+        phone: "503-317-9328",
+      },
+    ],
+  },
+  {
     name: "Ken’s Artisan Pizza",
     city: "Portland",
     neighborhood: "Kerns",
