@@ -751,10 +751,176 @@ const data = [
     name: "A Roadside Attraction",
     city: "Portland",
     neighborhood: "Buckman Neighborhood",
-    items: [{ item: "Go for the vibes", isVeg: false }],
+    items: [],
     contact: [
       {
         website: "https://www.instagram.com/roadsidepdx/?hl=en",
+      },
+    ],
+  },
+  {
+    name: "Piroshky Piroshky",
+    city: "Seattle",
+    neighborhood: "Downtown",
+    items: [{ item: "Salmon piroshky", isVeg: false }],
+    contact: [
+      {
+        website: "https://piroshkybakery.com/",
+      },
+    ],
+  },
+  {
+    name: "Frelard Tamales",
+    city: "Seattle",
+    neighborhood: "Green Lake",
+    items: [
+      { item: "Pork Tamale", isVeg: false },
+      { item: "Jalapeño & Cheese Tamale", isVeg: true },
+    ],
+    contact: [
+      {
+        website: "https://www.frelardtamales.com/",
+        order: "https://www.frelardtamales.com/delivery.html",
+      },
+    ],
+  },
+  {
+    name: "Seattle Fish Guys",
+    city: "Seattle",
+    neighborhood: "Downtown",
+    items: [
+      { item: "Tuna Poke Bowl", isVeg: false },
+      { item: "Chirashi Bowl", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://www.seattlefishguys.com/",
+        order: "https://www.seattlefishguys.com/store",
+      },
+    ],
+  },
+  {
+    name: "Japonessa Sushi Cocina",
+    city: "Seattle",
+    neighborhood: "Downtown",
+    items: [
+      { item: "Happy Hour Sushi Set B", isVeg: false },
+      { item: "Happy Hour Sushi Set Deluxe", isVeg: false },
+      { item: "Happy Hour Lucky 7", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://www.japonessa.com/",
+      },
+    ],
+  },
+  {
+    name: "Thai Tom",
+    city: "Seattle",
+    neighborhood: "University District",
+    items: [
+      { item: "Pad See Ew", isVeg: false },
+      { item: "Thai Iced Tea", isVeg: false },
+    ],
+    contact: [
+      {
+        phone: "(206) 548-9548",
+      },
+    ],
+  },
+  {
+    name: "Dick’s Drive-in",
+    city: "Seattle",
+    neighborhood: "Wallingford",
+    items: [{ item: "Deluxe Burger", isVeg: false }],
+    contact: [
+      {
+        website: "https://www.ddir.com/",
+      },
+    ],
+  },
+  {
+    name: "Sea Wolf Bakery",
+    city: "Seattle",
+    neighborhood: "Fremont",
+    items: [
+      { item: "Croissant", isVeg: false },
+      { item: "Cheddar Lye Roll", isVeg: false },
+      { item: "Latte", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://www.seawolfbakers.com/menu",
+      },
+    ],
+  },
+  {
+    name: "Fremont Coffee Company",
+    city: "Seattle",
+    neighborhood: "Fremont",
+    items: [{ item: "Drip Coffee", isVeg: false }],
+    contact: [
+      {
+        website: "https://www.fremontcoffee.net/",
+      },
+    ],
+  },
+  {
+    name: "Theo Chocolate",
+    city: "Seattle",
+    neighborhood: "Downtown",
+    items: [
+      { item: "Snickerdoodle Cookie Bites", isVeg: false },
+      { item: "Peanut Butter Cups", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://theochocolate.com/",
+      },
+    ],
+  },
+  {
+    name: "Hot Cakes",
+    city: "Seattle",
+    neighborhood: "Capital Hill",
+    items: [{ item: "Dark Decadence", isVeg: false }],
+    contact: [
+      {
+        website: "https://getyourhotcakes.com/",
+        order: "https://hot-cakes-seattle.square.site/",
+      },
+    ],
+  },
+  {
+    name: "Fremont Brewing’s Urban Beer Garden",
+    city: "Seattle",
+    neighborhood: "Fremont",
+    items: [],
+    contact: [
+      {
+        website: "https://www.fremontbrewing.com/new-page-1",
+      },
+    ],
+  },
+  {
+    name: "Bale Breaker & Yonder Cider Taproom",
+    city: "Seattle",
+    neighborhood: "Ballard",
+    items: [],
+    contact: [
+      {
+        website: "https://www.bbycballard.com/",
+      },
+    ],
+  },
+  {
+    name: "Optimism Brewing Company",
+    city: "Seattle",
+    neighborhood: "Capital Hill",
+    items: [],
+    contact: [
+      {
+        website: "https://optimismbrewing.com/",
       },
     ],
   },
