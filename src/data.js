@@ -406,6 +406,50 @@ const data = [
     ],
   },
   {
+    name: "Harmonic Brewing",
+    city: "San Francisco",
+    neighborhood: "Dogpatch",
+    items: [],
+    contact: [
+      {
+        website: "http://harmonicbrewing.com/",
+      },
+    ],
+  },
+  {
+    name: "Mikkeller Bar SF",
+    city: "San Francisco",
+    neighborhood: "Downtown",
+    items: [],
+    contact: [
+      {
+        website: "https://mikkeller.com/locations/mikkeller-bar-san-francisco",
+      },
+    ],
+  },
+  {
+    name: "Seven Stills Outer Sunset Taproom",
+    city: "San Francisco",
+    neighborhood: "Outer Sunset",
+    items: [],
+    contact: [
+      {
+        website: "https://www.sevenstills.com/outer-sunset-taproom",
+      },
+    ],
+  },
+  {
+    name: "Sunset Resevior Brewing Company",
+    city: "San Francisco",
+    neighborhood: "Outer Sunset",
+    items: [],
+    contact: [
+      {
+        website: "http://sunsetbeersf.com/",
+      },
+    ],
+  },
+  {
     name: "Yin Ji",
     city: "Manhattan",
     neighborhood: "Chinatown",
