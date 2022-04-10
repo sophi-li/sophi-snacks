@@ -134,6 +134,17 @@ const data = [
     ],
   },
   {
+    name: "Kevin’s Noodle House",
+    city: "San Francisco",
+    neighborhood: "Outer Sunset",
+    items: [{ item: "Pho", isVeg: false }],
+    contact: [
+      {
+        website: "https://kevinsnoodlehouse.com/",
+      },
+    ],
+  },
+  {
     name: "Perilla",
     city: "San Francisco",
     neighborhood: "Inner Sunset",
@@ -781,6 +792,17 @@ const data = [
         website: "https://www.arizmendibakery.com/",
         directions:
           "https://www.google.com/maps/dir//Arizmendi+Bakery,+Lakeshore+Avenue,+Oakland,+CA/@37.8106761,-122.3148399,12z/data=!3m2!4b1!5s0x808580f340f51975:0x2c25ff46f863e1cc!4m8!4m7!1m0!1m5!1m1!1s0x808f874190045807:0x2eeb5a2233b2e795!2m2!1d-122.2447939!2d37.8106856",
+      },
+    ],
+  },
+  {
+    name: "Bare Kunckle Pizza",
+    city: "Oakland",
+    neighborhood: "Downtown",
+    items: [{ item: "Mushroom Impossible", isVeg: true }],
+    contact: [
+      {
+        website: "https://bareknucklepizza.com/",
       },
     ],
   },
