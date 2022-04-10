@@ -1344,6 +1344,36 @@ const data = [
     ],
   },
   {
+    name: "Lechon",
+    city: "Portland",
+    neighborhood: "Downtown",
+    items: [
+      { item: "White Corn And Cheese Fritters", isVeg: true },
+      { item: "Peruvian Fried Chicken Bites", isVeg: false },
+      { item: "Pork Belly Baocitos", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://lechonpdx.com/menu",
+        directions:
+          "https://www.google.com/maps/dir//Lechon,+Southwest+Naito+Parkway,+Portland,+OR/@45.551687,-122.7457459,12z/data=!3m1!5s0x80857e735be18845:0x8ccf98710399e5dd!4m8!4m7!1m0!1m5!1m1!1s0x54950a07af647a0b:0x8c454aa10fab612a!2m2!1d-122.6707479!2d45.5212647",
+      },
+    ],
+  },
+  {
+    name: "Gravy",
+    city: "Portland",
+    neighborhood: "Boise",
+    items: [{ item: "Fried Chicken with Gravy", isVeg: false }],
+    contact: [
+      {
+        website: "https://gravyrestaurant.com/",
+        directions:
+          "https://www.google.com/maps/dir//Gravy,+North+Mississippi+Avenue,+Portland,+OR/@45.551687,-122.7457459,12z/data=!3m2!4b1!5s0x80857e735be18845:0x8ccf98710399e5dd!4m8!4m7!1m0!1m5!1m1!1s0x5495a76bad32c0af:0x4caaadead7350eff!2m2!1d-122.6756663!2d45.5517081",
+      },
+    ],
+  },
+  {
     name: "Blue Star Donut",
     city: "Portland",
     neighborhood: "South East Side",
