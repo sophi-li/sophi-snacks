@@ -1571,6 +1571,20 @@ const data = [
     ],
   },
   {
+    name: "Portland Farmers Market at PSU",
+    city: "Portland",
+    neighborhood: "Downtown",
+    items: [
+      { item: "Molly’s Tamales - Pork Tamale", isVeg: false },
+      { item: "Taste of Old Poland - Pierogi", isVeg: false },
+    ],
+    contact: [
+      {
+        directions: "https://www.google.com/maps/dir//Portland+Farmers+Market+at+PSU,+Southwest+Park+Avenue,+Portland,+OR/@45.5479557,-122.8739699,11.05z/data=!3m1!5s0x80857e735be18845:0x8ccf98710399e5dd!4m8!4m7!1m0!1m5!1m1!1s0x54950a171e104107:0xddcd62c44c34e5!2m2!1d-122.6848342!2d45.5123034",
+      },
+    ],
+  },
+  {
     name: "Deschutes",
     city: "Portland",
     neighborhood: "Pearl District",
