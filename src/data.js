@@ -51,7 +51,8 @@ const data = [
     ],
     contact: [
       {
-        directions: "https://www.google.com/maps/dir//Napoleon+Super+Bakery,+Stockton+Street,+San+Francisco,+CA/@37.7955931,-122.4784069,12z/data=!3m1!5s0x808580f340f51975:0x2c25ff46f863e1cc!4m8!4m7!1m0!1m5!1m1!1s0x808580f3405420a9:0xd674ad85d2d82e56!2m2!1d-122.408367!2d37.7956138",
+        directions:
+          "https://www.google.com/maps/dir//Napoleon+Super+Bakery,+Stockton+Street,+San+Francisco,+CA/@37.7955931,-122.4784069,12z/data=!3m1!5s0x808580f340f51975:0x2c25ff46f863e1cc!4m8!4m7!1m0!1m5!1m1!1s0x808580f3405420a9:0xd674ad85d2d82e56!2m2!1d-122.408367!2d37.7956138",
       },
     ],
   },
@@ -71,7 +72,8 @@ const data = [
     contact: [
       {
         website: "http://aa-bakery.com/",
-        directions: "https://www.google.com/maps/dir//Napoleon+Super+Bakery,+Stockton+Street,+San+Francisco,+CA/@37.7955931,-122.4784069,12z/data=!3m1!5s0x808580f340f51975:0x2c25ff46f863e1cc!4m8!4m7!1m0!1m5!1m1!1s0x808580f3405420a9:0xd674ad85d2d82e56!2m2!1d-122.408367!2d37.7956138",
+        directions:
+          "https://www.google.com/maps/dir//AA+Bakery+%26+Cafe,+Stockton+Street,+San+Francisco,+CA/@37.7998821,-122.3423055,12z/data=!3m1!5s0x808580f340f51975:0x2c25ff46f863e1cc!4m8!4m7!1m0!1m5!1m1!1s0x808580f3422c88f1:0x21683fb8bf4195fc!2m2!1d-122.4081166!2d37.7956809",
       },
     ],
   },
@@ -351,6 +353,18 @@ const data = [
     ],
   },
   {
+    name: "Wise Sons Jewish Delicatessen",
+    city: "San Francisco",
+    neighborhood: "Mission",
+    items: [{ item: "Classic Smoked Salmon Bagel Sandwich", isVeg: false }],
+    contact: [
+      {
+        website: "https://www.wisesonsdeli.com/location/24thstreet/",
+        order: "https://order.wisesonsdeli.com/",
+      },
+    ],
+  },
+  {
     name: "Daily Driver",
     city: "San Francisco",
     neighborhood: "Dogpatch",
@@ -446,6 +460,399 @@ const data = [
     contact: [
       {
         website: "http://sunsetbeersf.com/",
+      },
+    ],
+  },
+  {
+    name: "Spices 3",
+    city: "Oakland",
+    neighborhood: "Chinatown",
+    items: [
+      { item: "Eggplant in Garlic", isVeg: true },
+      { item: "Dices String Beans", isVeg: true },
+      { item: "Spicy Fried Rice", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://www.spices3-oakland.com/",
+        directions:
+          "https://www.google.com/maps/dir//Spices+3+%E8%BE%A3%E5%A6%B9%E5%AD%90,+12th+Street,+Oakland,+CA/@37.8022926,-122.3400862,12z/data=!3m1!5s0x808580f340f51975:0x2c25ff46f863e1cc!4m8!4m7!1m0!1m5!1m1!1s0x808f80b43ce2a90d:0x95429d5e7dd07c29!2m2!1d-122.2700345!2d37.8023157",
+      },
+    ],
+  },
+  {
+    name: "Shan Dong",
+    city: "Oakland",
+    neighborhood: "Chinatown",
+    items: [
+      { item: "Special Shan Dong Dumplings", isVeg: false },
+      { item: "Beef Chow Fun", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "http://shandongoakland.com/",
+        directions:
+          "https://www.google.com/maps/dir//Shan+Dong,+10th+Street,+Oakland,+CA/@37.8022926,-122.3400862,12z/data=!3m1!5s0x808580f340f51975:0x2c25ff46f863e1cc!4m8!4m7!1m0!1m5!1m1!1s0x808f80b5c6d4610d:0x410ae1ade597863f!2m2!1d-122.2699918!2d37.8006064",
+      },
+    ],
+  },
+  {
+    name: "Gum Kuo",
+    city: "Oakland",
+    neighborhood: "Chinatown",
+    items: [
+      { item: "Roast Pork", isVeg: false },
+      { item: "Egg White and Dried Scallop Fried Rice", isVeg: false },
+      { item: "Minced Pork Porridge", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://www.gumkuorestaurant.com/",
+        directions:
+          "https://www.google.com/maps/dir//Gum+Kuo,+Ninth+Street,+Oakland,+CA/@37.8007105,-122.3415969,12z/data=!3m2!4b1!5s0x808580f340f51975:0x2c25ff46f863e1cc!4m8!4m7!1m0!1m5!1m1!1s0x808f80b67f1b9b13:0x1b52a04754542816!2m2!1d-122.271557!2d37.8007312",
+      },
+    ],
+  },
+  {
+    name: "Vien Huong",
+    city: "Oakland",
+    neighborhood: "Chinatown",
+    items: [{ item: "Chew Jew Noodle", isVeg: false }],
+    contact: [
+      {
+        directions:
+          "https://www.google.com/maps/dir//Vien+Huong+Restaurant,+Franklin+Street,+Oakland,+CA/@37.7992787,-122.3426945,12z/data=!3m2!4b1!5s0x808580f340f51975:0x2c25ff46f863e1cc!4m8!4m7!1m0!1m5!1m1!1s0x808f80b6405e6627:0x67c585ae1586ffa9!2m2!1d-122.2726506!2d37.7992977",
+      },
+    ],
+  },
+  {
+    name: "Tian Jin Dumplings",
+    city: "Oakland",
+    neighborhood: "Chinatown",
+    items: [
+      { item: "Egg Crepe", isVeg: false },
+      { item: "Soy Milk", isVeg: true },
+    ],
+    contact: [
+      {
+        directions:
+          "https://www.google.com/maps/dir//Tian+Jin+Dumplings,+Franklin+Street,+Oakland,+CA/@37.8009505,-122.3419852,12z/data=!3m1!5s0x808580f340f51975:0x2c25ff46f863e1cc!4m8!4m7!1m0!1m5!1m1!1s0x808f80b69215195d:0x4e98fcd9fcf15d7f!2m2!1d-122.27194!2d37.8009624",
+      },
+    ],
+  },
+  {
+    name: "Tay Ho",
+    city: "Oakland",
+    neighborhood: "Chinatown",
+    items: [
+      { item: "Spring Rolls", isVeg: false },
+      { item: "Obama Bun Cha", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://tayhooakland.com/",
+        directions:
+          "https://www.google.com/maps/dir//Tay+Ho+Oakland+Restaurant+%26+Bar,+12th+Street,+Oakland,+CA/@37.8060488,-122.3379589,12z/data=!3m1!5s0x808580f340f51975:0x2c25ff46f863e1cc!4m8!4m7!1m0!1m5!1m1!1s0x808f80b4487c7adb:0x4f8db75ed71f9817!2m2!1d-122.2694082!2d37.8020532",
+      },
+    ],
+  },
+  {
+    name: "Napoleon Super Bakery",
+    city: "Oakland",
+    neighborhood: "Chinatown",
+    items: [
+      { item: "Dan Tat", isVeg: false },
+      { item: "Pineapple Bun", isVeg: false },
+      { item: "Paper Wrapped Cake", isVeg: false },
+      {
+        item: "Hot Dog Bun",
+        isVeg: false,
+      },
+    ],
+    contact: [
+      {
+        directions:
+          "https://www.google.com/maps/dir//Napoleon+Super+Bakery,+Franklin+Street,+Oakland,+CA/@37.7992787,-122.3426945,12z/data=!3m1!5s0x808580f340f51975:0x2c25ff46f863e1cc!4m8!4m7!1m0!1m5!1m1!1s0x808f80b66f34d699:0xc0761441f85728e9!2m2!1d-122.2722656!2d37.7999028",
+      },
+    ],
+  },
+  {
+    name: "Aburaya",
+    city: "Oakland",
+    neighborhood: "Downtown",
+    items: [{ item: "Garlic Miso Fried Chicken", isVeg: false }],
+    contact: [
+      {
+        website: "https://aburayaoakland.com/",
+        order: "https://aburayaoakland.com/aburaya/order",
+        directions:
+          "https://www.google.com/maps/dir//Aburaya,+17th+Street,+Oakland,+CA/@37.8059992,-122.3376314,12z/data=!3m2!4b1!5s0x808580f340f51975:0x2c25ff46f863e1cc!4m8!4m7!1m0!1m5!1m1!1s0x808f80b395f50cf7:0x5b41ffb720148af5!2m2!1d-122.2675915!2d37.8060199",
+      },
+    ],
+  },
+  {
+    name: "Lion Dance Cafe ⓥ",
+    city: "Oakland",
+    neighborhood: "Downtown",
+    items: [
+      { item: "Mushroom Goreng", isVeg: true },
+      { item: "Laksa", isVeg: true },
+    ],
+    contact: [
+      {
+        website: "https://www.liondancecafe.com/",
+        order: "https://lion-dance-cafe-llc.square.site/",
+        directions:
+          "https://www.google.com/maps/dir//Lion+Dance+Caf%C3%A9,+17th+Street,+Oakland,+CA/@37.8059992,-122.3376314,12z/data=!3m1!5s0x808580f340f51975:0x2c25ff46f863e1cc!4m8!4m7!1m0!1m5!1m1!1s0x808f817f59aa5fa9:0xc6930eb94f2d3188!2m2!1d-122.267932!2d37.8060489",
+      },
+    ],
+  },
+  {
+    name: "Firebrand Artisan Breads",
+    city: "Oakland",
+    neighborhood: "Downtown",
+    items: [
+      { item: "Latte", isVeg: false },
+      { item: "Croissant", isVeg: false },
+      { item: "Han & Cheese Croissant", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://www.firebrandbread.com/",
+        order: "https://firebrand-artisan-breads.square.site/",
+      },
+    ],
+  },
+  {
+    name: "Kamdesh Afghan Cuisine",
+    city: "Oakland",
+    neighborhood: "Downtown",
+    items: [
+      { item: "Mantoo", isVeg: false },
+      { item: "Bolani", isVeg: false },
+      { item: "Eggplant Borani", isVeg: true },
+    ],
+    contact: [
+      {
+        website: "http://orderkamdeshafghankababhouse.com/",
+        order:
+          "https://themenustar2.com/webspace/menus.php?code=orderkamdeshafghankababhouse.com",
+      },
+    ],
+  },
+  {
+    name: "Little Giant Ice Cream",
+    city: "Oakland",
+    neighborhood: "Downtown",
+    items: [{ item: "Bicycle Coffee", isVeg: false }],
+    contact: [
+      {
+        website: "https://www.littlegianticecream.com/",
+      },
+    ],
+  },
+  {
+    name: "Jong Ga House",
+    city: "Oakland",
+    neighborhood: "Lakeshore",
+    items: [
+      { item: "Beef Tofu Soup", isVeg: false },
+      { item: "AYCE Korean BBQ", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://www.jonggahouse.com/",
+        directions:
+          "https://www.google.com/maps/dir//Jong+Ga+House,+Grand+Avenue,+Oakland,+CA/@37.8091237,-122.3250149,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x808f874f44f5f5ab:0xef5b06524b8dc754!2m2!1d-122.2549881!2d37.8090546",
+      },
+    ],
+  },
+  {
+    name: "Pyeong Chang Tofu House",
+    city: "Oakland",
+    neighborhood: "Temescal",
+    items: [{ item: "Beef Tofu Soup", isVeg: false }],
+    contact: [
+      {
+        website: "https://www.pctofu.com/",
+        directions:
+          "https://www.google.com/maps/dir//Pyeong+Chang+Tofu+House+Oakland+%EC%98%A4%ED%81%B4%EB%9E%9C%EB%93%9C+%ED%8F%89%EC%B0%BD+%EC%88%9C%EB%91%90%EB%B6%80,+Telegraph+Avenue,+Oakland,+CA/@37.8091237,-122.3250149,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80857de188d10765:0x7fd9fe7483bb5e5a!2m2!1d-122.26335!2d37.8344778",
+      },
+    ],
+  },
+  {
+    name: "Cholita Linda",
+    city: "Oakland",
+    neighborhood: "Temescal",
+    items: [{ item: "Fish Tacos", isVeg: false }],
+    contact: [
+      {
+        website: "https://cholitalinda.com/",
+        directions:
+          "https://www.google.com/maps/dir//Cholita+Linda,+Telegraph+Avenue,+Oakland,+CA/@37.827965,-122.3201026,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80857de1a63bee9d:0x4bc65901361343a!2m2!1d-122.2627565!2d37.8361592",
+      },
+    ],
+  },
+  {
+    name: "Bakesale Betty",
+    city: "Oakland",
+    neighborhood: "Temescal",
+    items: [
+      { item: "Buttermilk Fried Chicken and Coleslaw Sandwich", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://cholitalinda.com/",
+        directions:
+          "https://www.google.com/maps/dir//Bakesale+Betty,+Telegraph+Avenue,+Oakland,+CA/@37.8361385,-122.3327964,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80857dedfca72801:0xc9891af5696244bc!2m2!1d-122.2621299!2d37.8370658",
+      },
+    ],
+  },
+  {
+    name: "Burma Superstar",
+    city: "Oakland",
+    neighborhood: "Temescal",
+    items: [
+      { item: "Tea Leaf Salad", isVeg: true },
+      { item: "Platha and Dip", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://www.burmasuperstar.com/",
+        order: "https://direct.chownow.com/order/20280/locations/",
+      },
+    ],
+  },
+  {
+    name: "Fenton’s Creamery",
+    city: "Oakland",
+    neighborhood: "Temescal",
+    items: [{ item: "Old Fashion Sundae", isVeg: false }],
+    contact: [
+      {
+        website: "https://www.fentonscreamery.com/",
+        directions:
+          "https://www.google.com/maps/dir//Fentons+Creamery,+Piedmont+Avenue,+Oakland,+CA/@37.827965,-122.3201026,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x80857df6c43cdebb:0x91f2ea4405beec30!2m2!1d-122.2500627!2d37.8279857",
+      },
+    ],
+  },
+  {
+    name: "Homeroom",
+    city: "Oakland",
+    neighborhood: "Temescal",
+    items: [
+      { item: "Garlicky Bacon Mac", isVeg: false },
+      { item: "Gilroy Garlic Mac", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://homeroom510.com/menu",
+        directions:
+          "https://www.google.com/maps/dir//Homeroom,+40th+Street,+Oakland,+CA/@37.8370134,-122.3320389,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80857dfc830c9779:0x86db31d9371af332!2m2!1d-122.2599287!2d37.8285946",
+      },
+    ],
+  },
+  {
+    name: "Kingston 11 Cuisine",
+    city: "Oakland",
+    neighborhood: "Uptwon",
+    items: [
+      { item: "Jerk Chicken", isVeg: false },
+      { item: "Plantains", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://kingston11eats.com/",
+        directions:
+          "https://www.google.com/maps/dir//Kingston+11+Cuisine,+Telegraph+Avenue,+Oakland,+CA/@37.8285739,-122.3299686,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808f80ac5ea61f5f:0x7c07a5611a873f31!2m2!1d-122.26858!2d37.81229",
+      },
+    ],
+  },
+  {
+    name: "Arizmendi",
+    city: "Oakland",
+    neighborhood: "Lakeshore",
+    items: [
+      { item: "Pizza", isVeg: true },
+      { item: "Cranberry Scone", isVeg: true },
+    ],
+    contact: [
+      {
+        website: "https://www.arizmendibakery.com/",
+        directions:
+          "https://www.google.com/maps/dir//Arizmendi+Bakery,+Lakeshore+Avenue,+Oakland,+CA/@37.8106761,-122.3148399,12z/data=!3m2!4b1!5s0x808580f340f51975:0x2c25ff46f863e1cc!4m8!4m7!1m0!1m5!1m1!1s0x808f874190045807:0x2eeb5a2233b2e795!2m2!1d-122.2447939!2d37.8106856",
+      },
+    ],
+  },
+  {
+    name: "Tierra Mia Coffee",
+    city: "Oakland",
+    neighborhood: "Downtown",
+    items: [{ item: "Chai Latte", isVeg: false }],
+    contact: [
+      {
+        website: "http://www.tierramiacoffee.com/",
+      },
+    ],
+  },
+  {
+    name: "Modern Coffee",
+    city: "Oakland",
+    neighborhood: "Downtown",
+    items: [{ item: "Latte", isVeg: false }],
+    contact: [
+      {
+        website: "http://moderncoffeeoakland.com/",
+      },
+    ],
+  },
+  {
+    name: "Timeless Coffee ⓥ",
+    city: "Oakland",
+    neighborhood: "Downtown",
+    items: [{ item: "Blueberry Donut", isVeg: true }],
+    contact: [
+      {
+        website: "https://timelesscoffee.com/",
+        directions:
+          "https://www.google.com/maps/dir//Timeless+Coffee,+Webster+Street,+Oakland,+CA/@37.8058803,-122.3371005,12z/data=!3m2!4b1!5s0x80857e735be18845:0x8ccf98710399e5dd!4m8!4m7!1m0!1m5!1m1!1s0x808f81ca4cba39bd:0x6beae6b2d4009e0a!2m2!1d-122.2671504!2d37.8057538",
+      },
+    ],
+  },
+  {
+    name: "Drake’s Dealership",
+    city: "Oakland",
+    neighborhood: "Downtown",
+    items: [{ item: "Pizza", isVeg: false }],
+    contact: [
+      {
+        website: "https://drinkdrakes.com/places/dealership/",
+      },
+    ],
+  },
+  {
+    name: "Bar Shiru",
+    city: "Oakland",
+    neighborhood: "Downtown",
+    items: [],
+    contact: [
+      {
+        website: "https://www.barshiru.com/",
+        directions:
+          "https://www.google.com/maps/dir//Bar+Shiru,+Telegraph+Avenue,+Oakland,+CA/@37.8122693,-122.3386199,12z/data=!3m1!5s0x80857e735be18845:0x8ccf98710399e5dd!4m8!4m7!1m0!1m5!1m1!1s0x808f81fafcc1c5ef:0x19e6e77cf4dbaea!2m2!1d-122.2706835!2d37.8063737",
+      },
+    ],
+  },
+  {
+    name: "The Kon-Tiki",
+    city: "Oakland",
+    neighborhood: "Downtown",
+    items: [],
+    contact: [
+      {
+        website: "hhttps://www.thekon-tikioakland.com//",
+        directions:
+          "https://www.google.com/maps/dir//The+Kon-Tiki,+14th+Street,+Oakland,+CA/@37.8031524,-122.3386667,12z/data=!3m2!4b1!5s0x80857e735be18845:0x8ccf98710399e5dd!4m8!4m7!1m0!1m5!1m1!1s0x808f80b4641b3b2d:0x51201d0f4f68e6ff!2m2!1d-122.2686474!2d37.8031992",
       },
     ],
   },
