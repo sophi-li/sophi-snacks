@@ -37,6 +37,45 @@ const data = [
     ],
   },
   {
+    name: "Naploeon Super Bakery",
+    city: "San Francisco",
+    neighborhood: "Chinatown",
+    items: [
+      { item: "Dan Tat", isVeg: false },
+      { item: "Pineapple Bun", isVeg: false },
+      { item: "Paper Wrapped Cake", isVeg: false },
+      {
+        item: "Hot Dog Bun",
+        isVeg: false,
+      },
+    ],
+    contact: [
+      {
+        directions: "https://www.google.com/maps/dir//Napoleon+Super+Bakery,+Stockton+Street,+San+Francisco,+CA/@37.7955931,-122.4784069,12z/data=!3m1!5s0x808580f340f51975:0x2c25ff46f863e1cc!4m8!4m7!1m0!1m5!1m1!1s0x808580f3405420a9:0xd674ad85d2d82e56!2m2!1d-122.408367!2d37.7956138",
+      },
+    ],
+  },
+  {
+    name: "AA Bakery",
+    city: "San Francisco",
+    neighborhood: "Chinatown",
+    items: [
+      { item: "Dan Tat", isVeg: false },
+      { item: "Pineapple Bun", isVeg: false },
+      { item: "Paper Wrapped Cake", isVeg: false },
+      {
+        item: "Hot Dog Bun",
+        isVeg: false,
+      },
+    ],
+    contact: [
+      {
+        website: "http://aa-bakery.com/",
+        directions: "https://www.google.com/maps/dir//Napoleon+Super+Bakery,+Stockton+Street,+San+Francisco,+CA/@37.7955931,-122.4784069,12z/data=!3m1!5s0x808580f340f51975:0x2c25ff46f863e1cc!4m8!4m7!1m0!1m5!1m1!1s0x808580f3405420a9:0xd674ad85d2d82e56!2m2!1d-122.408367!2d37.7956138",
+      },
+    ],
+  },
+  {
     name: "Longbridge Pizza",
     city: "San Francisco",
     neighborhood: "Dogpatch",
@@ -73,7 +112,8 @@ const data = [
     items: [{ item: "Tiramisu", isVeg: false }],
     contact: [
       {
-        directions: "https://www.google.com/maps/dir//Stella+Pastry,+Columbus+Avenue,+San+Francisco,+CA/@37.7638585,-122.5022574,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80858142bbda3f7d:0x4e12e74cf9c2346c!2m2!1d-122.4083382!2d37.799169",
+        directions:
+          "https://www.google.com/maps/dir//Stella+Pastry,+Columbus+Avenue,+San+Francisco,+CA/@37.7638585,-122.5022574,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80858142bbda3f7d:0x4e12e74cf9c2346c!2m2!1d-122.4083382!2d37.799169",
       },
     ],
   },
@@ -82,7 +122,27 @@ const data = [
     city: "San Francisco",
     neighborhood: "Inner Sunset",
     items: [{ item: "Dry Fried Chicken Wings", isVeg: false }],
-    contact: [{ phone: "415-242-0828", website: "http://www.santung.net/" }],
+    contact: [
+      {
+        phone: "415-242-0828",
+        website: "http://www.santung.net/",
+        directions:
+          "https://www.google.com/maps/dir//San+Tung,+Irving+Street,+San+Francisco,+CA/@37.7641199,-122.502134,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8085875d83e10257:0x131f778c0e458770!2m2!1d-122.4690045!2d37.7637858",
+      },
+    ],
+  },
+  {
+    name: "Perilla",
+    city: "San Francisco",
+    neighborhood: "Inner Sunset",
+    items: [{ item: "Five Spice Chicken Garlic Noodle", isVeg: false }],
+    items: [{ item: "Imperial Rolls", isVeg: false }],
+    contact: [
+      {
+        directions:
+          "https://www.google.com/maps/dir//Perilla,+Irving+Street,+SF,+CA/@37.7641199,-122.502134,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8085875daf0a5bdd:0x69ba3c819472d213!2m2!1d-122.4671125!2d37.7641365",
+      },
+    ],
   },
   {
     name: "Marugame Udon",
@@ -103,7 +163,7 @@ const data = [
     ],
   },
   {
-    name: "Tín Vietnamese Cuisine ",
+    name: "Tín Vietnamese Cuisine",
     city: "San Francisco",
     neighborhood: "SoMa",
     items: [{ item: "Pho", isVeg: false }],
@@ -114,22 +174,81 @@ const data = [
     ],
   },
   {
-    name: "Kevin’s Noodle House",
+    name: "Ebisu",
+    city: "San Francisco",
+    neighborhood: "Inner Sunset",
+    items: [
+      { item: "Cherry Blossom", isVeg: false },
+      { item: "49er", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://ebisusushi.com/",
+        order: "https://ebisu.menu11.com/sanfrancisco/order",
+        directions:
+          "https://www.google.com/maps/dir//Ebisu+Restaurant,+1283+9th+Ave,+San+Francisco,+CA+94122/@37.7637542,-122.5040199,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8085875ce01473f7:0xaa625c17075c336!2m2!1d-122.4665028!2d37.7644577",
+      },
+    ],
+  },
+  {
+    name: "San Francisco Hometown Creamery",
+    city: "San Francisco",
+    neighborhood: "Inner Sunset",
+    items: [{ item: "Madagascar Vanilla ice cream", isVeg: false }],
+    contact: [
+      {
+        website: "https://www.sfhometowncreamery.com/",
+        directions:
+          "https://www.google.com/maps/dir//San+Francisco's+Hometown+Creamery,+9th+Avenue,+San+Francisco,+CA/@37.7643856,-122.5362027,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8085875c52789845:0x9748a34baf003117!2m2!1d-122.4662262!2d37.7644005",
+      },
+    ],
+  },
+  {
+    name: "San Francisco Hometown Creamery",
+    city: "San Francisco",
+    neighborhood: "Inner Sunset",
+    items: [{ item: "Madagascar Vanilla ice cream", isVeg: false }],
+    contact: [
+      {
+        website: "https://www.sfhometowncreamery.com/",
+        directions:
+          "https://www.google.com/maps/dir//San+Francisco's+Hometown+Creamery,+9th+Avenue,+San+Francisco,+CA/@37.7643856,-122.5362027,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8085875c52789845:0x9748a34baf003117!2m2!1d-122.4662262!2d37.7644005",
+      },
+    ],
+  },
+  {
+    name: "Devil's Teeth Baking Company",
     city: "San Francisco",
     neighborhood: "Outer Sunset",
     items: [
       {
-        item: "#1 Đặc Biệt Xe Lửa (Special combo w/ thin slice of steak, well-done brisket, flank, tendon & tripe)",
+        item: "Special Breakfast Sandwich",
         isVeg: false,
       },
-      { item: "Phở Gà Xe Lửa (Chicken rice noodle soup)", isVeg: false },
-      { item: "Café Đen Đá (Vietnamese ice black coffee)", isVeg: false },
     ],
     contact: [
       {
-        phone: "415-664-0469",
-        website: "https://kevinsnoodlehouse.com/",
-        order: "https://kevinsnoodlehouse.com/locations.html#",
+        website: "https://www.devilsteethbakingcompany.com/menu",
+        directions:
+          "https://www.google.com/maps/dir//Devil's+Teeth+Baking+Company,+Noriega+Street,+San+Francisco,+CA/@37.7531265,-122.5750677,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x8085878fa1412f4b:0xf7e59451c6c631fa!2m2!1d-122.5050278!2d37.7531472",
+      },
+    ],
+  },
+  {
+    name: "Rolling Out Cafe",
+    city: "San Francisco",
+    neighborhood: "Outer Sunset",
+    items: [
+      {
+        item: "Mochisasant",
+        isVeg: false,
+      },
+    ],
+    contact: [
+      {
+        website: "https://www.rollingoutcafe.com/",
+        directions:
+          "https://www.google.com/maps/dir//Rolling+Out+Cafe,+Taraval+Street,+San+Francisco,+CA/@37.7531265,-122.5750677,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808f7d84c97ee8f5:0x1f9c8fe78c3130b6!2m2!1d-122.4847348!2d37.7427892",
       },
     ],
   },
@@ -153,12 +272,11 @@ const data = [
     name: "Han Il Kwan",
     city: "San Francisco",
     neighborhood: "Richmond",
-    items: [
-      { item: "Beef Tofu Soup", isVeg: true },
-    ],
+    items: [{ item: "Beef Tofu Soup", isVeg: true }],
     contact: [
       {
-        directions: "https://www.google.com/maps/dir//Han+Il+Kwan,+1802+Balboa+St,+San+Francisco,+CA+94121/@37.7767645,-122.5133073,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80858712366ca223:0x33fbb2cde7057379!2m2!1d-122.4782853!2d37.7767113",
+        directions:
+          "https://www.google.com/maps/dir//Han+Il+Kwan,+1802+Balboa+St,+San+Francisco,+CA+94121/@37.7767645,-122.5133073,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80858712366ca223:0x33fbb2cde7057379!2m2!1d-122.4782853!2d37.7767113",
       },
     ],
   },
@@ -166,12 +284,11 @@ const data = [
     name: "Manna",
     city: "San Francisco",
     neighborhood: "Inner Sunset",
-    items: [
-      { item: "Beef Tofu Soup", isVeg: true },
-    ],
+    items: [{ item: "Beef Tofu Soup", isVeg: true }],
     contact: [
       {
-        directions: "https://www.google.com/maps/dir//Manna,+Irving+Street,+San+Francisco,+CA/@37.7767645,-122.5133073,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8085875db0172dc1:0xaed20b939085cf6a!2m2!1d-122.4672514!2d37.7638913",
+        directions:
+          "https://www.google.com/maps/dir//Manna,+Irving+Street,+San+Francisco,+CA/@37.7767645,-122.5133073,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8085875db0172dc1:0xaed20b939085cf6a!2m2!1d-122.4672514!2d37.7638913",
       },
     ],
   },
@@ -210,9 +327,7 @@ const data = [
     name: "Andytown Coffee Roasters",
     city: "San Francisco",
     neighborhood: "Outer Sunset",
-    items: [
-      { item: "Snowy Plover", isVeg: false },
-    ],
+    items: [{ item: "Snowy Plover", isVeg: false }],
     contact: [
       {
         website: "https://www.andytownsf.com/",
@@ -231,7 +346,7 @@ const data = [
     contact: [
       {
         website: "https://www.justforyoucafe.com/",
-        phone: "415-647-3303"
+        phone: "415-647-3303",
       },
     ],
   },
@@ -246,7 +361,7 @@ const data = [
     contact: [
       {
         website: "https://dailydriver.com/",
-        order: "https://dailydriver.com/order/"
+        order: "https://dailydriver.com/order/",
       },
     ],
   },
