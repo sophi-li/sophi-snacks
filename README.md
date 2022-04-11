@@ -1,6 +1,8 @@
 # Sophi Snacks
 
-List of my favorite restaurants in San Francisco, New York, and Portland.
+https://sophisnacks.com/
+
+A list of my favorite restaurants in San Francisco, Oakland, New York, Seattle, and Portland.
 
 ![City dropdown and description on left column. restaurants on right column](screenshot-sophi-snacks.png)
 
