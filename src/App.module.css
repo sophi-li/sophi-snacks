@@ -1,12 +1,16 @@
+:root {
+  --red: black;
+}
+
 .App {
   display: block;
-  color: #2e2e40;
+  color: #282828;
 }
 
 .blurbContainer {
   width: 25%;
   justify-content: center;
-  border-right: 2px solid #c11e01;
+  border-right: 2px solid var(--red);
   margin-top: 3rem;
   margin-bottom: 3rem;
   display: flex;
@@ -27,7 +31,7 @@
 }
 
 .titleSnack {
-  color: #c11e01;
+  color: #FF0000;
 }
 
 .selectLabel {
@@ -85,7 +89,7 @@
   .blurbContainer {
     background-color: white;
     width: 80%;
-    border-bottom: 2px solid #c11e01;
+    border-bottom: 2px solid #FF0000;
     border-right: none;
     position: sticky;
     margin: 0 auto -3rem auto;

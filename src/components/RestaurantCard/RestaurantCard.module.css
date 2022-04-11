@@ -1,5 +1,9 @@
+:root {
+  --red: #FF0000;
+}
+
 .container {
-  border-bottom: 2px dashed #c11e01;
+  border-bottom: 2px dashed var(--red);
   width: 40%;
   margin: 1rem;
   padding-bottom: 1rem;
@@ -10,8 +14,8 @@
 .btn {
   padding: 0.5rem 1rem;
   border-radius: 20px;
-  border: 1px solid #c11e01;
-  background-color: #c11e01;
+  border: 1px solid var(--red);
+  background-color: var(--red);
   color: white;
   font-weight: 700;
   text-align: center;
@@ -33,7 +37,7 @@
 }
 
 .contactDetails {
-  background-color: #c11e01;
+  background-color: var(--red);
   padding: 0.5rem 1rem;
   color: white;
   border-radius: 10px;
@@ -43,13 +47,13 @@
 }
 
 .neighborhood {
-  color: #c11e01;
+  color: var(--red);
   font-weight: 600;
   margin-top: 0;
 }
 
 .name {
-  color: #c11e01;
+  color: var(--red);
   font-weight: 700;
   font-size: 1.5rem;
   margin-top: -0.5rem;
