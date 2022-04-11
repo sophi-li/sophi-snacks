@@ -253,7 +253,7 @@ const data = [
     neighborhood: "Outer Sunset",
     items: [
       {
-        item: "Mochisasant",
+        item: "Mochissant",
         isVeg: false,
       },
     ],
