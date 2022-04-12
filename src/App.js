@@ -76,7 +76,7 @@ function App() {
         <p className={stylesheet.description}>
           Welcome! I’m{" "}
           <a
-            href="https://twitter.com/sophia_wyl"
+            href="https://sophiali.dev/"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -99,6 +99,10 @@ function App() {
           </a>
           .
         </p>
+        <div className={stylesheet.keyContainer}>
+          <p className={stylesheet.keyItem}>🌱 Vegetarian</p>
+          <p className={stylesheet.keyItem}>ⓥ Vegan</p>
+        </div>
       </div>
       <div className={stylesheet.restaurantContainer}>
         {selectedCityRestaurants.map((restaurant) => {
