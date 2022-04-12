@@ -31,7 +31,7 @@
 }
 
 .titleSnack {
-  color: #FF0000;
+  color: #ff0000;
 }
 
 .selectLabel {
@@ -89,7 +89,7 @@
   .blurbContainer {
     background-color: white;
     width: 80%;
-    border-bottom: 2px solid #FF0000;
+    border-bottom: 2px solid #ff0000;
     border-right: none;
     position: sticky;
     margin: 0 auto -3rem auto;

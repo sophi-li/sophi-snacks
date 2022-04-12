@@ -85,8 +85,6 @@ const data = [
       { item: "Hot N’ Honey Pizza", isVeg: false },
       { item: "Peperoni Pizza", isVeg: false },
       { item: "Margherita Pizza", isVeg: true },
-      { item: "NICO Pizza", isVeg: false },
-      { item: "Meatballs", isVeg: false },
     ],
     contact: [
       {
@@ -207,7 +205,7 @@ const data = [
     name: "San Francisco Hometown Creamery",
     city: "San Francisco",
     neighborhood: "Inner Sunset",
-    items: [{ item: "Madagascar Vanilla ice cream", isVeg: false }],
+    items: [{ item: "Madagascar Vanilla Ice Cream", isVeg: false }],
     contact: [
       {
         website: "https://www.sfhometowncreamery.com/",
@@ -306,6 +304,43 @@ const data = [
     ],
   },
   {
+    name: "Hinata",
+    city: "San Francisco",
+    neighborhood: "Civic Center",
+    items: [{ item: "Omakase", isVeg: true }],
+    contact: [
+      {
+        website: "https://www.hinatasf.com/",
+      },
+    ],
+  },
+  {
+    name: "Miss Saigon",
+    city: "San Francisco",
+    neighborhood: "Downtown",
+    items: [{ item: "Pho", isVeg: true }],
+    contact: [
+      {
+        website: "http://ordermisssaigon.com/",
+        directions:
+          "https://www.google.com/maps/dir//Miss+Saigon,+6th+Street,+San+Francisco,+CA/@37.7807596,-122.4785894,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x80858084726a03d9:0xa0faa5fbb8d672fa!2m2!1d-122.4086976!2d37.7807987",
+      },
+    ],
+  },
+  {
+    name: "Tú lan",
+    city: "San Francisco",
+    neighborhood: "Downtown",
+    items: [{ item: "Pho", isVeg: true }],
+    contact: [
+      {
+        order: "https://us.orderspoon.com/tulan-vietnamese-restaurant",
+        directions:
+          "https://www.google.com/maps/dir//T%C3%BA+Lan,+6th+Street,+San+Francisco,+CA/@37.7818722,-122.4799594,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x80858084ff22d68d:0xb9b0634df179c9d2!2m2!1d-122.4100971!2d37.7818884",
+      },
+    ],
+  },
+  {
     name: "Taquería El Farlito",
     city: "San Francisco",
     neighborhood: "Mission",
@@ -364,6 +399,31 @@ const data = [
     ],
   },
   {
+    name: "Zazie",
+    city: "San Francisco",
+    neighborhood: "Ashbury Heights",
+    items: [{ item: "Florentine Benedict with Home Fries", isVeg: false }],
+    contact: [
+      {
+        website: "https://www.zaziesf.com/",
+      },
+    ],
+  },
+  {
+    name: "Early to Rise",
+    city: "San Francisco",
+    neighborhood: "Nob Hill",
+    items: [
+      { item: "Strawberry Pancakes", isVeg: false },
+      { item: "Bagel + Smoked Salmon", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://www.earlytorisesf.com/",
+      },
+    ],
+  },
+  {
     name: "Wise Sons Jewish Delicatessen",
     city: "San Francisco",
     neighborhood: "Mission",
@@ -387,6 +447,31 @@ const data = [
       {
         website: "https://dailydriver.com/",
         order: "https://dailydriver.com/order/",
+      },
+    ],
+  },
+  {
+    name: "Ariscault",
+    city: "San Francisco",
+    neighborhood: "Richmond",
+    items: [
+      { item: "Croissant", isVeg: false },
+      { item: "Chocolate Chip Cookie", isVeg: false },
+    ],
+    contact: [
+      {
+        website: "https://arsicault-bakery.com/home",
+      },
+    ],
+  },
+  {
+    name: "Home Cafe",
+    city: "San Francisco",
+    neighborhood: "Inner Sunset",
+    items: [{ item: "Latte", isVeg: false }],
+    contact: [
+      {
+        website: "https://homecoffeesf.com/",
       },
     ],
   },
@@ -1580,7 +1665,8 @@ const data = [
     ],
     contact: [
       {
-        directions: "https://www.google.com/maps/dir//Portland+Farmers+Market+at+PSU,+Southwest+Park+Avenue,+Portland,+OR/@45.5479557,-122.8739699,11.05z/data=!3m1!5s0x80857e735be18845:0x8ccf98710399e5dd!4m8!4m7!1m0!1m5!1m1!1s0x54950a171e104107:0xddcd62c44c34e5!2m2!1d-122.6848342!2d45.5123034",
+        directions:
+          "https://www.google.com/maps/dir//Portland+Farmers+Market+at+PSU,+Southwest+Park+Avenue,+Portland,+OR/@45.5479557,-122.8739699,11.05z/data=!3m1!5s0x80857e735be18845:0x8ccf98710399e5dd!4m8!4m7!1m0!1m5!1m1!1s0x54950a171e104107:0xddcd62c44c34e5!2m2!1d-122.6848342!2d45.5123034",
       },
     ],
   },
