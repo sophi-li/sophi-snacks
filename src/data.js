@@ -283,7 +283,7 @@ const data = [
     name: "Han Il Kwan",
     city: "San Francisco",
     neighborhood: "Richmond",
-    items: [{ item: "Beef Tofu Soup", isVeg: true }],
+    items: [{ item: "Beef Tofu Soup", isVeg: false }],
     contact: [
       {
         directions:
@@ -295,7 +295,7 @@ const data = [
     name: "Manna",
     city: "San Francisco",
     neighborhood: "Inner Sunset",
-    items: [{ item: "Beef Tofu Soup", isVeg: true }],
+    items: [{ item: "Beef Tofu Soup", isVeg: false }],
     contact: [
       {
         directions:
@@ -307,7 +307,7 @@ const data = [
     name: "Hinata",
     city: "San Francisco",
     neighborhood: "Civic Center",
-    items: [{ item: "Omakase", isVeg: true }],
+    items: [{ item: "Omakase", isVeg: false }],
     contact: [
       {
         website: "https://www.hinatasf.com/",
@@ -318,7 +318,7 @@ const data = [
     name: "Miss Saigon",
     city: "San Francisco",
     neighborhood: "Downtown",
-    items: [{ item: "Pho", isVeg: true }],
+    items: [{ item: "Pho", isVeg: false }],
     contact: [
       {
         website: "http://ordermisssaigon.com/",
@@ -331,7 +331,7 @@ const data = [
     name: "Tú lan",
     city: "San Francisco",
     neighborhood: "Downtown",
-    items: [{ item: "Pho", isVeg: true }],
+    items: [{ item: "Pho", isVeg: false }],
     contact: [
       {
         order: "https://us.orderspoon.com/tulan-vietnamese-restaurant",
