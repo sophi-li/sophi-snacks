@@ -4,10 +4,10 @@ const data = [
     city: "San Francisco",
     neighborhood: "Mission",
     items: [
-      { item: "Tom Yum", isVeg: true },
-      { item: "Tom Kha", isVeg: true },
-      { item: "Green Curry", isVeg: true },
-      { item: "Pad Thai", isVeg: true },
+      { item: "Tom Yum", isVeg: false },
+      { item: "Tom Kha", isVeg: false },
+      { item: "Green Curry", isVeg: false },
+      { item: "Pad Thai", isVeg: false },
     ],
     contact: [
       {
@@ -627,7 +627,7 @@ const data = [
     neighborhood: "Chinatown",
     items: [
       { item: "Egg Crepe", isVeg: false },
-      { item: "Soy Milk", isVeg: true },
+      { item: "Soy Milk", isVeg: false },
     ],
     contact: [
       {
@@ -691,8 +691,8 @@ const data = [
     city: "Oakland",
     neighborhood: "Downtown",
     items: [
-      { item: "Mushroom Goreng", isVeg: true },
-      { item: "Laksa", isVeg: true },
+      { item: "Mushroom Goreng", isVegan: true },
+      { item: "Laksa", isVegan: true },
     ],
     contact: [
       {
@@ -884,7 +884,7 @@ const data = [
     name: "Bare Kunckle Pizza",
     city: "Oakland",
     neighborhood: "Downtown",
-    items: [{ item: "Mushroom Impossible", isVeg: true }],
+    items: [{ item: "Mushroom Impossible", isVegan: true }],
     contact: [
       {
         website: "https://bareknucklepizza.com/",
@@ -917,7 +917,7 @@ const data = [
     name: "Timeless Coffee ⓥ",
     city: "Oakland",
     neighborhood: "Downtown",
-    items: [{ item: "Blueberry Donut", isVeg: true }],
+    items: [{ item: "Blueberry Donut", isVegan: true }],
     contact: [
       {
         website: "https://timelesscoffee.com/",
@@ -987,10 +987,10 @@ const data = [
     city: "Manhattan",
     neighborhood: "Chinatown",
     items: [
-      { item: "Sticky Rice Shiumai", isVeg: true },
-      { item: "Veg Meat Rice Roll", isVeg: true },
-      { item: "Steamed Veg Shrimp Dumpling", isVeg: true },
-      { item: "Veg Jelly Fish", isVeg: true },
+      { item: "Sticky Rice Shiumai", isVegan: true },
+      { item: "Veg Meat Rice Roll", isVegan: true },
+      { item: "Steamed Veg Shrimp Dumpling", isVegan: true },
+      { item: "Veg Jelly Fish", isVegan: true },
     ],
     contact: [
       { phone: "212-233-2921", website: "https://buddhavegetarian.com/" },
@@ -1111,7 +1111,7 @@ const data = [
     name: "Raku",
     city: "Manhattan",
     neighborhood: "Soho",
-    items: [{ item: "Sansai hot udon", isVeg: true }],
+    items: [{ item: "Sansai Hot Udon", isVeg: true }],
     contact: [
       {
         website: "https://rakunyc.com/",
@@ -1124,8 +1124,8 @@ const data = [
     city: "Manhattan",
     neighborhood: "Lower East Side",
     items: [
-      { item: "Bagel with cream cheese", isVeg: false },
-      { item: "Bagel with cream cheese and lox", isVeg: false },
+      { item: "Bagel with Cream Cheese", isVeg: false },
+      { item: "Bagel with Cream Cheese and Lox", isVeg: false },
     ],
     contact: [
       {
@@ -1312,7 +1312,7 @@ const data = [
     neighborhood: "Union Square",
     items: [
       { item: "Charlie Collins", isVeg: false },
-      { item: "Truffle fries", isVeg: true },
+      { item: "Truffle Fries", isVeg: true },
     ],
     contact: [{ website: "https://www.barnjoo.com/" }],
   },
@@ -1322,9 +1322,9 @@ const data = [
     neighborhood: "Financial District",
     items: [
       { item: "Dead Rabbit Dark Ale", isVeg: false },
-      { item: "Brooklyn Lager", isVeg: true },
-      { item: "Tuna Tartare Tacos", isVeg: true },
-      { item: "Crispy Fish and Chips", isVeg: true },
+      { item: "Brooklyn Lager", isVeg: false },
+      { item: "Tuna Tartare Tacos", isVeg: false },
+      { item: "Crispy Fish and Chips", isVeg: false },
     ],
     contact: [{ website: "https://www.deadrabbitnyc.com/" }],
   },
@@ -1334,7 +1334,7 @@ const data = [
     neighborhood: "Bowery",
     items: [
       { item: "Bourbon Apple Cider", isVeg: false },
-      { item: "Braufactum Progusta IPA", isVeg: true },
+      { item: "Braufactum Progusta IPA", isVeg: false },
     ],
     contact: [
       {
@@ -1528,7 +1528,7 @@ const data = [
     name: "Sengatera Ethiopian Restaurant",
     city: "Portland",
     neighborhood: "Kings",
-    items: [{ item: "Senga-tera special", isVeg: false }],
+    items: [{ item: "Senga-tera Special", isVeg: false }],
     contact: [
       {
         phone: "503-288-3787",
@@ -1572,7 +1572,7 @@ const data = [
     neighborhood: "Kerns",
     items: [
       { item: "Currywurst", isVeg: false },
-      { item: "Wienerschnitzel", isVeg: true },
+      { item: "Wienerschnitzel", isVeg: false },
     ],
     contact: [
       {
@@ -1697,7 +1697,7 @@ const data = [
     name: "Piroshky Piroshky",
     city: "Seattle",
     neighborhood: "Downtown",
-    items: [{ item: "Salmon piroshky", isVeg: false }],
+    items: [{ item: "Salmon Piroshky", isVeg: false }],
     contact: [
       {
         website: "https://piroshkybakery.com/",

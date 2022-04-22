@@ -29,7 +29,7 @@ function RestaurantCard({ restaurant }) {
         {restaurant.items.map((i) => {
           return (
             <p className={stylesheet.item}>
-              {i.item} {i.isVeg ? "🌱" : null}
+              {i.item} {i.isVeg ? "🌱" : null} {i.isVegan ? "ⓥ" : null} 
             </p>
           );
         })}
