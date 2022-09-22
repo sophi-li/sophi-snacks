@@ -5,8 +5,7 @@ import Modal from "@mui/material/Modal";
 
 function RestaurantCard({ restaurant }) {
   const [open, setOpen] = React.useState(false);
-  const handleOpen = () => setOpen(true);
-  const handleClose = () => setOpen(false);
+  const handleClick = () => setOpen(!open);
 
   const style = {
     position: "absolute",
@@ -35,12 +34,12 @@ function RestaurantCard({ restaurant }) {
         })}
       </div>
       <div>
-        <button className={stylesheet.btn} onClick={handleOpen}>
+        <button className={stylesheet.btn} onClick={handleClick}>
           Details
         </button>
         <Modal
           open={open}
-          onClose={handleClose}
+          onClose={handleClick}
           aria-labelledby="modal-modal-title"
           aria-describedby="modal-modal-description"
         >

@@ -1,5 +1,10 @@
 :root {
-  --red: #ff0000;
+  --red: #ef233c;
+  --gray: #D8DEE3;
+  --darkGray: #323638;
+  --btn-background: #F5F8FA;
+  --btn-background-hover: #eceff1;
+  --btn-border: #D5D8DA;
 }
 
 .App {
@@ -10,7 +15,7 @@
 .blurbContainer {
   width: 25%;
   justify-content: center;
-  border-right: 2px solid var(--red);
+  border-right: 2px solid var(--gray);
   margin-top: 3rem;
   margin-bottom: 3rem;
   display: flex;
@@ -23,6 +28,7 @@
   top: 0;
   bottom: 0;
   padding: 0 2rem;
+  color: var(--darkGray);
 }
 
 .title {
@@ -93,7 +99,7 @@
   .blurbContainer {
     background-color: white;
     width: 80%;
-    border-bottom: 2px solid var(--red);
+    border-bottom: 2px solid var(--gray);
     border-right: none;
     position: sticky;
     margin: 0 auto -3rem auto;

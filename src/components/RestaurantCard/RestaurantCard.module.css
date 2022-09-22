@@ -1,10 +1,5 @@
-:root {
-  --red: #ff0000;
-  --btn-red: #fc3131;
-}
-
 .container {
-  border-bottom: 2px dashed var(--red);
+  border-bottom: 2px dashed var(--gray);
   width: 40%;
   margin: 1rem;
   padding-bottom: 1rem;
@@ -14,18 +9,17 @@
 
 .btn {
   padding: 0.5rem 1rem;
-  border-radius: 20px;
-  border: 1px solid var(--btn-red);
-  background-color: var(--btn-red);
-  color: white;
-  font-weight: 700;
+  border-radius: 7px;
+  border: 1px solid var(--btn-border);
+  background-color: var(--btn-background);
+  font-weight: 550;
   text-align: center;
 }
 
 .btn:hover {
   cursor: pointer;
-  border: 1px solid var(--red);
-  background-color: var(--red);
+  border: 1px solid var(--btn-border);
+  background-color: var(--btn-background-hover);
 }
 
 .contactContainer {
@@ -50,8 +44,8 @@
 }
 
 .neighborhood {
-  color: var(--red);
-  font-weight: 600;
+  font-weight: 730;
+  font-size: 0.8rem;
   margin-top: 0;
 }
 
@@ -64,8 +58,9 @@
 }
 
 .item {
-  font-weight: 700;
-  line-height: 1.1rem;
+  color: var(--darkGray);
+  font-weight: 600;
+  line-height: 0.6rem;
 }
 
 @media only screen and (max-width: 1000px) {
