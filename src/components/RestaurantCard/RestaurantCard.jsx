@@ -28,7 +28,7 @@ function RestaurantCard({ restaurant }) {
         {restaurant.items.map((i) => {
           return (
             <p className={stylesheet.item}>
-              {i.item} {i.isVeg ? "🌱" : null} {i.isVegan ? "ⓥ" : null} 
+              {i.item} {i.isVeg && "🌱"} {i.isVegan && "ⓥ"}
             </p>
           );
         })}
