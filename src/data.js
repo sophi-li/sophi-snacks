@@ -1992,6 +1992,291 @@ const data = [
       },
     ],
   },
+  {
+    name: "Oscars Mexican Seafood",
+    city: "San Diego",
+    neighborhood: "Hillcrest",
+    category: ["Mexican", "Lunch", "Dinner", "Happy Hour"],
+    items: [{item: "Battered Fish Tacos", isVeg: false}, {item: "Fish Stew", isVeg: false}],
+    contact: [
+      {
+        website: "http://www.oscarsmexicanseafood.com/",
+        directions: "https://www.google.com/maps/dir//Oscars+Mexican+Seafood,+University+Avenue,+San+Diego,+CA/@32.7486877,-117.1942486,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d954dafd4e35d5:0xefc6bacb98e8a3d6!2m2!1d-117.1591263!2d32.7486736"
+      },
+    ],
+  },
+  {
+    name: "Con Pane Rustic Breads & Cafe",
+    city: "San Diego",
+    neighborhood: "Liberty Station",
+    category: ["Lunch", "Bakery"],
+    items: [{item: "Chocolate Hazelnut Twists", isVeg: true}],
+    contact: [
+      {
+        website: "https://www.cohnrestaurants.com/conpane",
+        directions: "https://www.google.com/maps/dir//Con+Pane+Rustic+Breads+%26+Cafe,+Dewey+Road,+San+Diego,+CA/@32.738092,-117.2475038,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80deab045c505ce5:0x3c3555b90bf01aa9!2m2!1d-117.2125!2d32.7380556"
+      },
+    ],
+  },
+  {
+    name: "Shank & Bone",
+    city: "San Diego",
+    neighborhood: "North Park",
+    category: ["Asian", "Lunch", "Dinner", 'Happy Hour'],
+    items: [{item: "Signature Pho", isVeg: false}],
+    contact: [
+      {
+        website: "https://www.shankandbone.com/",
+        directions: "https://www.google.com/maps/dir//Shank+%26+B%C3%B4ne,+University+Avenue,+San+Diego,+CA/@32.7380507,-117.2476053,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d95389f38e4a93:0x20b4b587508aaae2!2m2!1d-117.1306219!2d32.7486052"
+
+      },
+    ],
+  },
+  {
+    name: "Realm of 52 Remedies",
+    city: "San Diego",
+    neighborhood: "Kearny Mesa",
+    category: ["Asian", "Speakeasy", "Dinner"],
+    items: [{item: "Tuna Sesame Noodles", isVeg: false}, {item: "KFQ", isVeg: false}, {item:"Earl Grey", isVeg: false}],
+    contact: [
+      {
+        website: "https://www.52remedies.com/",
+        directions: "https://www.google.com/maps/dir//Realm+Of+The+52+Remedies,+Convoy+Street,+San+Diego,+CA/@32.8134404,-117.2129837,12.83z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80dbffe0ec1c891f:0xe8561447036d810b!2m2!1d-117.1528252!2d32.8293895"
+      },
+    ],
+  },
+  {
+    name: "Hawaiian Fresh Seafood, Inc.",
+    city: "San Diego",
+    neighborhood: "Mira Mesa",
+    category: ["Asian", "Lunch"],
+    items: [{item: "Poke Plate", isVeg: false}],
+    contact: [
+      {
+        website: "https://www.hawaiianfreshseafood.com/",
+        directions: "https://www.google.com/maps/dir//Hawaiian+Fresh+Seafood,+Inc.,+6491+Weathers+Pl,+San+Diego,+CA+92121/@32.9052429,-117.2135073,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80dc0720c6935b9d:0x4b184a99a18d1374!2m2!1d-117.178402!2d32.9052478"
+      },
+    ],
+  },
+  {
+    name: "The Taco Stand",
+    city: "San Diego",
+    neighborhood: "La Jolla",
+    category: ["Mexican", "Lunch", "Dinner"],
+    items: [{item:"Carne Asada Taco", isVeg: true}, {item: "Al Pastor Taco", isVeg: false}],
+    contact: [
+      {
+        website: "https://letstaco.com/",
+        directions: "https://www.google.com/maps/dir//The+Taco+Stand,+Pearl+Street,+San+Diego,+CA/@32.8393469,-117.3119244,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80dc03e5d1618ceb:0x73529c9f616b883!2m2!1d-117.2768086!2d32.839328"
+      },
+    ],
+  },
+  {
+    name: "Neighborhood",
+    city: "San Diego",
+    neighborhood: "Downtown",
+    category: ["Speakeasy"],
+    items: [{item: "Pierogi", isVeg: false}],
+    contact: [
+      {
+        website: "https://neighborhoodsd.com/",
+        directions: "https://www.google.com/maps/dir//Neighborhood,+G+Street,+San+Diego,+CA/@32.7135739,-117.1661028,15.28z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d95359190f7ca1:0xff28dbd6bd67866!2m2!1d-117.157584!2d32.712406"
+      },
+    ],
+  },
+  {
+    name: "Communal Coffee North Park",
+    city: "San Diego",
+    neighborhood: "North Park",
+    category: ["Cafe"],
+    items: [],
+    contact: [
+      {
+        website: "https://communalcoffee.com/north-park",
+        directions: "https://www.google.com/maps/dir//Communal+Coffee,+2335+University+Ave,+San+Diego,+CA+92104/@32.7483035,-117.1742826,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d954ee32187627:0x570eb5a679a17a63!2m2!1d-117.1391773!2d32.7483084"
+      },
+    ],
+  },
+  {
+    name: "Isola Pizza Bar",
+    city: "San Diego",
+    neighborhood: "Little Italy",
+    category: ["Italian", "Happy Hour", "Lunch", "Dinner"],
+    items: [{item:"Margherita Pizza", isVeg: true}, {item: "Burrata Bruschetta", isVeg: false}],
+    contact: [
+      {
+        website: "https://www.isolapizzabar.com/little-italy-menu",
+        directions: "https://www.google.com/maps/dir//Isola+Pizza+Bar,+India+Street,+San+Diego,+CA/@32.7211991,-117.2036583,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d954adce62c5e7:0x2b40f7674f27058d!2m2!1d-117.168553!2d32.721204"
+      },
+    ],
+  },
+  {
+    name: "Taco Surf PB",
+    city: "San Diego",
+    neighborhood: "Pacific Beach",
+    category: ["Mexican", "Lunch", "Dinner"],
+    items: [{item:"Fried Fish Taco", isVeg: true}, {item: "Grilled Fish Taco", isVeg: false}],
+    contact: [
+      {
+        website: "https://www.tacosurftacoshop.com/",
+        directions: "https://www.google.com/maps/dir//Taco+Surf+PB,+Mission+Boulevard,+San+Diego,+CA/@32.8393469,-117.3119244,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80dc018d632673d1:0x1084755cff66bcbc!2m2!1d-117.2560451!2d32.7988385"
+      },
+    ],
+  },
+  {
+    name: "Moniker Coffee Co",
+    city: "San Diego",
+    neighborhood: "Liberty Station",
+    category: ["Cafe"],
+    items: [],
+    contact: [
+      {
+        website: "https://monikercoffee.com/menu",
+        directions:"https://www.google.com/maps/dir//Moniker+Coffee+Co,+2860+Sims+Rd,+San+Diego,+CA+92106/@32.7988435,-117.2911536,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80deab030cd844e9:0x5fbedb28e37eaede!2m2!1d-117.2113389!2d32.7409489"
+      },
+    ],
+  },
+  {
+    name: "Menya Ultra",
+    city: "San Diego",
+    neighborhood: "Hillcrest",
+    category: ["Asian", "Lunch", "Dinner"],
+    items: [{item: "Tonkotsu Ramen", isVeg: false}],
+    contact: [
+      {
+        website: "https://menya-ultra.com/",
+        directions: "https://www.google.com/maps/dir//Menya+Ultra+Hillcrest+Ramen,+University+Avenue,+San+Diego,+CA/@32.7486684,-117.1938026,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d95511289b2f7b:0x618ef1cf1bf63e5c!2m2!1d-117.1586973!2d32.7486733",
+      },
+    ],
+  },
+  {
+    name: "Buona Forchetta",
+    city: "San Diego",
+    neighborhood: "South Park",
+    category: ["Italian", "Lunch", "Dinner"],
+    items: [{item: "Pesto Gnocchi", isVeg: false}],
+    contact: [
+      {
+        website: "https://buonaforchettasd.com/",
+        directions: "https://www.google.com/maps/dir//Buona+Forchetta+-+South+Park,+Beech+Street,+San+Diego,+CA/@32.7211586,-117.1651439,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d9537e305d3911:0x2108857782e4a0ce!2m2!1d-117.1300386!2d32.7211635"
+      },
+    ],
+  },
+  {
+    name: "Karl Strauss Brewing Company",
+    city: "San Diego",
+    neighborhood: "Mira Mesa",
+    category: ["Brewery"],
+    items: [],
+    contact: [
+      {
+        website: "https://www.karlstrauss.com/",
+        directions: "https://www.google.com/maps/dir//Karl+Strauss+Brewing+Company,+Scranton+Road,+San+Diego,+CA/@32.8965444,-117.2368862,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80dc0715da411f5b:0xca385eb992acebdb!2m2!1d-117.2017809!2d32.8965493",
+      },
+    ],
+  },
+  {
+    name: "Ballast Point Brewing",
+    city: "San Diego",
+    neighborhood: "Mire Mesa",
+    category: ["Brewery"],
+    items: [],
+    contact: [
+      {
+        website: "https://ballastpoint.com/",
+        directions: "https://www.google.com/maps/dir//Ballast+Point+Brewing+Miramar,+Carroll+Way,+San+Diego,+CA/@32.887553,-117.193255,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80dbf8b17b55f869:0x356c09c52b8e2ecb!2m2!1d-117.1581497!2d32.8875579"
+      },
+    ],
+  },
+  {
+    name: "Newtopia Cyder",
+    city: "San Diego",
+    neighborhood: "Mira Mesa",
+    category: ["Brewery"],
+    items: [],
+    contact: [
+      {
+        website: "https://www.drinknewtopia.com/",
+        directions: "https://www.google.com/maps/dir//Newtopia+Cyder,+Carroll+Canyon+Road+A,+San+Diego,+CA/@32.9032701,-117.1458613,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80dbf93090c8e82f:0xb210709d7ebd0167!2m2!1d-117.110756!2d32.903275",
+      },
+    ],
+  },
+  {
+    name: "OB Beans Coffee Roasters",
+    city: "San Diego",
+    neighborhood: "Ocean Beach",
+    category: ["Cafe"],
+    items: [],
+    contact: [
+      {
+        directions: "https://www.google.com/maps/dir//OB+Beans+Coffee+Roasters,+Newport+Avenue,+San+Diego,+CA/@32.7486684,-117.1938026,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80deaa37442caaa3:0x13685037cde3c062!2m2!1d-117.2490535!2d32.7454805"
+      },
+    ],
+  },
+  {
+    name: "Azucar",
+    city: "San Diego",
+    neighborhood: "Ocean Beach",
+    category: ["Cafe", "Bakery"],
+    items: [],
+    contact: [
+      {
+        website: "https://iloveazucar.com/",
+        directions: "https://www.google.com/maps/dir//Azucar,+Newport+Avenue,+San+Diego,+CA/@32.7451661,-117.2829363,13z/data=!3m2!4b1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80deaa371187dc43:0x8e58455b62a6ef9c!2m2!1d-117.247831!2d32.745171"
+      },
+    ],
+  },
+  {
+    name: "Cafe Moto",
+    city: "San Diego",
+    neighborhood: "Barrio Logan",
+    category: ["Cafe"],
+    items: [],
+    contact: [
+      {
+        website: "https://cafemoto.com/",
+        directions:"https://www.google.com/maps/dir//Cafe+Moto,+National+Avenue,+San+Diego,+CA/@32.6956558,-117.1728513,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d9530d8e32b95f:0x4691331edf665d13!2m2!1d-117.137746!2d32.6956607"
+      },
+    ],
+  },
+  {
+    name: "Panchita's Bakery",
+    city: "San Diego",
+    neighborhood: "Barrio Logan",
+    category: ["Cafe", "Bakery"],
+    items: [{item: "Concha", isVeg: false}],
+    contact: [
+      {
+        website: "http://www.panchitasbakery.com/",
+        directions: "https://www.google.com/maps/dir//Panchita's+Bakery,+Logan+Avenue,+San+Diego,+CA/@32.7016543,-117.1799747,13z/data=!3m2!4b1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d9536b8d65a353:0x3da331aee0904b9b!2m2!1d-117.1448496!2d32.7016454",
+      },
+    ],
+  },
+  {
+    name: "Tacos El Trompo \"A Mexican Tradition\"",
+    city: "San Diego",
+    neighborhood: "Liberty Station",
+    category: ["Mexican", "Lunch", "Dinner"],
+    items: [],
+    contact: [
+      {
+        directions: "https://www.google.com/maps/dir//Tacos+El+Trompo+%22A+Mexican+Tradition%22,+Logan+Avenue+suite+c,+San+Diego,+CA/@32.7013995,-117.1799081,13z/data=!3m2!4b1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d9532751363779:0x6335ad3d72f2a600!2m2!1d-117.1448028!2d32.7014044"
+      },
+    ],
+  },
+  {
+    name: "Bivouac Ciderworks",
+    city: "San Diego",
+    neighborhood: "North Park",
+    category: ["Brewery"],
+    items: [],
+    contact: [
+      {
+        website: "https://www.bivouaccider.com/",
+        directions: "https://www.google.com/maps/dir//Bivouac+Ciderworks,+30th+Street,+San+Diego,+CA/@32.7500461,-117.16551,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d954f6e5ea13ff:0xb0906cf5c9bba6c0!2m2!1d-117.1304047!2d32.750051"
+      },
+    ],
+  },
 ];
 
 export default data;
