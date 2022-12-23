@@ -16,6 +16,8 @@ const cityDescription = {
     "I’ve visited Portland a handful of times. These are spots I keep going back to. Most notable are Nong’s, Pambiche, and Jen’s Pastries.",
   Oakland:
     "I worked in Oakland for a year. This list features some of my favorite lunch and post-work dinner + drinks spots. I've been to both Drake’s and Bare Knuckle 5+ times.",
+  Hawaii:
+  "These are some of my favorite spots during a vacation in December 2022. Kaka'ako Farmer's Market, Nisshodo, and Helena's Hawaiian Food are my top recommendations."
 };
 
 function App() {
@@ -163,6 +165,8 @@ function App() {
         <div className={stylesheet.keyContainer}>
           <p className={stylesheet.keyItem}>🌱 Vegetarian</p>
           <p className={stylesheet.keyItem}>ⓥ Vegan</p>
+          <p className={stylesheet.keyItem}>🍸 Alcohol</p>
+          <p className={stylesheet.keyItem}>☕️ Caffeine</p>
         </div>
       </div>
       <div className={stylesheet.restaurantContainer}>

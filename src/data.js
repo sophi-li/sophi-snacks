@@ -5,10 +5,10 @@ const data = [
     neighborhood: "Mission",
     category: ["Dinner", "Lunch","Asian"],
     items: [
-      { item: "Tom Yum", isVeg: false },
-      { item: "Tom Kha", isVeg: false },
-      { item: "Green Curry", isVeg: false },
-      { item: "Pad Thai", isVeg: false },
+      { item: "Tom Yum" },
+      { item: "Tom Kha" },
+      { item: "Green Curry" },
+      { item: "Pad Thai" },
     ],
     contact: [
       {
@@ -28,7 +28,7 @@ const data = [
         item: "#1 Pho (rare slices of steak, well-done brisket, flank, tandon, tripe & beef balls)",
         isVeg: false,
       },
-      { item: "Five Spice Chicken w/ Imperial Roll Rice Plate", isVeg: false },
+      { item: "Five Spice Chicken w/ Imperial Roll Rice Plate" },
     ],
     contact: [
       {
@@ -44,9 +44,9 @@ const data = [
     neighborhood: "Chinatown",
     category: ["Bakery", "Asian"],
     items: [
-      { item: "Dan Tat", isVeg: false },
-      { item: "Pineapple Bun", isVeg: false },
-      { item: "Paper Wrapped Cake", isVeg: false },
+      { item: "Dan Tat" },
+      { item: "Pineapple Bun" },
+      { item: "Paper Wrapped Cake" },
       {
         item: "Hot Dog Bun",
         isVeg: false,
@@ -65,9 +65,9 @@ const data = [
     neighborhood: "Chinatown",
     category: ["Bakery", "Asian"],
     items: [
-      { item: "Dan Tat", isVeg: false },
-      { item: "Pineapple Bun", isVeg: false },
-      { item: "Paper Wrapped Cake", isVeg: false },
+      { item: "Dan Tat" },
+      { item: "Pineapple Bun" },
+      { item: "Paper Wrapped Cake" },
       {
         item: "Hot Dog Bun",
         isVeg: false,
@@ -87,8 +87,8 @@ const data = [
     neighborhood: "Dogpatch",
     category: ["American", "Lunch", "Dinner"],
     items: [
-      { item: "Hot N’ Honey Pizza", isVeg: false },
-      { item: "Peperoni Pizza", isVeg: false },
+      { item: "Hot N’ Honey Pizza" },
+      { item: "Peperoni Pizza" },
       { item: "Margherita Pizza", isVeg: true },
     ],
     contact: [
@@ -104,7 +104,7 @@ const data = [
     city: "San Francisco",
     neighborhood: "North Beach",
     category: ["American", "Lunch", "Dinner"],
-    items: [{ item: "Garlic and Clam Pizza", isVeg: false }],
+    items: [{ item: "Garlic and Clam Pizza" }],
     contact: [
       {
         website: "http://www.goldenboypizza.com/",
@@ -116,7 +116,7 @@ const data = [
     city: "San Francisco",
     neighborhood: "North Beach",
     category: ["Cafe", "Bakery"],
-    items: [{ item: "Tiramisu", isVeg: false }],
+    items: [{ item: "Tiramisu" }],
     contact: [
       {
         directions:
@@ -129,7 +129,7 @@ const data = [
     city: "San Francisco",
     neighborhood: "Inner Sunset",
     category: ["Asian", "Lunch", "Dinner"],
-    items: [{ item: "Dry Fried Chicken Wings", isVeg: false }],
+    items: [{ item: "Dry Fried Chicken Wings" }],
     contact: [
       {
         phone: "415-242-0828",
@@ -144,7 +144,7 @@ const data = [
     city: "San Francisco",
     neighborhood: "Outer Sunset",
     category: ["Asian", "Lunch", "Dinner"],
-    items: [{ item: "Pho", isVeg: false }],
+    items: [{ item: "Pho" }],
     contact: [
       {
         website: "https://kevinsnoodlehouse.com/",
@@ -156,7 +156,7 @@ const data = [
     city: "San Francisco",
     neighborhood: "Inner Sunset",
     category: ["Asian", "Lunch", "Dinner"],
-    items: [{ item: "Five Spice Chicken Garlic Noodle", isVeg: false }, { item: "Imperial Rolls", isVeg: false }],
+    items: [{ item: "Five Spice Chicken Garlic Noodle" }, { item: "Imperial Rolls" }],
     contact: [
       {
         directions:
@@ -170,8 +170,8 @@ const data = [
     neighborhood: "Outer Sunet",
     category: ["Asian", "Lunch", "Dinner"],
     items: [
-      { item: "Nikutama", isVeg: false },
-      { item: "Mentai Kamatama", isVeg: false },
+      { item: "Nikutama" },
+      { item: "Mentai Kamatama" },
     ],
     contact: [
       {
@@ -188,7 +188,7 @@ const data = [
     city: "San Francisco",
     neighborhood: "SoMa",
     category: ["Asian", "Lunch", "Dinner"],
-    items: [{ item: "Pho", isVeg: false }],
+    items: [{ item: "Pho" }],
     contact: [
       {
         website: "https://www.tinsf.com/",
@@ -201,8 +201,8 @@ const data = [
     neighborhood: "Inner Sunset",
     category: ["Asian", "Lunch", "Dinner"],
     items: [
-      { item: "Cherry Blossom", isVeg: false },
-      { item: "49er", isVeg: false },
+      { item: "Cherry Blossom" },
+      { item: "49er" },
     ],
     contact: [
       {
@@ -218,7 +218,7 @@ const data = [
     city: "San Francisco",
     neighborhood: "Inner Sunset",
     category: ["Dessert"],
-    items: [{ item: "Madagascar Vanilla ice cream", isVeg: false }],
+    items: [{ item: "Madagascar Vanilla ice cream" }],
     contact: [
       {
         website: "https://www.sfhometowncreamery.com/",
@@ -232,7 +232,7 @@ const data = [
     city: "San Francisco",
     neighborhood: "Castro",
     category: ["Dessert", "Asian"],
-    items: [{ item: "Monster Toast", isVeg: false }],
+    items: [{ item: "Monster Toast" }],
     contact: [
       {
         website: "https://udessertstory.com/",
@@ -285,7 +285,7 @@ const data = [
     category: ["Asian", "Lunch", "Dinner"],
     items: [
       { item: "Tea Leaf Salad", isVeg: true },
-      { item: "Platha and Dip", isVeg: false },
+      { item: "Platha and Dip" },
     ],
     contact: [
       {
@@ -296,11 +296,26 @@ const data = [
     ],
   },
   {
+    name: "Super Star Restaurant",
+    city: "San Francisco",
+    neighborhood: "Outer Mission",
+    category: ["Asian", "Lunch"],
+    items: [
+      { item: "Pork Chop Hong Kong Style"},
+      { item: "Porksilog"},
+    ],
+    contact: [
+      {
+        directions: "https://goo.gl/maps/8rfQMGXthQxQeNca6",
+      },
+    ],
+  },
+  {
     name: "Han Il Kwan",
     city: "San Francisco",
     neighborhood: "Richmond",
     category: ["Asian", "Lunch", "Dinner"],
-    items: [{ item: "Beef Tofu Soup", isVeg: false }],
+    items: [{ item: "Beef Tofu Soup" }],
     contact: [
       {
         directions:
@@ -313,7 +328,7 @@ const data = [
     city: "San Francisco",
     neighborhood: "Inner Sunset",
     category: ["Asian", "Lunch", "Dinner"],
-    items: [{ item: "Beef Tofu Soup", isVeg: false }],
+    items: [{ item: "Beef Tofu Soup" }],
     contact: [
       {
         directions:
@@ -326,7 +341,7 @@ const data = [
     city: "San Francisco",
     neighborhood: "Civic Center",
     category: ["Asian", "Lunch", "Dinner"],
-    items: [{ item: "Omakase", isVeg: false }],
+    items: [{ item: "Omakase" }],
     contact: [
       {
         website: "https://www.hinatasf.com/",
@@ -338,7 +353,7 @@ const data = [
     city: "San Francisco",
     neighborhood: "Downtown",
     category: ["Asian", "Lunch", "Dinner"],
-    items: [{ item: "Pho", isVeg: false }],
+    items: [{ item: "Pho" }],
     contact: [
       {
         website: "http://ordermisssaigon.com/",
@@ -352,7 +367,7 @@ const data = [
     city: "San Francisco",
     neighborhood: "Downtown",
     category: ["Asian", "Lunch", "Dinner"],
-    items: [{ item: "Pho", isVeg: false }],
+    items: [{ item: "Pho" }],
     contact: [
       {
         order: "https://us.orderspoon.com/tulan-vietnamese-restaurant",
@@ -366,7 +381,7 @@ const data = [
     city: "San Francisco",
     neighborhood: "Mission",
     category: [ "Mexican", "Lunch", "Dinner"],
-    items: [{ item: "Super Burrito", isVeg: false }],
+    items: [{ item: "Super Burrito" }],
     contact: [
       {
         website: "https://elfarolitosf.com/",
@@ -381,8 +396,8 @@ const data = [
     neighborhood: "Mission",
     category: ["Mexican", "Lunch", "Dinner"],
     items: [
-      { item: "Pork Pupusa", isVeg: false },
-      { item: "Pork + Cheese  Pupusa", isVeg: false },
+      { item: "Pork Pupusa" },
+      { item: "Pork + Cheese  Pupusa" },
     ],
     contact: [
       {
@@ -399,7 +414,7 @@ const data = [
     city: "San Francisco",
     neighborhood: "Outer Sunset",
     category: ["Cafe"],
-    items: [{ item: "Snowy Plover", isVeg: false }],
+    items: [{ item: "Snowy Plover", isCaffeine: true }],
     contact: [
       {
         website: "https://www.andytownsf.com/",
@@ -413,8 +428,8 @@ const data = [
     neighborhood: "Dogpatch",
     category: ["Brunch", "American", "Lunch"],
     items: [
-      { item: "Crabby Bennie", isVeg: false },
-      { item: "Beignets", isVeg: false },
+      { item: "Crabby Bennie" },
+      { item: "Beignets" },
     ],
     contact: [
       {
@@ -428,7 +443,7 @@ const data = [
     city: "San Francisco",
     neighborhood: "Ashbury Heights",
     category: ["Brunch", "American", "Lunch"],
-    items: [{ item: "Florentine Benedict with Home Fries", isVeg: false }],
+    items: [{ item: "Florentine Benedict with Home Fries" }],
     contact: [
       {
         website: "https://www.zaziesf.com/",
@@ -441,8 +456,8 @@ const data = [
     neighborhood: "Nob Hill",
     category: ["Brunch", "American", "Lunch"],
     items: [
-      { item: "Strawberry Pancakes", isVeg: false },
-      { item: "Bagel + Smoked Salmon", isVeg: false },
+      { item: "Strawberry Pancakes" },
+      { item: "Bagel + Smoked Salmon" },
     ],
     contact: [
       {
@@ -455,7 +470,7 @@ const data = [
     city: "San Francisco",
     neighborhood: "Mission",
     category: ["Brunch", "Lunch"],
-    items: [{ item: "Classic Smoked Salmon Bagel Sandwich", isVeg: false }],
+    items: [{ item: "Classic Smoked Salmon Bagel Sandwich" }],
     contact: [
       {
         website: "https://www.wisesonsdeli.com/location/24thstreet/",
@@ -469,8 +484,8 @@ const data = [
     neighborhood: "Dogpatch",
     category: ["Bakery", "Cafe", "Lunch"],
     items: [
-      { item: "Bagel + Cultured Butter", isVeg: false },
-      { item: "Bagel + Gravlox", isVeg: false },
+      { item: "Bagel + Cultured Butter" },
+      { item: "Bagel + Gravlox" },
     ],
     contact: [
       {
@@ -485,8 +500,8 @@ const data = [
     neighborhood: "Richmond",
     category: ["Bakery", "American"],
     items: [
-      { item: "Croissant", isVeg: false },
-      { item: "Chocolate Chip Cookie", isVeg: false },
+      { item: "Croissant" },
+      { item: "Chocolate Chip Cookie" },
     ],
     contact: [
       {
@@ -499,7 +514,7 @@ const data = [
     city: "San Francisco",
     neighborhood: "Inner Sunset",
     category: ["Cafe"],
-    items: [{ item: "Latte", isVeg: false }],
+    items: [{ item: "Latte", isCaffeine: true }],
     contact: [
       {
         website: "https://homecoffeesf.com/",
@@ -512,11 +527,11 @@ const data = [
     neighborhood: "Dogpatch",
     category: ["Bakery"],
     items: [
-      { item: "Croissant", isVeg: false },
-      { item: "Pistachio Blackberry Twice-baked", isVeg: false },
-      { item: "Ginger Pull-apart", isVeg: false },
-      { item: "Creamy Mushroom Puff Hand Pie", isVeg: false },
-      { item: "Sourdough Country Loaf", isVeg: false },
+      { item: "Croissant" },
+      { item: "Pistachio Blackberry Twice-baked" },
+      { item: "Ginger Pull-apart" },
+      { item: "Creamy Mushroom Puff Hand Pie" },
+      { item: "Sourdough Country Loaf" },
     ],
     contact: [
       {
@@ -604,7 +619,7 @@ const data = [
     items: [
       { item: "Eggplant in Garlic", isVeg: true },
       { item: "Dices String Beans", isVeg: true },
-      { item: "Spicy Fried Rice", isVeg: false },
+      { item: "Spicy Fried Rice" },
     ],
     contact: [
       {
@@ -620,8 +635,8 @@ const data = [
     neighborhood: "Chinatown",
     category: ["Asian","Lunch", "Dinner"],
     items: [
-      { item: "Special Shan Dong Dumplings", isVeg: false },
-      { item: "Beef Chow Fun", isVeg: false },
+      { item: "Special Shan Dong Dumplings" },
+      { item: "Beef Chow Fun" },
     ],
     contact: [
       {
@@ -637,9 +652,9 @@ const data = [
     neighborhood: "Chinatown",
     category: ["Asian","Lunch", "Dinner"],
     items: [
-      { item: "Roast Pork", isVeg: false },
-      { item: "Egg White and Dried Scallop Fried Rice", isVeg: false },
-      { item: "Minced Pork Porridge", isVeg: false },
+      { item: "Roast Pork" },
+      { item: "Egg White and Dried Scallop Fried Rice" },
+      { item: "Minced Pork Porridge" },
     ],
     contact: [
       {
@@ -654,7 +669,7 @@ const data = [
     city: "Oakland",
     neighborhood: "Chinatown",
     category: ["Asian","Lunch", "Dinner"],
-    items: [{ item: "Chew Jew Noodle", isVeg: false }],
+    items: [{ item: "Chew Jew Noodle" }],
     contact: [
       {
         directions:
@@ -668,8 +683,8 @@ const data = [
     neighborhood: "Chinatown",
     category: ["Asian","Lunch"],
     items: [
-      { item: "Egg Crepe", isVeg: false },
-      { item: "Soy Milk", isVeg: false },
+      { item: "Egg Crepe" },
+      { item: "Soy Milk" },
     ],
     contact: [
       {
@@ -684,8 +699,8 @@ const data = [
     neighborhood: "Chinatown",
     category: ["Asian","Lunch", "Dinner"],
     items: [
-      { item: "Spring Rolls", isVeg: false },
-      { item: "Obama Bun Cha", isVeg: false },
+      { item: "Spring Rolls" },
+      { item: "Obama Bun Cha" },
     ],
     contact: [
       {
@@ -701,9 +716,9 @@ const data = [
     neighborhood: "Chinatown",
     category: ["Bakery","Asian"],
     items: [
-      { item: "Dan Tat", isVeg: false },
-      { item: "Pineapple Bun", isVeg: false },
-      { item: "Paper Wrapped Cake", isVeg: false },
+      { item: "Dan Tat" },
+      { item: "Pineapple Bun" },
+      { item: "Paper Wrapped Cake" },
       {
         item: "Hot Dog Bun",
         isVeg: false,
@@ -721,7 +736,7 @@ const data = [
     city: "Oakland",
     neighborhood: "Downtown",
     category: ["Asian","Lunch", "Dinner"],
-    items: [{ item: "Garlic Miso Fried Chicken", isVeg: false }],
+    items: [{ item: "Garlic Miso Fried Chicken" }],
     contact: [
       {
         website: "https://aburayaoakland.com/",
@@ -755,9 +770,9 @@ const data = [
     neighborhood: "Downtown",
     category: ["Bakery", "Lunch"],
     items: [
-      { item: "Latte", isVeg: false },
-      { item: "Croissant", isVeg: false },
-      { item: "Han & Cheese Croissant", isVeg: false },
+      { item: "Latte", isCaffeine: true },
+      { item: "Croissant" },
+      { item: "Han & Cheese Croissant" },
     ],
     contact: [
       {
@@ -772,8 +787,8 @@ const data = [
     neighborhood: "Downtown",
     category: ["Lunch", "Dinner"],
     items: [
-      { item: "Mantoo", isVeg: false },
-      { item: "Bolani", isVeg: false },
+      { item: "Mantoo" },
+      { item: "Bolani" },
       { item: "Eggplant Borani", isVeg: true },
     ],
     contact: [
@@ -789,7 +804,7 @@ const data = [
     city: "Oakland",
     neighborhood: "Downtown",
     category: ["Dessert"],
-    items: [{ item: "Bicycle Coffee", isVeg: false }],
+    items: [{ item: "Bicycle Coffee" }],
     contact: [
       {
         website: "https://www.littlegianticecream.com/",
@@ -802,8 +817,8 @@ const data = [
     neighborhood: "Lakeshore",
     category: ["Asian", "Lunch", "Dinner"],
     items: [
-      { item: "Beef Tofu Soup", isVeg: false },
-      { item: "AYCE Korean BBQ", isVeg: false },
+      { item: "Beef Tofu Soup" },
+      { item: "AYCE Korean BBQ" },
     ],
     contact: [
       {
@@ -818,7 +833,7 @@ const data = [
     city: "Oakland",
     neighborhood: "Temescal",
     category: ["Asian", "Lunch", "Dinner"],
-    items: [{ item: "Beef Tofu Soup", isVeg: false }],
+    items: [{ item: "Beef Tofu Soup" }],
     contact: [
       {
         website: "https://www.pctofu.com/",
@@ -832,7 +847,7 @@ const data = [
     city: "Oakland",
     neighborhood: "Temescal",
     category: ["Lunch", "Dinner"],
-    items: [{ item: "Fish Tacos", isVeg: false }],
+    items: [{ item: "Fish Tacos" }],
     contact: [
       {
         website: "https://cholitalinda.com/",
@@ -847,7 +862,7 @@ const data = [
     neighborhood: "Temescal",
     category: ["Lunch"],
     items: [
-      { item: "Buttermilk Fried Chicken and Coleslaw Sandwich", isVeg: false },
+      { item: "Buttermilk Fried Chicken and Coleslaw Sandwich" },
     ],
     contact: [
       {
@@ -864,7 +879,7 @@ const data = [
     category: ["Asian", "Lunch", "Dinner"],
     items: [
       { item: "Tea Leaf Salad", isVeg: true },
-      { item: "Platha and Dip", isVeg: false },
+      { item: "Platha and Dip" },
     ],
     contact: [
       {
@@ -878,7 +893,7 @@ const data = [
     city: "Oakland",
     neighborhood: "Temescal",
     category: ["Dessert", "American"],
-    items: [{ item: "Old Fashion Sundae", isVeg: false }],
+    items: [{ item: "Old Fashion Sundae" }],
     contact: [
       {
         website: "https://www.fentonscreamery.com/",
@@ -893,8 +908,8 @@ const data = [
     neighborhood: "Temescal",
     category: ["American", "Lunch", "Dinner"],
     items: [
-      { item: "Garlicky Bacon Mac", isVeg: false },
-      { item: "Gilroy Garlic Mac", isVeg: false },
+      { item: "Garlicky Bacon Mac" },
+      { item: "Gilroy Garlic Mac" },
     ],
     contact: [
       {
@@ -910,8 +925,8 @@ const data = [
     neighborhood: "Uptown",
     category: ["Dinner"],
     items: [
-      { item: "Jerk Chicken", isVeg: false },
-      { item: "Plantains", isVeg: false },
+      { item: "Jerk Chicken" },
+      { item: "Plantains" },
     ],
     contact: [
       {
@@ -955,7 +970,7 @@ const data = [
     city: "Oakland",
     neighborhood: "Downtown",
     category: ["Cafe"],
-    items: [{ item: "Chai Latte", isVeg: false }],
+    items: [{ item: "Chai Latte", isCaffeine: true }],
     contact: [
       {
         website: "http://www.tierramiacoffee.com/",
@@ -967,7 +982,7 @@ const data = [
     city: "Oakland",
     neighborhood: "Downtown",
     category: ["Cafe"],
-    items: [{ item: "Latte", isVeg: false }],
+    items: [{ item: "Latte", isCaffeine: true }],
     contact: [
       {
         website: "http://moderncoffeeoakland.com/",
@@ -993,7 +1008,7 @@ const data = [
     city: "Oakland",
     neighborhood: "Downtown",
     category: ["Bar", "Dinner"],
-    items: [{ item: "Pizza", isVeg: false }],
+    items: [{ item: "Pizza" }],
     contact: [
       {
         website: "https://drinkdrakes.com/places/dealership/",
@@ -1034,11 +1049,11 @@ const data = [
     neighborhood: "Chinatown",
     category: ["Asian", "Lunch", "Dinner"],
     items: [
-      { item: "Shrimp Rice Roll", isVeg: false },
-      { item: "Beef Rice Roll", isVeg: false },
-      { item: "Pork and Preserved Egg Congee", isVeg: false },
+      { item: "Shrimp Rice Roll" },
+      { item: "Beef Rice Roll" },
+      { item: "Pork and Preserved Egg Congee" },
       { item: "Dough Stick", isVeg: true },
-      { item: "HK Style Milk Tea", isVeg: false },
+      { item: "HK Style Milk Tea" },
     ],
     contact: [
       {
@@ -1069,8 +1084,8 @@ const data = [
     neighborhood: "Chinatown",
     category: ["Asian", "Lunch", "Dinner"],
     items: [
-      { item: "Joe’s Signature Steam Rice Roll", isVeg: false },
-      { item: "Curry Fish Ball", isVeg: false },
+      { item: "Joe’s Signature Steam Rice Roll" },
+      { item: "Curry Fish Ball" },
     ],
     contact: [
       {
@@ -1085,11 +1100,11 @@ const data = [
     neighborhood: "Chinatown",
     category: ["Asian", "Lunch"],
     items: [
-      { item: "Shrimp Dumpling", isVeg: false },
-      { item: "Pork Shumai", isVeg: false },
-      { item: "Bean Curd Skin Rolls", isVeg: false },
-      { item: "Chicken Feet", isVeg: false },
-      { item: "Dan Tat", isVeg: false },
+      { item: "Ha Gao (Shrimp Dumpling)" },
+      { item: "Shumai (Pork Dumpling)" },
+      { item: "Bean Curd Skin Rolls" },
+      { item: "Gai Gurk (Chicken Feet)" },
+      { item: "Dan Tat (Egg Tart)" },
     ],
     contact: [
       {
@@ -1103,7 +1118,7 @@ const data = [
     city: "Manhattan",
     neighborhood: "Chinatown",
     category: ["Asian", "Lunch", "Dinner"],
-    items: [{ item: "Pan Fried Pork Dumpling", isVeg: false }],
+    items: [{ item: "Pan Fried Pork Dumpling" }],
     contact: [
       {
         directions:
@@ -1116,7 +1131,7 @@ const data = [
     city: "Manhattan",
     neighborhood: "Chinatown",
     category: ["Asian", "Lunch", "Dinner"],
-    items: [{ item: "Cha Sui + Rice", isVeg: false }],
+    items: [{ item: "Cha Sui + Rice" }],
     contact: [
       {
         directions:
@@ -1129,7 +1144,7 @@ const data = [
     city: "Manhattan",
     neighborhood: "Chinatown",
     category: ["Asian", "Lunch", "Dinner"],
-    items: [{ item: "Congee", isVeg: false }],
+    items: [{ item: "Congee" }],
     contact: [
       {
         directions:
@@ -1143,8 +1158,8 @@ const data = [
     neighborhood: "Chinatown",
     category: ["Bakery", "Asian"],
     items: [
-      { item: "Dan Tat", isVeg: false },
-      { item: "Portuguese Egg Tart", isVeg: false },
+      { item: "Dan Tat" },
+      { item: "Portuguese Egg Tart" },
     ],
     contact: [
       {
@@ -1159,8 +1174,8 @@ const data = [
     neighborhood: "West Village",
     category: ["Asian", "Lunch", "Dinner"],
     items: [
-      { item: "S.S. Classic Bánh Mì", isVeg: false },
-      { item: "Vietnamese Ice Coffee", isVeg: false },
+      { item: "S.S. Classic Bánh Mì" },
+      { item: "Vietnamese Ice Coffee", isCaffeine: true },
     ],
     contact: [
       { phone: "212-228-0588", website: "https://www.saigonshack.com/" },
@@ -1172,8 +1187,8 @@ const data = [
     neighborhood: "Chelsea Market",
     category: ["Lunch", "Dinner"],
     items: [
-      { item: "Adobada Quesadilla", isVeg: false },
-      { item: "Carne Asada Quesadilla", isVeg: false },
+      { item: "Adobada Quesadilla" },
+      { item: "Carne Asada Quesadilla" },
     ],
     contact: [
       {
@@ -1201,8 +1216,8 @@ const data = [
     neighborhood: "Lower East Side",
     category: ["Bakery", "Lunch"],
     items: [
-      { item: "Bagel with Cream Cheese", isVeg: false },
-      { item: "Bagel with Cream Cheese and Lox", isVeg: false },
+      { item: "Bagel with Cream Cheese" },
+      { item: "Bagel with Cream Cheese and Lox" },
     ],
     contact: [
       {
@@ -1219,7 +1234,7 @@ const data = [
     category: [ "American", "Lunch", "Dinner", "Late Night"],
     items: [
       { item: "Cheese Slice", isVeg: true },
-      { item: "Peperoni Slice", isVeg: false },
+      { item: "Peperoni Slice" },
     ],
     contact: [{ website: "http://www.joespizzanyc.com/" }],
   },
@@ -1228,7 +1243,7 @@ const data = [
     city: "Manhattan",
     neighborhood: "Soho",
     category: ["American", "Lunch", "Dinner","Late Night"],
-    items: [{ item: "Peperoni Square", isVeg: false }],
+    items: [{ item: "Peperoni Square" }],
     contact: [
       {
         website: "https://www.eatprincestreetpizza.com/",
@@ -1243,8 +1258,8 @@ const data = [
     neighborhood: "Lower East Side",
     category: ["American", "Lunch", "Dinner","Late Night"],
     items: [
-      { item: "Grandma Pie", isVeg: false },
-      { item: "Hotboi", isVeg: false },
+      { item: "Grandma Pie" },
+      { item: "Hotboi" },
     ],
     contact: [
       { phone: "212-334-3481", website: "hhttps://www.scarrspizza.com/" },
@@ -1255,7 +1270,7 @@ const data = [
     city: "Manhattan",
     neighborhood: "East Village",
     category: ["Asian", "Lunch", "Dinner"],
-    items: [{ item: "Dry Pot (Mild)", isVeg: false }],
+    items: [{ item: "Dry Pot (Mild)" }],
     contact: [{ website: "https://www.malaproject.nyc/" }],
   },
   {
@@ -1263,7 +1278,7 @@ const data = [
     city: "Manhattan",
     neighborhood: "East Village",
     category: ["Asian", "Lunch", "Dinner"],
-    items: [{ item: "Rendang Nasi Lemak", isVeg: false }],
+    items: [{ item: "Rendang Nasi Lemak" }],
     contact: [
       {
         website: "https://lovemamanyc.com/",
@@ -1276,7 +1291,7 @@ const data = [
     city: "Manhattan",
     neighborhood: "East Village",
     category: ["Asian", "Lunch", "Dinner"],
-    items: [{ item: "Bone Marrow Pho", isVeg: false }],
+    items: [{ item: "Bone Marrow Pho" }],
     contact: [
       {
         directions:
@@ -1290,7 +1305,7 @@ const data = [
     city: "Manhattan",
     neighborhood: "Times Square",
     category: ["American", "Lunch", "Dinner"],
-    items: [{ item: "Original NY Plain Cheesecake", isVeg: false }],
+    items: [{ item: "Original NY Plain Cheesecake" }],
     contact: [
       {
         order: "https://www.juniorscheesecake.com/all-items/",
@@ -1304,7 +1319,7 @@ const data = [
     city: "Manhattan",
     neighborhood: "Soho",
     category: ["Bakery"],
-    items: [{ item: "Brown Sugar DKA", isVeg: false }],
+    items: [{ item: "Brown Sugar DKA" }],
     contact: [
       {
         website: "https://www.dominiqueansel.com/",
@@ -1316,7 +1331,7 @@ const data = [
     city: "Manhattan",
     neighborhood: "East Village",
     category: ["Cafe"],
-    items: [{ item: "Hawaiian Latte", isVeg: false }],
+    items: [{ item: "Hawaiian Latte", isCaffeine: true }],
     contact: [
       {
         website: "https://www.konacoffee.nyc/",
@@ -1327,7 +1342,7 @@ const data = [
     name: "Abraco",
     city: "Manhattan",
     neighborhood: "East Village",
-    items: [{ item: "Sparkling Espresso Cream", isVeg: false }],
+    items: [{ item: "Sparkling Espresso Cream", isCaffeine: true }],
     category: ["Cafe"],
     contact: [
       {
@@ -1341,7 +1356,7 @@ const data = [
     city: "Manhattan",
     neighborhood: "East Village",
     category: ["American", "Dinner", "Late Night"],
-    items: [{ item: "Cheeseburger", isVeg: false }],
+    items: [{ item: "Cheeseburger" }],
     contact: [
       {
         order:
@@ -1355,7 +1370,7 @@ const data = [
     city: "Manhattan",
     neighborhood: "East Village",
     category: ["Bar"],
-    items: [{ item: "Jim Collins", isVeg: false }],
+    items: [{ item: "Jim Collins", isAlcohol: true }],
     contact: [
       { phone: "201-749-1876", website: "https://www.hiddenlanebar.com/" },
     ],
@@ -1365,7 +1380,7 @@ const data = [
     city: "Manhattan",
     neighborhood: "Lower East Side",
     category: ["Bar"],
-    items: [{ item: "Cider-car", isVeg: false }],
+    items: [{ item: "Cider-car", isAlcohol: true }],
     contact: [
       { phone: "212-237-1790", website: "https://www.mrpurplenyc.com/" },
     ],
@@ -1375,7 +1390,7 @@ const data = [
     city: "Manhattan",
     neighborhood: "Lower East Side",
     category: ["Bar"],
-    items: [{ item: "Custom Drink at the Bar", isVeg: false }],
+    items: [{ item: "Custom Drink at the Bar", isAlcohol: true }],
     contact: [{ website: "http://attaboy.us/nyc/" }],
   },
   {
@@ -1383,7 +1398,7 @@ const data = [
     city: "Manhattan",
     neighborhood: "East Village",
     category: ["Bar"],
-    items: [{ item: "Hudson North Standard Cider", isVeg: false }],
+    items: [{ item: "Hudson North Standard Cider", isAlcohol: true }],
     contact: [{ website: "http://coopersnyc.com/" }],
   },
   {
@@ -1392,8 +1407,8 @@ const data = [
     neighborhood: "Financial District",
     category: ["Bar"],
     items: [
-      { item: "Flyjack IPA", isVeg: false },
-      { item: "Original Blend Cider", isVeg: false },
+      { item: "Flyjack IPA", isAlcohol: true },
+      { item: "Original Blend Cider", isAlcohol: true },
     ],
     contact: [
       { phone: "212-363-6000", website: "https://clintonhallny.com/fidi/" },
@@ -1405,7 +1420,7 @@ const data = [
     neighborhood: "Union Square",
     category: ["Bar"],
     items: [
-      { item: "Charlie Collins", isVeg: false },
+      { item: "Charlie Collins", isAlcohol: true },
       { item: "Truffle Fries", isVeg: true },
     ],
     contact: [{ website: "https://www.barnjoo.com/" }],
@@ -1416,10 +1431,10 @@ const data = [
     neighborhood: "Financial District",
     category: ["Bar", "Dinner"],
     items: [
-      { item: "Dead Rabbit Dark Ale", isVeg: false },
-      { item: "Brooklyn Lager", isVeg: false },
-      { item: "Tuna Tartare Tacos", isVeg: false },
-      { item: "Crispy Fish and Chips", isVeg: false },
+      { item: "Dead Rabbit Dark Ale", isAlcohol: true},
+      { item: "Brooklyn Lager", isAlcohol: true},
+      { item: "Tuna Tartare Tacos" , isAlcohol: true},
+      { item: "Crispy Fish and Chips" , isAlcohol: true},
     ],
     contact: [{ website: "https://www.deadrabbitnyc.com/" }],
   },
@@ -1429,8 +1444,8 @@ const data = [
     neighborhood: "Bowery",
     category: ["Bar"],
     items: [
-      { item: "Bourbon Apple Cider", isVeg: false },
-      { item: "Braufactum Progusta IPA", isVeg: false },
+      { item: "Bourbon Apple Cider", isAlcohol: true },
+      { item: "Braufactum Progusta IPA", isAlcohol: true },
     ],
     contact: [
       {
@@ -1446,9 +1461,9 @@ const data = [
     neighborhood: "Korea Town",
     category: ["Bar", "Dinner", "Late Night"],
     items: [
-      { item: "Watermelon Soju", isVeg: false },
-      { item: "Pineapple Soju", isVeg: false },
-      { item: "Honeydew Soju", isVeg: false },
+      { item: "Watermelon Soju", isAlcohol: true },
+      { item: "Pineapple Soju", isAlcohol: true },
+      { item: "Honeydew Soju", isAlcohol: true },
     ],
     contact: [
       {
@@ -1463,8 +1478,8 @@ const data = [
     neighborhood: "South East Side",
     category: ["Asian", "Lunch", "Dinner"],
     items: [
-      { item: "Khao Man Gai", isVeg: false },
-      { item: "Khao Kha Muu", isVeg: false },
+      { item: "Khao Man Gai" },
+      { item: "Khao Kha Muu" },
     ],
     contact: [
       {
@@ -1479,10 +1494,10 @@ const data = [
     neighborhood: "Kerns",
     category: ["Lunch", "Dinner"],
     items: [
-      { item: "Arroz Con Pollo", isVeg: false },
-      { item: "Ropa Veja", isVeg: false },
-      { item: "Vaca Frita", isVeg: false },
-      { item: "Tres Leches", isVeg: false },
+      { item: "Arroz Con Pollo" },
+      { item: "Ropa Veja" },
+      { item: "Vaca Frita" },
+      { item: "Tres Leches" },
     ],
     contact: [
       {
@@ -1496,9 +1511,9 @@ const data = [
     neighborhood: "Hosford-Abernethy",
     category: ["Brunch", "Lunch"],
     items: [
-      { item: "Aebleskiver (Danish Pancakes)", isVeg: false },
-      { item: "Lefse (Norwegian Potato Crepe)", isVeg: false },
-      { item: "Fölorade Ägg (Lost Eggs)", isVeg: false },
+      { item: "Aebleskiver (Danish Pancakes)" },
+      { item: "Lefse (Norwegian Potato Crepe)" },
+      { item: "Fölorade Ägg (Lost Eggs)" },
     ],
     contact: [
       {
@@ -1512,9 +1527,9 @@ const data = [
     neighborhood: "South Portland",
     category: ["Bakery"],
     items: [
-      { item: "Berry Poptart", isVeg: false },
-      { item: "Maple Oat Scone", isVeg: false },
-      { item: "Garlic Croissant", isVeg: false },
+      { item: "Berry Poptart" },
+      { item: "Maple Oat Scone" },
+      { item: "Garlic Croissant" },
     ],
     contact: [
       {
@@ -1528,8 +1543,8 @@ const data = [
     neighborhood: "Woodlawn",
     category: ["Lunch", "Food Truck"],
     items: [
-      { item: "Pupusa with pork and cheese", isVeg: false },
-      { item: "Pupusa with bean and cheese", isVeg: false },
+      { item: "Pupusa with pork and cheese" },
+      { item: "Pupusa with bean and cheese" },
     ],
     contact: [
       {
@@ -1543,8 +1558,8 @@ const data = [
     neighborhood: "Kerns",
     category: ["American", "Dinner", "Lunch"],
     items: [
-      { item: "Margherita", isVeg: false },
-      { item: "Fennel Sausage & Onions", isVeg: false },
+      { item: "Margherita" },
+      { item: "Fennel Sausage & Onions" },
     ],
     contact: [
       {
@@ -1560,8 +1575,8 @@ const data = [
     category: ["Dinner"],
     items: [
       { item: "White Corn And Cheese Fritters", isVeg: true },
-      { item: "Peruvian Fried Chicken Bites", isVeg: false },
-      { item: "Pork Belly Baocitos", isVeg: false },
+      { item: "Peruvian Fried Chicken Bites" },
+      { item: "Pork Belly Baocitos" },
     ],
     contact: [
       {
@@ -1576,7 +1591,7 @@ const data = [
     city: "Portland",
     neighborhood: "Boise",
     category: ["Brunch", "Lunch"],
-    items: [{ item: "Fried Chicken with Gravy", isVeg: false }],
+    items: [{ item: "Fried Chicken with Gravy" }],
     contact: [
       {
         website: "https://gravyrestaurant.com/",
@@ -1591,9 +1606,9 @@ const data = [
     neighborhood: "South East Side",
     category: ["Bakery"],
     items: [
-      { item: "Lemon Poppy Buttermilk Old-Fashioned", isVeg: false },
-      { item: "Chocolate Buttermilk Old Fashioned", isVeg: false },
-      { item: "Orange Olive Oil", isVeg: false },
+      { item: "Lemon Poppy Buttermilk Old-Fashioned" },
+      { item: "Chocolate Buttermilk Old Fashioned" },
+      { item: "Orange Olive Oil" },
     ],
     contact: [
       {
@@ -1607,8 +1622,8 @@ const data = [
     neighborhood: "South East Side",
     category: ["Dinner"],
     items: [
-      { item: "Chicken Dinner", isVeg: false },
-      { item: "Screen Door Mac & Cheese", isVeg: false },
+      { item: "Chicken Dinner" },
+      { item: "Screen Door Mac & Cheese" },
     ],
     contact: [
       {
@@ -1623,8 +1638,8 @@ const data = [
     neighborhood: "Hawthorne",
     category: ["Brunch", "Lunch", "American"],
     items: [
-      { item: "Bennie Hashbrowns", isVeg: false },
-      { item: "Corned Beef Hash", isVeg: false },
+      { item: "Bennie Hashbrowns" },
+      { item: "Corned Beef Hash" },
     ],
     contact: [
       {
@@ -1637,7 +1652,7 @@ const data = [
     city: "Portland",
     neighborhood: "Kings",
     category: ["Dinner"],
-    items: [{ item: "Senga-tera Special", isVeg: false }],
+    items: [{ item: "Senga-tera Special" }],
     contact: [
       {
         phone: "503-288-3787",
@@ -1651,8 +1666,8 @@ const data = [
     neighborhood: "Hawthorne",
     category: ["Brunch", "Lunch", "American", "Food Truck"],
     items: [
-      { item: "Yolko Ono", isVeg: false },
-      { item: "Egg Zeppelin", isVeg: false },
+      { item: "Yolko Ono" },
+      { item: "Egg Zeppelin" },
     ],
     contact: [
       {
@@ -1667,7 +1682,7 @@ const data = [
     neighborhood: "Buckman Neighborhood",
     category: ["Lunch", "Dinner", "Asian"],
     items: [
-      { item: "Meat Mezza", isVeg: false },
+      { item: "Meat Mezza" },
       { item: "Vegetarian Mezza", isVeg: true },
     ],
     contact: [
@@ -1683,8 +1698,8 @@ const data = [
     neighborhood: "Kerns",
     category: ["Dinner"],
     items: [
-      { item: "Currywurst", isVeg: false },
-      { item: "Wienerschnitzel", isVeg: false },
+      { item: "Currywurst" },
+      { item: "Wienerschnitzel" },
     ],
     contact: [
       {
@@ -1699,9 +1714,9 @@ const data = [
     neighborhood: "Beaumont-Wilshire",
     category: ["Lunch", "Dinner"],
     items: [
-      { item: "Chai", isVeg: false },
-      { item: "Pork Momo", isVeg: false },
-      { item: "Chicken Curry", isVeg: false },
+      { item: "Chai" },
+      { item: "Pork Momo" },
+      { item: "Chicken Curry" },
     ],
     contact: [
       {
@@ -1715,7 +1730,7 @@ const data = [
     city: "Portland",
     neighborhood: "Irvington",
     category: ["Dinner", "Asian"],
-    items: [{ item: "Salmon", isVeg: false }],
+    items: [{ item: "Salmon" }],
     contact: [
       {
         website: "https://www.sushiohanapdx.com/",
@@ -1729,7 +1744,7 @@ const data = [
     neighborhood: "Ladd’s Addition",
     category: ["Brunch", "Lunch", "American"],
     items: [
-      { item: "The Reggie", isVeg: false },
+      { item: "The Reggie" },
       { item: "Biscuit and Jam", isVeg: true },
     ],
     contact: [
@@ -1745,9 +1760,9 @@ const data = [
     neighborhood: "Hosford-Abernethy",
     category: ["American", "Lunch", "Dinner"],
     items: [
-      { item: "Brisket", isVeg: false },
-      { item: "Potato Salad", isVeg: false },
-      { item: "Baked Mac+Cheese", isVeg: false },
+      { item: "Brisket" },
+      { item: "Potato Salad" },
+      { item: "Baked Mac+Cheese" },
     ],
     contact: [
       {
@@ -1762,8 +1777,8 @@ const data = [
     neighborhood: "Boise",
     category: ["American", "Food Truck", "Lunch", "Dinner"],
     items: [
-      { item: "Sliced Brisket", isVeg: false },
-      { item: "Cherry Chipotle BBQ Sauce", isVeg: false },
+      { item: "Sliced Brisket" },
+      { item: "Cherry Chipotle BBQ Sauce" },
     ],
     contact: [
       {
@@ -1778,8 +1793,8 @@ const data = [
     neighborhood: "Downtown",
     category: ["Lunch", "Food Truck"],
     items: [
-      { item: "Molly’s Tamales - Pork Tamale", isVeg: false },
-      { item: "Taste of Old Poland - Pierogi", isVeg: false },
+      { item: "Molly’s Tamales - Pork Tamale" },
+      { item: "Taste of Old Poland - Pierogi" },
     ],
     contact: [
       {
@@ -1792,7 +1807,7 @@ const data = [
     name: "Deschutes",
     city: "Portland",
     neighborhood: "Pearl District",
-    items: [{ item: "Fresh Squeezed IPA", isVeg: false }],
+    items: [{ item: "Fresh Squeezed IPA", isAlcohol: true }],
     category: ["Brewery", "American", "Dinner"],
     contact: [
       {
@@ -1818,7 +1833,7 @@ const data = [
     city: "Seattle",
     neighborhood: "Downtown",
     category: ["Bakery"],
-    items: [{ item: "Salmon Piroshky", isVeg: false }],
+    items: [{ item: "Salmon Piroshky" }],
     contact: [
       {
         website: "https://piroshkybakery.com/",
@@ -1831,7 +1846,7 @@ const data = [
     neighborhood: "Green Lake",
     category: ["Lunch"],
     items: [
-      { item: "Pork Tamale", isVeg: false },
+      { item: "Pork Tamale" },
       { item: "Jalapeño & Cheese Tamale", isVeg: true },
     ],
     contact: [
@@ -1847,8 +1862,8 @@ const data = [
     neighborhood: "Downtown",
     category: ["Lunch", "Dinner", "Asian"],
     items: [
-      { item: "Tuna Poke Bowl", isVeg: false },
-      { item: "Chirashi Bowl", isVeg: false },
+      { item: "Tuna Poke Bowl" },
+      { item: "Chirashi Bowl" },
     ],
     contact: [
       {
@@ -1863,9 +1878,9 @@ const data = [
     neighborhood: "Downtown",
     category: ["Asian", "Lunch", "Dinner"],
     items: [
-      { item: "Happy Hour Sushi Set B", isVeg: false },
-      { item: "Happy Hour Sushi Set Deluxe", isVeg: false },
-      { item: "Happy Hour Lucky 7", isVeg: false },
+      { item: "Happy Hour Sushi Set B" },
+      { item: "Happy Hour Sushi Set Deluxe" },
+      { item: "Happy Hour Lucky 7" },
     ],
     contact: [
       {
@@ -1879,8 +1894,8 @@ const data = [
     neighborhood: "University District",
     category: ["Lunch", "Dinner", "Asian"],
     items: [
-      { item: "Pad See Ew", isVeg: false },
-      { item: "Thai Iced Tea", isVeg: false },
+      { item: "Pad See Ew" },
+      { item: "Thai Iced Tea", isCaffeine: true },
     ],
     contact: [
       {
@@ -1893,7 +1908,7 @@ const data = [
     city: "Seattle",
     neighborhood: "Wallingford",
     category: ["Dinner"],
-    items: [{ item: "Deluxe Burger", isVeg: false }],
+    items: [{ item: "Deluxe Burger" }],
     contact: [
       {
         website: "https://www.ddir.com/",
@@ -1906,9 +1921,9 @@ const data = [
     neighborhood: "Fremont",
     category: ["Cafe", "Bakery"],
     items: [
-      { item: "Croissant", isVeg: false },
-      { item: "Cheddar Lye Roll", isVeg: false },
-      { item: "Latte", isVeg: false },
+      { item: "Croissant" },
+      { item: "Cheddar Lye Roll" },
+      { item: "Latte", isCaffeine: true },
     ],
     contact: [
       {
@@ -1921,7 +1936,7 @@ const data = [
     city: "Seattle",
     neighborhood: "Fremont",
     category: ["Cafe"],
-    items: [{ item: "Drip Coffee", isVeg: false }],
+    items: [{ item: "Drip Coffee", isCaffeine: true }],
     contact: [
       {
         website: "https://www.fremontcoffee.net/",
@@ -1934,8 +1949,8 @@ const data = [
     neighborhood: "Downtown",
     category: ["Dessert"],
     items: [
-      { item: "Snickerdoodle Cookie Bites", isVeg: false },
-      { item: "Peanut Butter Cups", isVeg: false },
+      { item: "Snickerdoodle Cookie Bites" },
+      { item: "Peanut Butter Cups" },
     ],
     contact: [
       {
@@ -1947,7 +1962,7 @@ const data = [
     name: "Hot Cakes",
     city: "Seattle",
     neighborhood: "Capital Hill",
-    items: [{ item: "Dark Decadence", isVeg: false }],
+    items: [{ item: "Dark Decadence" }],
     category: ["Dessert"],
     contact: [
       {
@@ -1997,7 +2012,7 @@ const data = [
     city: "San Diego",
     neighborhood: "Hillcrest",
     category: ["Mexican", "Lunch", "Dinner", "Happy Hour"],
-    items: [{item: "Battered Fish Tacos", isVeg: false}, {item: "Fish Stew", isVeg: false}],
+    items: [{item: "Battered Fish Tacos"}, {item: "Fish Stew"}],
     contact: [
       {
         website: "http://www.oscarsmexicanseafood.com/",
@@ -2023,7 +2038,7 @@ const data = [
     city: "San Diego",
     neighborhood: "North Park",
     category: ["Asian", "Lunch", "Dinner", 'Happy Hour'],
-    items: [{item: "Signature Pho", isVeg: false}],
+    items: [{item: "Signature Pho"}],
     contact: [
       {
         website: "https://www.shankandbone.com/",
@@ -2037,7 +2052,9 @@ const data = [
     city: "San Diego",
     neighborhood: "Kearny Mesa",
     category: ["Asian", "Speakeasy", "Dinner"],
-    items: [{item: "Tuna Sesame Noodles", isVeg: false}, {item: "KFQ", isVeg: false}, {item:"Earl Grey", isVeg: false}],
+    items: [{item: "Tuna Sesame Noodles"},
+      {item: "KFQ"},
+      {item:"Earl Grey", isAlcohol: true}],
     contact: [
       {
         website: "https://www.52remedies.com/",
@@ -2050,7 +2067,7 @@ const data = [
     city: "San Diego",
     neighborhood: "Mira Mesa",
     category: ["Asian", "Lunch"],
-    items: [{item: "Poke Plate", isVeg: false}],
+    items: [{item: "Poke Plate"}],
     contact: [
       {
         website: "https://www.hawaiianfreshseafood.com/",
@@ -2063,7 +2080,7 @@ const data = [
     city: "San Diego",
     neighborhood: "La Jolla",
     category: ["Mexican", "Lunch", "Dinner"],
-    items: [{item:"Carne Asada Taco", isVeg: true}, {item: "Al Pastor Taco", isVeg: false}],
+    items: [{item:"Carne Asada Taco", isVeg: true}, {item: "Al Pastor Taco"}],
     contact: [
       {
         website: "https://letstaco.com/",
@@ -2076,7 +2093,7 @@ const data = [
     city: "San Diego",
     neighborhood: "Downtown",
     category: ["Speakeasy"],
-    items: [{item: "Pierogi", isVeg: false}],
+    items: [{item: "Pierogi"}],
     contact: [
       {
         website: "https://neighborhoodsd.com/",
@@ -2102,7 +2119,7 @@ const data = [
     city: "San Diego",
     neighborhood: "Little Italy",
     category: ["Italian", "Happy Hour", "Lunch", "Dinner"],
-    items: [{item:"Margherita Pizza", isVeg: true}, {item: "Burrata Bruschetta", isVeg: false}],
+    items: [{item:"Margherita Pizza", isVeg: true}, {item: "Burrata Bruschetta"}],
     contact: [
       {
         website: "https://www.isolapizzabar.com/little-italy-menu",
@@ -2115,7 +2132,7 @@ const data = [
     city: "San Diego",
     neighborhood: "Pacific Beach",
     category: ["Mexican", "Lunch", "Dinner"],
-    items: [{item:"Fried Fish Taco", isVeg: true}, {item: "Grilled Fish Taco", isVeg: false}],
+    items: [{item:"Fried Fish Taco", isVeg: true}, {item: "Grilled Fish Taco"}],
     contact: [
       {
         website: "https://www.tacosurftacoshop.com/",
@@ -2141,7 +2158,7 @@ const data = [
     city: "San Diego",
     neighborhood: "Hillcrest",
     category: ["Asian", "Lunch", "Dinner"],
-    items: [{item: "Tonkotsu Ramen", isVeg: false}],
+    items: [{item: "Tonkotsu Ramen"}],
     contact: [
       {
         website: "https://menya-ultra.com/",
@@ -2154,7 +2171,7 @@ const data = [
     city: "San Diego",
     neighborhood: "South Park",
     category: ["Italian", "Lunch", "Dinner"],
-    items: [{item: "Pesto Gnocchi", isVeg: false}],
+    items: [{item: "Pesto Gnocchi"}],
     contact: [
       {
         website: "https://buonaforchettasd.com/",
@@ -2244,7 +2261,7 @@ const data = [
     city: "San Diego",
     neighborhood: "Barrio Logan",
     category: ["Cafe", "Bakery"],
-    items: [{item: "Concha", isVeg: false}],
+    items: [{item: "Concha"}],
     contact: [
       {
         website: "http://www.panchitasbakery.com/",
@@ -2274,6 +2291,314 @@ const data = [
       {
         website: "https://www.bivouaccider.com/",
         directions: "https://www.google.com/maps/dir//Bivouac+Ciderworks,+30th+Street,+San+Diego,+CA/@32.7500461,-117.16551,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d954f6e5ea13ff:0xb0906cf5c9bba6c0!2m2!1d-117.1304047!2d32.750051"
+      },
+    ],
+  },
+  {
+    name: "Tin Roof",
+    city: "Hawaii",
+    neighborhood: "Kahului, Maui",
+    category: ["Lunch", "Asian"],
+    items: [{item: "Mochiko Chicken"}, {item: "Garlic Noodles", isVeg: true}],
+    contact: [
+      {
+        website: "https://www.tinroofmaui.com/",
+        directions: "https://goo.gl/maps/i8adgCLUtnp97mb27"
+      },
+    ],
+  },
+  {
+    name: "South Maui Fish Company",
+    city: "Hawaii",
+    neighborhood: "Kihei, Maui",
+    category: ["Lunch", "Dinner", "Hawaiian"],
+    items: [{item: "Daily Special Poke"}],
+    contact: [
+      {
+        website: "https://www.southmauifishco.com/",
+        directions: "https://goo.gl/maps/BjzFbuqUChznbWFo7"
+      },
+    ],
+  },
+  {
+    name: "Maui Coffee",
+    city: "Hawaii",
+    neighborhood: "Kahului, Maui",
+    category: ["Cafe", "Hawaiian"],
+    items: [{item: "Kona Coffee", isCaffeine: true}],
+    contact: [
+      {
+        website: "https://mauicoffeeroasters.com/",
+        directions: "https://goo.gl/maps/Tae9JuQhdnCmXE9D9"
+      },
+    ],
+  },
+  {
+    name: "Humble Market Kitchin",
+    city: "Hawaii",
+    neighborhood: "Wailea, Maui",
+    category: ["Dinner", "Happy Hour", "Hawaiian"],
+    items: [{item: "Brussels & Cauliflower"}, {item: "Crispy Calamari"}, {item: "Szechuan Spiced Baby Back Ribs"}, {item: "HMK Lilikoi Mai Tai", isAlcohol: true}],
+    contact: [
+      {
+        website: "https://www.royyamaguchi.com/humble-market-kitchen-maui",
+        directions: "https://goo.gl/maps/1gt2K2ZFfDqoo56E8"
+      },
+    ],
+  },
+  {
+    name: "Lineage",
+    city: "Hawaii",
+    neighborhood: "Wailea, Maui",
+    category: ["Dinner", "Dessert"],
+    items: [{item: "Aji Tamago", isVeg: true}, {item: "Pandan Bread Pudding", isVeg: true}, {item: "Auntie Kine Tings", isAlcohol: true}],
+    contact: [
+      {
+        website: "https://www.lineagemaui.com/",
+        directions: "https://goo.gl/maps/9A6VXd3uBama7rc67"
+      },
+    ],
+  },
+  {
+    name: "Kaka'ako Farmer's Market",
+    city: "Hawaii",
+    neighborhood: "Kaka'ako, Oahu",
+    category: ["Lunch", "Asian"],
+    items: [{item: "Sato Seafood Handrolls"}, {item: "Cane Lei"}, {item: "Ma'Ona Musubi"}, {item: "Mochi"}, {item: "Sugah Papi Farms"}],
+    contact: [
+      {
+        website: "https://farmlovers-online-marketplace.myshopify.com/",
+        directions: "https://goo.gl/maps/e6gUYZGGvnF1sRi7A"
+      },
+    ],
+  },
+  {
+    name: "Siam Square",
+    city: "Hawaii",
+    neighborhood: "Waikiki, Oahu",
+    category: ["Dinner", "Asian"],
+    items: [{item: "Green Curry", isVeg: true}, {item: "Drunken Noodles", isVeg: true}],
+    contact: [
+      {
+        directions: "https://goo.gl/maps/xTGZE2CExoubyrsX8"
+      },
+    ],
+  },
+  {
+    name: "Liliha Bakery",
+    city: "Hawaii",
+    neighborhood: "Kaka'ako, Oahu",
+    category: ["Dinner", "Hawaiian"],
+    items: [{item: "Loco Moco"}],
+    contact: [
+      {
+        website: "http://lilihabakery.com/",
+        directions: "https://goo.gl/maps/3hkEqfkGP134KMqb9"
+      },
+    ],
+  },
+  {
+    name: "Highway Inn Kaka'ako",
+    city: "Hawaii",
+    neighborhood: "Kaka'ako, Oahu",
+    category: ["Lunch", "Dinner", "Hawaiian"],
+    items: [{item: "Pork Lau Lau Tasting Plate ", isVeg: true}],
+    contact: [
+      {
+        website: "https://www.myhighwayinn.com/",
+        directions: "https://goo.gl/maps/QVs5UoocQeU7ecPC6"
+      },
+    ],
+  },
+  {
+    name: "Helena's Hawaiian Food",
+    city: "Hawaii",
+    neighborhood: "Waikiki, Oahu",
+    category: ["Lunch", "Dinner", "Hawaiian"],
+    items: [{item: "Poi", isVeg: true}, {item: "Macaroni Salad" }, {item: "Pipikaula Shortribs"}, {item: "Haupia (Coconut Dessert)", isVeg: true}, {item: "Kalua Pork" }, {item: "Fried Butterfish Collar"}, {item: "Lomi Salmon"}],
+    contact: [
+      {
+        website: "https://www.helenashawaiianfood.com/index.html",
+        directions: "https://goo.gl/maps/PyhzSJ75UcBqWKbw5"
+      },
+    ],
+  },
+  {
+    name: "Maguro Spot",
+    city: "Hawaii",
+    neighborhood: "Waikiki, Oahu",
+    category: ["Lunch", "Dinner", "Hawaiian"],
+    items: [{item: "Hawaiian Poke"}],
+    contact: [
+      {
+        directions: "https://goo.gl/maps/2A3UEoG6bc2wvR6F6"
+      },
+    ],
+  },
+  {
+    name: "Tamura's",
+    city: "Hawaii",
+    neighborhood: "Wahaiwa, Oahu",
+    category: ["Lunch", "Dinner", "Hawaiian"],
+    items: [{item: "Daily Special Poke"}],
+    contact: [
+      {
+        website: "https://www.tamurasmarket.com",
+        directions: "https://goo.gl/maps/j7h7B54xgNEyNkwm7"
+      },
+    ],
+  },
+  {
+    name: "Fresh Catch",
+    city: "Hawaii",
+    neighborhood: "Aiea, Oahu",
+    category: ["Lunch", "Dinner", "Hawaiian"],
+    items: [{item: "Daily Special Poke"}],
+    contact: [
+      {
+        website: "https://www.freshcatch808.com/",
+        directions: "https://goo.gl/maps/RruM1ribeQeHKEr49"
+      },
+    ],
+  },
+  {
+    name: "Leonard's Bakery",
+    city: "Hawaii",
+    neighborhood: "Kaimuki, Oahu",
+    category: ["Bakery"],
+    items: [{item: "Plain Malasada"}, {item: "Lilikoi Malasada"}],
+    contact: [
+      {
+        website: "http://www.leonardshawaii.com/",
+        directions: "https://goo.gl/maps/Xvt9TTMA7AYPXtPHA"
+      },
+    ],
+  },
+  {
+    name: "BRUG Bakery Lanai",
+    city: "Hawaii",
+    neighborhood: "Kaka'ako, Oahu",
+    category: ["Bakery"],
+    items: [{item: "Japanese Loaf Bread"}],
+    contact: [
+      {
+        website: "http://brugbakery.com/",
+        directions: "https://goo.gl/maps/BUqSDja1qRwHwCio9"
+      },
+    ],
+  },
+  {
+    name: "Henry's Place",
+    city: "Hawaii",
+    neighborhood: "Waikiki, Oahu",
+    category: ["Dessert"],
+    items: [{item: "Ube Ice Cream"}],
+    contact: [
+      {
+        directions: "https://goo.gl/maps/Dyk2kY9ztNKHQ9368"
+      },
+    ],
+  },
+  {
+    name: "Dole Plantation",
+    city: "Hawaii",
+    neighborhood: "Wahiawa, Oahu",
+    category: ["Dessert"],
+    items: [{item: "Dole Whip"}],
+    contact: [
+      {
+        website: "https://www.doleplantation.com/",
+        directions: "https://goo.gl/maps/1E6ifep4NnT61ACe9"
+      },
+    ],
+  },
+  {
+    name: "Nisshodo",
+    city: "Hawaii",
+    neighborhood: "Kalihi - Palama, Oahu",
+    category: ["Dessert", "Asian"],
+    items: [{item: "Green Tea Mochi"}, {item: "Coconut Mochi"}, {item: "Habutai Mochi"}, {item: "Lychee Mochi"}, {item: "Ugu isu Mochi"}],
+    contact: [
+      {
+        website: "https://www.nisshodomochicandy.com/",
+        directions: "https://goo.gl/maps/8Z9Ho2LBx3j97red9"
+      },
+    ],
+  },
+  {
+    name: "Izakaya Pau Hana Base",
+    city: "Hawaii",
+    neighborhood: "Waikiki, Oahu",
+    category: ["Asian", "Dinner"],
+    items: [{item: "Takoyaki"}, {item: "Grilled Yakitori Chicken"}, {item: "Beef with Onion Over Rice"}, {item: "Calpico Chu-hi", isAlcohol: true}],
+    contact: [
+      {
+        directions: "https://goo.gl/maps/WsR14AubY2qUJXXj8"
+      },
+    ],
+  },
+  {
+    name: "Ali'i Coffee Co",
+    city: "Hawaii",
+    neighborhood: "Arts District, Oahu",
+    category: ["Cafe"],
+    items: [{item: "Ube Latte", isCaffeine: true}],
+    contact: [
+      {
+        website: "http://www.aliicoffee.com/",
+        directions: "https://goo.gl/maps/rX7Mm91mmhmAUCdw6"
+      },
+    ],
+  },
+  {
+    name: "The Curb Kaimuki",
+    city: "Hawaii",
+    neighborhood: "Kaimuki, Oahu",
+    category: ["Cafe"],
+    items: [{item: "Latte", isCaffeine: true}],
+    contact: [
+      {
+        website: "https://thecurbkaimuki.com/",
+        directions: "https://goo.gl/maps/Zzi9YdTtmPyMqgWc9"
+      },
+    ],
+  },
+  {
+    name: "Kona Coffee Purveyors",
+    city: "Hawaii",
+    neighborhood: "Waikiki, Oahu",
+    category: ["Cafe"],
+    items: [{item: "Kouign Amann"}, {item: "Kona Coffee", isCaffeine: true}],
+    contact: [
+      {
+        website: "http://konacoffeepurveyors.com/",
+        directions: "https://goo.gl/maps/QwyEA9TahjoartVDA"
+      },
+    ],
+  },
+  {
+    name: "Maui Brewing Co.",
+    city: "Hawaii",
+    neighborhood: "Waikiki, Oahu",
+    category: ["Brewery", "Happy Hour"],
+    items: [],
+    contact: [
+      {
+        website: "https://www.mbcrestaurants.com/waikiki/",
+        directions: "https://goo.gl/maps/uE3tTzbsfWggL4vRA"
+      },
+    ],
+  },
+  {
+    name: "Waikiki Brewing Co.",
+    city: "Hawaii",
+    neighborhood: "Waikiki, Oahu",
+    category: ["Brewery", "Happy Hour"],
+    items: [],
+    contact: [
+      {
+        website: "http://www.waikikibrewing.com/",
+        directions: "https://goo.gl/maps/C1Dq8hrYD7cFmA3U9"
       },
     ],
   },
