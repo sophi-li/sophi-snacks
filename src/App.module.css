@@ -67,12 +67,13 @@
 }
 
 .restaurantContainer {
-  width: 80%;
+  width: 85%;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
   margin-left: auto;
   margin-top: 4rem;
+  padding-right: 2rem;
 }
 
 .cityDropdown {
@@ -87,11 +88,27 @@
   line-height: 0.5rem;
 }
 
+@media only screen and (max-width: 2300px) {
+  .restaurantContainer {
+    width: 83%;
+  }
+}
+
+@media only screen and (max-width: 2000px) {
+  .restaurantContainer {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  .restaurantContainer {
+    width: 78%;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .restaurantContainer {
     width: 75%;
-    justify-content: flex-end;
-    margin-left: auto;
   }
 }
 
@@ -106,9 +123,6 @@
 
   .restaurantContainer {
     width: 60%;
-    justify-content: flex-end;
-    display: flex;
-    flex-direction: column;
   }
 }
 
@@ -134,6 +148,7 @@
 
   .restaurantContainer {
     width: 95%;
+    margin-left: -1.5rem;
   }
 
   .description, .selectLabel {
