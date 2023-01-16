@@ -2632,7 +2632,7 @@ const data = [
     city: "Hawaii",
     neighborhood: "Wailea, Maui",
     category: ["Dinner", "Dessert"],
-    items: [{item: "Aji Tamago", isVeg: true}, {item: "Pandan Bread Pudding", isVeg: true}, {item: "Auntie Kine Tings", isAlcohol: true}],
+    items: [{item: "Aji Tamago"}, {item: "Pandan Bread Pudding"}, {item: "Auntie Kine Tings", isAlcohol: true}],
     contact: [
       {
         website: "https://www.lineagemaui.com/",
@@ -2658,7 +2658,7 @@ const data = [
     city: "Hawaii",
     neighborhood: "Waikiki, Oahu",
     category: ["Dinner", "Asian"],
-    items: [{item: "Green Curry", isVeg: true}, {item: "Drunken Noodles", isVeg: true}],
+    items: [{item: "Green Curry"}, {item: "Drunken Noodles"}],
     contact: [
       {
         directions: "https://goo.gl/maps/xTGZE2CExoubyrsX8"
@@ -2683,7 +2683,7 @@ const data = [
     city: "Hawaii",
     neighborhood: "Kaka'ako, Oahu",
     category: ["Lunch", "Dinner", "Hawaiian"],
-    items: [{item: "Pork Lau Lau Tasting Plate ", isVeg: true}],
+    items: [{item: "Pork Lau Lau Tasting Plate"}],
     contact: [
       {
         website: "https://www.myhighwayinn.com/",
