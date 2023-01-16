@@ -112,32 +112,37 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 700px) {
   .App {
     display: flex;
     flex-direction: column;
   }
+  .title {
+    font-size: 1.9rem;
+  }
 
   .blurbContainer {
     background-color: white;
-    width: 80%;
+    width: 90%;
     border-bottom: 2px solid var(--gray);
     border-right: none;
     position: sticky;
-    margin: 0 auto -3rem auto;
+    margin: 0 auto -3rem -1rem;
     padding-bottom: 1rem;
+    text-align: center;
   }
 
   .restaurantContainer {
-    width: 90%;
+    width: 95%;
   }
 
-  .description {
+  .description, .selectLabel {
     display: none;
   }
 
   .keyContainer {
     display: flex;
+    line-height: 1.2;
   }
 
   .keyItem {
