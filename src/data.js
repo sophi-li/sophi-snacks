@@ -70,7 +70,6 @@ const data = [
       { item: "Paper Wrapped Cake" },
       {
         item: "Hot Dog Bun",
-        isVeg: false,
       },
     ],
     contact: [
@@ -78,6 +77,21 @@ const data = [
         website: "http://aa-bakery.com/",
         directions:
           "https://www.google.com/maps/dir//AA+Bakery+%26+Cafe,+Stockton+Street,+San+Francisco,+CA/@37.7998821,-122.3423055,12z/data=!3m1!5s0x808580f340f51975:0x2c25ff46f863e1cc!4m8!4m7!1m0!1m5!1m1!1s0x808580f3422c88f1:0x21683fb8bf4195fc!2m2!1d-122.4081166!2d37.7956809",
+      },
+    ],
+  },
+  {
+    name: "Golden Gate Bakery",
+    city: "San Francisco",
+    neighborhood: "Chinatown",
+    category: ["Bakery", "Asian"],
+    items: [
+      { item: "Dan Tat" },
+    ],
+    contact: [
+      {
+        directions:
+   "https://goo.gl/maps/fQWfKoQjskfqWD4A8",
       },
     ],
   },
@@ -108,19 +122,6 @@ const data = [
     contact: [
       {
         website: "http://www.goldenboypizza.com/",
-      },
-    ],
-  },
-  {
-    name: "Stella Pastry and Cafe",
-    city: "San Francisco",
-    neighborhood: "North Beach",
-    category: ["Cafe", "Bakery"],
-    items: [{ item: "Tiramisu" }],
-    contact: [
-      {
-        directions:
-          "https://www.google.com/maps/dir//Stella+Pastry,+Columbus+Avenue,+San+Francisco,+CA/@37.7638585,-122.5022574,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80858142bbda3f7d:0x4e12e74cf9c2346c!2m2!1d-122.4083382!2d37.799169",
       },
     ],
   },
@@ -210,71 +211,6 @@ const data = [
         order: "https://ebisu.menu11.com/sanfrancisco/order",
         directions:
           "https://www.google.com/maps/dir//Ebisu+Restaurant,+1283+9th+Ave,+San+Francisco,+CA+94122/@37.7637542,-122.5040199,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8085875ce01473f7:0xaa625c17075c336!2m2!1d-122.4665028!2d37.7644577",
-      },
-    ],
-  },
-  {
-    name: "San Francisco Hometown Creamery",
-    city: "San Francisco",
-    neighborhood: "Inner Sunset",
-    category: ["Dessert"],
-    items: [{ item: "Madagascar Vanilla ice cream" }],
-    contact: [
-      {
-        website: "https://www.sfhometowncreamery.com/",
-        directions:
-          "https://www.google.com/maps/dir//San+Francisco's+Hometown+Creamery,+9th+Avenue,+San+Francisco,+CA/@37.7643856,-122.5362027,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8085875c52789845:0x9748a34baf003117!2m2!1d-122.4662262!2d37.7644005",
-      },
-    ],
-  },
-  {
-    name: "U:Dessert Story",
-    city: "San Francisco",
-    neighborhood: "Castro",
-    category: ["Dessert", "Asian"],
-    items: [{ item: "Monster Toast" }],
-    contact: [
-      {
-        website: "https://udessertstory.com/",
-        directions: "https://www.google.com/maps/dir//U:Dessert+Story,+16th+Street,+San+Francisco,+CA/@37.7642567,-122.5008165,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x808f7e1c0f3d1f21:0x6ae598016cd9b1fc!2m2!1d-122.4306049!2d37.7642775",
-      },
-    ],
-  },
-  {
-    name: "Devil's Teeth Baking Company",
-    city: "San Francisco",
-    neighborhood: "Outer Sunset",
-    category: ["American", "Bakery"],
-    items: [
-      {
-        item: "Special Breakfast Sandwich",
-        isVeg: false,
-      },
-    ],
-    contact: [
-      {
-        website: "https://www.devilsteethbakingcompany.com/menu",
-        directions:
-          "https://www.google.com/maps/dir//Devil's+Teeth+Baking+Company,+Noriega+Street,+San+Francisco,+CA/@37.7531265,-122.5750677,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x8085878fa1412f4b:0xf7e59451c6c631fa!2m2!1d-122.5050278!2d37.7531472",
-      },
-    ],
-  },
-  {
-    name: "Rolling Out Cafe",
-    city: "San Francisco",
-    neighborhood: "Outer Sunset",
-    category: ["Bakery","Asian"],
-    items: [
-      {
-        item: "Mochissant",
-        isVeg: false,
-      },
-    ],
-    contact: [
-      {
-        website: "https://www.rollingoutcafe.com/",
-        directions:
-          "https://www.google.com/maps/dir//Rolling+Out+Cafe,+Taraval+Street,+San+Francisco,+CA/@37.7531265,-122.5750677,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808f7d84c97ee8f5:0x1f9c8fe78c3130b6!2m2!1d-122.4847348!2d37.7427892",
       },
     ],
   },
@@ -403,22 +339,9 @@ const data = [
       {
         website: "https://www.panchitaspupuseria.com/",
         directions:
-          "https://www.google.com/maps/dir//Panchita's+Pupuser%C3%ADa+%26+Restaurant,+16th+Street,+San+Francisco,+CA/@37.7647848,-122.4566431,13z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x808f7e2251f715f7:0x542a4fc2580e66c!2m2!1d-122.4216237!2d37.76479",
+            "https://www.google.com/maps/dir//Panchita's+Pupuser%C3%ADa+%26+Restaurant,+16th+Street,+San+Francisco,+CA/@37.7647848,-122.4566431,13z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x808f7e2251f715f7:0x542a4fc2580e66c!2m2!1d-122.4216237!2d37.76479",
         order:
-          "https://www.clover.com/online-ordering/panchitas-restaurant-2-san-francisco/508SZP8BYPCKP",
-      },
-    ],
-  },
-  {
-    name: "Andytown Coffee Roasters",
-    city: "San Francisco",
-    neighborhood: "Outer Sunset",
-    category: ["Cafe"],
-    items: [{ item: "Snowy Plover", isCaffeine: true }],
-    contact: [
-      {
-        website: "https://www.andytownsf.com/",
-        order: "https://www.andytownsf.com/online-cafe-orders",
+            "https://www.clover.com/online-ordering/panchitas-restaurant-2-san-francisco/508SZP8BYPCKP",
       },
     ],
   },
@@ -510,6 +433,70 @@ const data = [
     ],
   },
   {
+    name: "Stella Pastry and Cafe",
+    city: "San Francisco",
+    neighborhood: "North Beach",
+    category: ["Cafe", "Bakery"],
+    items: [{ item: "Tiramisu" }],
+    contact: [
+      {
+        directions:
+            "https://www.google.com/maps/dir//Stella+Pastry,+Columbus+Avenue,+San+Francisco,+CA/@37.7638585,-122.5022574,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80858142bbda3f7d:0x4e12e74cf9c2346c!2m2!1d-122.4083382!2d37.799169",
+      },
+    ],
+  },
+  {
+    name: "Devil's Teeth Baking Company",
+    city: "San Francisco",
+    neighborhood: "Outer Sunset",
+    category: ["American", "Bakery"],
+    items: [
+      {
+        item: "Special Breakfast Sandwich",
+        isVeg: false,
+      },
+    ],
+    contact: [
+      {
+        website: "https://www.devilsteethbakingcompany.com/menu",
+        directions:
+            "https://www.google.com/maps/dir//Devil's+Teeth+Baking+Company,+Noriega+Street,+San+Francisco,+CA/@37.7531265,-122.5750677,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x8085878fa1412f4b:0xf7e59451c6c631fa!2m2!1d-122.5050278!2d37.7531472",
+      },
+    ],
+  },
+  {
+    name: "Rolling Out Cafe",
+    city: "San Francisco",
+    neighborhood: "Outer Sunset",
+    category: ["Bakery","Asian"],
+    items: [
+      {
+        item: "Mochissant",
+        isVeg: false,
+      },
+    ],
+    contact: [
+      {
+        website: "https://www.rollingoutcafe.com/",
+        directions:
+            "https://www.google.com/maps/dir//Rolling+Out+Cafe,+Taraval+Street,+San+Francisco,+CA/@37.7531265,-122.5750677,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x808f7d84c97ee8f5:0x1f9c8fe78c3130b6!2m2!1d-122.4847348!2d37.7427892",
+      },
+    ],
+  },
+  {
+    name: "Andytown Coffee Roasters",
+    city: "San Francisco",
+    neighborhood: "Outer Sunset",
+    category: ["Cafe"],
+    items: [{ item: "Snowy Plover", isCaffeine: true }],
+    contact: [
+      {
+        website: "https://www.andytownsf.com/",
+        order: "https://www.andytownsf.com/online-cafe-orders",
+      },
+    ],
+  },
+  {
     name: "Home Cafe",
     city: "San Francisco",
     neighborhood: "Inner Sunset",
@@ -537,6 +524,33 @@ const data = [
       {
         website: "https://www.neighborsf.com/",
         order: "https://direct.chownow.com/order/28481/locations/42152",
+      },
+    ],
+  },
+  {
+    name: "San Francisco Hometown Creamery",
+    city: "San Francisco",
+    neighborhood: "Inner Sunset",
+    category: ["Dessert"],
+    items: [{ item: "Madagascar Vanilla ice cream" }],
+    contact: [
+      {
+        website: "https://www.sfhometowncreamery.com/",
+        directions:
+            "https://www.google.com/maps/dir//San+Francisco's+Hometown+Creamery,+9th+Avenue,+San+Francisco,+CA/@37.7643856,-122.5362027,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x8085875c52789845:0x9748a34baf003117!2m2!1d-122.4662262!2d37.7644005",
+      },
+    ],
+  },
+  {
+    name: "U:Dessert Story",
+    city: "San Francisco",
+    neighborhood: "Castro",
+    category: ["Dessert", "Asian"],
+    items: [{ item: "Monster Toast" }],
+    contact: [
+      {
+        website: "https://udessertstory.com/",
+        directions: "https://www.google.com/maps/dir//U:Dessert+Story,+16th+Street,+San+Francisco,+CA/@37.7642567,-122.5008165,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x808f7e1c0f3d1f21:0x6ae598016cd9b1fc!2m2!1d-122.4306049!2d37.7642775",
       },
     ],
   },
@@ -770,9 +784,9 @@ const data = [
     neighborhood: "Downtown",
     category: ["Bakery", "Lunch"],
     items: [
-      { item: "Latte", isCaffeine: true },
       { item: "Croissant" },
       { item: "Han & Cheese Croissant" },
+      { item: "Latte", isCaffeine: true },
     ],
     contact: [
       {
@@ -796,18 +810,6 @@ const data = [
         website: "http://orderkamdeshafghankababhouse.com/",
         order:
           "https://themenustar2.com/webspace/menus.php?code=orderkamdeshafghankababhouse.com",
-      },
-    ],
-  },
-  {
-    name: "Little Giant Ice Cream",
-    city: "Oakland",
-    neighborhood: "Downtown",
-    category: ["Dessert"],
-    items: [{ item: "Bicycle Coffee" }],
-    contact: [
-      {
-        website: "https://www.littlegianticecream.com/",
       },
     ],
   },
@@ -954,7 +956,7 @@ const data = [
     ],
   },
   {
-    name: "Bare Kunckle Pizza",
+    name: "Bare Knuckle Pizza",
     city: "Oakland",
     neighborhood: "Downtown",
     category: ["Dinner", "American"],
@@ -962,6 +964,18 @@ const data = [
     contact: [
       {
         website: "https://bareknucklepizza.com/",
+      },
+    ],
+  },
+  {
+    name: "Little Giant Ice Cream",
+    city: "Oakland",
+    neighborhood: "Downtown",
+    category: ["Dessert"],
+    items: [{ item: "Bicycle Coffee" }],
+    contact: [
+      {
+        website: "https://www.littlegianticecream.com/",
       },
     ],
   },
@@ -1433,8 +1447,8 @@ const data = [
     items: [
       { item: "Dead Rabbit Dark Ale", isAlcohol: true},
       { item: "Brooklyn Lager", isAlcohol: true},
-      { item: "Tuna Tartare Tacos" , isAlcohol: true},
-      { item: "Crispy Fish and Chips" , isAlcohol: true},
+      { item: "Tuna Tartare Tacos" },
+      { item: "Crispy Fish and Chips"},
     ],
     contact: [{ website: "https://www.deadrabbitnyc.com/" }],
   },
@@ -2287,6 +2301,44 @@ const data = [
     ],
   },
   {
+    name: "The Taco Stand",
+    city: "San Diego",
+    neighborhood: "La Jolla",
+    category: ["Mexican", "Lunch", "Dinner"],
+    items: [{item:"Carne Asada Taco", isVeg: true}, {item: "Al Pastor Taco"}],
+    contact: [
+      {
+        website: "https://letstaco.com/",
+        directions: "https://www.google.com/maps/dir//The+Taco+Stand,+Pearl+Street,+San+Diego,+CA/@32.8393469,-117.3119244,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80dc03e5d1618ceb:0x73529c9f616b883!2m2!1d-117.2768086!2d32.839328"
+      },
+    ],
+  },
+  {
+    name: "Taco Surf PB",
+    city: "San Diego",
+    neighborhood: "Pacific Beach",
+    category: ["Mexican", "Lunch", "Dinner"],
+    items: [{item:"Fried Fish Taco", isVeg: true}, {item: "Grilled Fish Taco"}],
+    contact: [
+      {
+        website: "https://www.tacosurftacoshop.com/",
+        directions: "https://www.google.com/maps/dir//Taco+Surf+PB,+Mission+Boulevard,+San+Diego,+CA/@32.8393469,-117.3119244,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80dc018d632673d1:0x1084755cff66bcbc!2m2!1d-117.2560451!2d32.7988385"
+      },
+    ],
+  },
+  {
+    name: "Tacos El Trompo",
+    city: "San Diego",
+    neighborhood: "Liberty Station",
+    category: ["Mexican", "Lunch", "Dinner"],
+    items: [],
+    contact: [
+      {
+        directions: "https://goo.gl/maps/S8zb46RRxRuK8YvCA"
+      },
+    ],
+  },
+  {
     name: "Con Pane Rustic Breads & Cafe",
     city: "San Diego",
     neighborhood: "Liberty Station",
@@ -2342,41 +2394,15 @@ const data = [
     ],
   },
   {
-    name: "The Taco Stand",
+    name: "Menya Ultra",
     city: "San Diego",
-    neighborhood: "La Jolla",
-    category: ["Mexican", "Lunch", "Dinner"],
-    items: [{item:"Carne Asada Taco", isVeg: true}, {item: "Al Pastor Taco"}],
+    neighborhood: "Hillcrest",
+    category: ["Asian", "Lunch", "Dinner"],
+    items: [{item: "Tonkotsu Ramen"}],
     contact: [
       {
-        website: "https://letstaco.com/",
-        directions: "https://www.google.com/maps/dir//The+Taco+Stand,+Pearl+Street,+San+Diego,+CA/@32.8393469,-117.3119244,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80dc03e5d1618ceb:0x73529c9f616b883!2m2!1d-117.2768086!2d32.839328"
-      },
-    ],
-  },
-  {
-    name: "Neighborhood",
-    city: "San Diego",
-    neighborhood: "Downtown",
-    category: ["Speakeasy"],
-    items: [{item: "Pierogi"}],
-    contact: [
-      {
-        website: "https://neighborhoodsd.com/",
-        directions: "https://www.google.com/maps/dir//Neighborhood,+G+Street,+San+Diego,+CA/@32.7135739,-117.1661028,15.28z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d95359190f7ca1:0xff28dbd6bd67866!2m2!1d-117.157584!2d32.712406"
-      },
-    ],
-  },
-  {
-    name: "Communal Coffee North Park",
-    city: "San Diego",
-    neighborhood: "North Park",
-    category: ["Cafe"],
-    items: [],
-    contact: [
-      {
-        website: "https://communalcoffee.com/north-park",
-        directions: "https://www.google.com/maps/dir//Communal+Coffee,+2335+University+Ave,+San+Diego,+CA+92104/@32.7483035,-117.1742826,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d954ee32187627:0x570eb5a679a17a63!2m2!1d-117.1391773!2d32.7483084"
+        website: "https://menya-ultra.com/",
+        directions: "https://www.google.com/maps/dir//Menya+Ultra+Hillcrest+Ramen,+University+Avenue,+San+Diego,+CA/@32.7486684,-117.1938026,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d95511289b2f7b:0x618ef1cf1bf63e5c!2m2!1d-117.1586973!2d32.7486733",
       },
     ],
   },
@@ -2394,45 +2420,6 @@ const data = [
     ],
   },
   {
-    name: "Taco Surf PB",
-    city: "San Diego",
-    neighborhood: "Pacific Beach",
-    category: ["Mexican", "Lunch", "Dinner"],
-    items: [{item:"Fried Fish Taco", isVeg: true}, {item: "Grilled Fish Taco"}],
-    contact: [
-      {
-        website: "https://www.tacosurftacoshop.com/",
-        directions: "https://www.google.com/maps/dir//Taco+Surf+PB,+Mission+Boulevard,+San+Diego,+CA/@32.8393469,-117.3119244,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80dc018d632673d1:0x1084755cff66bcbc!2m2!1d-117.2560451!2d32.7988385"
-      },
-    ],
-  },
-  {
-    name: "Moniker Coffee Co",
-    city: "San Diego",
-    neighborhood: "Liberty Station",
-    category: ["Cafe"],
-    items: [],
-    contact: [
-      {
-        website: "https://monikercoffee.com/menu",
-        directions:"https://www.google.com/maps/dir//Moniker+Coffee+Co,+2860+Sims+Rd,+San+Diego,+CA+92106/@32.7988435,-117.2911536,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80deab030cd844e9:0x5fbedb28e37eaede!2m2!1d-117.2113389!2d32.7409489"
-      },
-    ],
-  },
-  {
-    name: "Menya Ultra",
-    city: "San Diego",
-    neighborhood: "Hillcrest",
-    category: ["Asian", "Lunch", "Dinner"],
-    items: [{item: "Tonkotsu Ramen"}],
-    contact: [
-      {
-        website: "https://menya-ultra.com/",
-        directions: "https://www.google.com/maps/dir//Menya+Ultra+Hillcrest+Ramen,+University+Avenue,+San+Diego,+CA/@32.7486684,-117.1938026,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d95511289b2f7b:0x618ef1cf1bf63e5c!2m2!1d-117.1586973!2d32.7486733",
-      },
-    ],
-  },
-  {
     name: "Buona Forchetta",
     city: "San Diego",
     neighborhood: "South Park",
@@ -2442,45 +2429,6 @@ const data = [
       {
         website: "https://buonaforchettasd.com/",
         directions: "https://www.google.com/maps/dir//Buona+Forchetta+-+South+Park,+Beech+Street,+San+Diego,+CA/@32.7211586,-117.1651439,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d9537e305d3911:0x2108857782e4a0ce!2m2!1d-117.1300386!2d32.7211635"
-      },
-    ],
-  },
-  {
-    name: "Karl Strauss Brewing Company",
-    city: "San Diego",
-    neighborhood: "Mira Mesa",
-    category: ["Brewery"],
-    items: [],
-    contact: [
-      {
-        website: "https://www.karlstrauss.com/",
-        directions: "https://www.google.com/maps/dir//Karl+Strauss+Brewing+Company,+Scranton+Road,+San+Diego,+CA/@32.8965444,-117.2368862,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80dc0715da411f5b:0xca385eb992acebdb!2m2!1d-117.2017809!2d32.8965493",
-      },
-    ],
-  },
-  {
-    name: "Ballast Point Brewing",
-    city: "San Diego",
-    neighborhood: "Mire Mesa",
-    category: ["Brewery"],
-    items: [],
-    contact: [
-      {
-        website: "https://ballastpoint.com/",
-        directions: "https://www.google.com/maps/dir//Ballast+Point+Brewing+Miramar,+Carroll+Way,+San+Diego,+CA/@32.887553,-117.193255,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80dbf8b17b55f869:0x356c09c52b8e2ecb!2m2!1d-117.1581497!2d32.8875579"
-      },
-    ],
-  },
-  {
-    name: "Newtopia Cyder",
-    city: "San Diego",
-    neighborhood: "Mira Mesa",
-    category: ["Brewery"],
-    items: [],
-    contact: [
-      {
-        website: "https://www.drinknewtopia.com/",
-        directions: "https://www.google.com/maps/dir//Newtopia+Cyder,+Carroll+Canyon+Road+A,+San+Diego,+CA/@32.9032701,-117.1458613,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80dbf93090c8e82f:0xb210709d7ebd0167!2m2!1d-117.110756!2d32.903275",
       },
     ],
   },
@@ -2501,24 +2449,11 @@ const data = [
     city: "San Diego",
     neighborhood: "Ocean Beach",
     category: ["Cafe", "Bakery"],
-    items: [],
+    items: [{item: "Tiramisu"}],
     contact: [
       {
         website: "https://iloveazucar.com/",
         directions: "https://www.google.com/maps/dir//Azucar,+Newport+Avenue,+San+Diego,+CA/@32.7451661,-117.2829363,13z/data=!3m2!4b1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80deaa371187dc43:0x8e58455b62a6ef9c!2m2!1d-117.247831!2d32.745171"
-      },
-    ],
-  },
-  {
-    name: "Cafe Moto",
-    city: "San Diego",
-    neighborhood: "Barrio Logan",
-    category: ["Cafe"],
-    items: [],
-    contact: [
-      {
-        website: "https://cafemoto.com/",
-        directions:"https://www.google.com/maps/dir//Cafe+Moto,+National+Avenue,+San+Diego,+CA/@32.6956558,-117.1728513,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d9530d8e32b95f:0x4691331edf665d13!2m2!1d-117.137746!2d32.6956607"
       },
     ],
   },
@@ -2536,14 +2471,81 @@ const data = [
     ],
   },
   {
-    name: "Tacos El Trompo \"A Mexican Tradition\"",
+    name: "Moniker Coffee Co",
     city: "San Diego",
     neighborhood: "Liberty Station",
-    category: ["Mexican", "Lunch", "Dinner"],
+    category: ["Cafe"],
     items: [],
     contact: [
       {
-        directions: "https://www.google.com/maps/dir//Tacos+El+Trompo+%22A+Mexican+Tradition%22,+Logan+Avenue+suite+c,+San+Diego,+CA/@32.7013995,-117.1799081,13z/data=!3m2!4b1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d9532751363779:0x6335ad3d72f2a600!2m2!1d-117.1448028!2d32.7014044"
+        website: "https://monikercoffee.com/menu",
+        directions:"https://www.google.com/maps/dir//Moniker+Coffee+Co,+2860+Sims+Rd,+San+Diego,+CA+92106/@32.7988435,-117.2911536,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80deab030cd844e9:0x5fbedb28e37eaede!2m2!1d-117.2113389!2d32.7409489"
+      },
+    ],
+  },
+  {
+    name: "Communal Coffee North Park",
+    city: "San Diego",
+    neighborhood: "North Park",
+    category: ["Cafe"],
+    items: [],
+    contact: [
+      {
+        website: "https://communalcoffee.com/north-park",
+        directions: "https://www.google.com/maps/dir//Communal+Coffee,+2335+University+Ave,+San+Diego,+CA+92104/@32.7483035,-117.1742826,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d954ee32187627:0x570eb5a679a17a63!2m2!1d-117.1391773!2d32.7483084"
+      },
+    ],
+  },
+  {
+    name: "Cafe Moto",
+    city: "San Diego",
+    neighborhood: "Barrio Logan",
+    category: ["Cafe"],
+    items: [],
+    contact: [
+      {
+        website: "https://cafemoto.com/",
+        directions:"https://www.google.com/maps/dir//Cafe+Moto,+National+Avenue,+San+Diego,+CA/@32.6956558,-117.1728513,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d9530d8e32b95f:0x4691331edf665d13!2m2!1d-117.137746!2d32.6956607"
+      },
+    ],
+  },
+
+  {
+    name: "Neighborhood",
+    city: "San Diego",
+    neighborhood: "Downtown",
+    category: ["Speakeasy"],
+    items: [{item: "Pierogi"}],
+    contact: [
+      {
+        website: "https://neighborhoodsd.com/",
+        directions: "https://www.google.com/maps/dir//Neighborhood,+G+Street,+San+Diego,+CA/@32.7135739,-117.1661028,15.28z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d95359190f7ca1:0xff28dbd6bd67866!2m2!1d-117.157584!2d32.712406"
+      },
+    ],
+  },
+  {
+    name: "Ballast Point Brewing",
+    city: "San Diego",
+    neighborhood: "Mire Mesa",
+    category: ["Brewery"],
+    items: [],
+    contact: [
+      {
+        website: "https://ballastpoint.com/",
+        directions: "https://www.google.com/maps/dir//Ballast+Point+Brewing+Miramar,+Carroll+Way,+San+Diego,+CA/@32.887553,-117.193255,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80dbf8b17b55f869:0x356c09c52b8e2ecb!2m2!1d-117.1581497!2d32.8875579"
+      },
+    ],
+  },
+  {
+    name: "Karl Strauss Brewing Company",
+    city: "San Diego",
+    neighborhood: "Mira Mesa",
+    category: ["Brewery"],
+    items: [],
+    contact: [
+      {
+        website: "https://www.karlstrauss.com/",
+        directions: "https://www.google.com/maps/dir//Karl+Strauss+Brewing+Company,+Scranton+Road,+San+Diego,+CA/@32.8965444,-117.2368862,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80dc0715da411f5b:0xca385eb992acebdb!2m2!1d-117.2017809!2d32.8965493",
       },
     ],
   },
@@ -2557,6 +2559,19 @@ const data = [
       {
         website: "https://www.bivouaccider.com/",
         directions: "https://www.google.com/maps/dir//Bivouac+Ciderworks,+30th+Street,+San+Diego,+CA/@32.7500461,-117.16551,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80d954f6e5ea13ff:0xb0906cf5c9bba6c0!2m2!1d-117.1304047!2d32.750051"
+      },
+    ],
+  },
+  {
+    name: "Newtopia Cyder",
+    city: "San Diego",
+    neighborhood: "Mira Mesa",
+    category: ["Brewery"],
+    items: [],
+    contact: [
+      {
+        website: "https://www.drinknewtopia.com/",
+        directions: "https://www.google.com/maps/dir//Newtopia+Cyder,+Carroll+Canyon+Road+A,+San+Diego,+CA/@32.9032701,-117.1458613,13z/data=!3m1!5s0x80dc0185c4ff97a9:0x7a6b34bd65690811!4m8!4m7!1m0!1m5!1m1!1s0x80dbf93090c8e82f:0xb210709d7ebd0167!2m2!1d-117.110756!2d32.903275",
       },
     ],
   },
