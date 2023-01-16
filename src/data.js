@@ -26,7 +26,6 @@ const data = [
     items: [
       {
         item: "#1 Pho (rare slices of steak, well-done brisket, flank, tandon, tripe & beef balls)",
-        isVeg: false,
       },
       { item: "Five Spice Chicken w/ Imperial Roll Rice Plate" },
     ],
@@ -49,7 +48,6 @@ const data = [
       { item: "Paper Wrapped Cake" },
       {
         item: "Hot Dog Bun",
-        isVeg: false,
       },
     ],
     contact: [
@@ -453,7 +451,6 @@ const data = [
     items: [
       {
         item: "Special Breakfast Sandwich",
-        isVeg: false,
       },
     ],
     contact: [
@@ -472,7 +469,6 @@ const data = [
     items: [
       {
         item: "Mochissant",
-        isVeg: false,
       },
     ],
     contact: [
@@ -735,7 +731,6 @@ const data = [
       { item: "Paper Wrapped Cake" },
       {
         item: "Hot Dog Bun",
-        isVeg: false,
       },
     ],
     contact: [
@@ -1873,7 +1868,7 @@ const data = [
     items: [
       { item: "Sui Mai (Pork Dumplings)" },
       { item: "Pai Gwut (Spare ribs)" },
-      { item: "Gai Gurk (Chicekn Feet)" },
+      { item: "Gai Gurk (Chicken Feet)" },
     ],
     contact: [
       {
@@ -2305,7 +2300,7 @@ const data = [
     city: "San Diego",
     neighborhood: "La Jolla",
     category: ["Mexican", "Lunch", "Dinner"],
-    items: [{item:"Carne Asada Taco", isVeg: true}, {item: "Al Pastor Taco"}],
+    items: [{item:"Carne Asada Taco"}, {item: "Al Pastor Taco"}],
     contact: [
       {
         website: "https://letstaco.com/",
@@ -2318,7 +2313,7 @@ const data = [
     city: "San Diego",
     neighborhood: "Pacific Beach",
     category: ["Mexican", "Lunch", "Dinner"],
-    items: [{item:"Fried Fish Taco", isVeg: true}, {item: "Grilled Fish Taco"}],
+    items: [{item:"Fried Fish Taco"}, {item: "Grilled Fish Taco"}],
     contact: [
       {
         website: "https://www.tacosurftacoshop.com/",

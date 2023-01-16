@@ -7,17 +7,19 @@ import Select from "react-select";
 
 const cityDescription = {
   Manhattan:
-    "I spent the summer of 2021 in Manhattan. I visited most of these spots 2+ times. I can’t wait to go back to Scarr’s Pizza and Joe’s Steam Rice Roll.",
+    "These are some of my favorite NYC eats. I can’t wait to go back to Scarr’s Pizza and Joe’s Steam Rice Roll.",
   "San Francisco":
-    "I grew up in San Francisco. In this list, you'll find some of local gems and hot trendy spots. Naploeon, Perilla, and Neighbor Bakehouse hold a special place in my heart.",
+    "These are some of local gems and trendy spots from the eyes of a native San Franciscan. Napoleon, Perilla, and Neighbor Bakehouse hold a special place in my heart.",
   Seattle:
-    "These are some of my favorite spots I crammed into a 4 day Seattle trip. If I were in Seattle longer, Piroshky Piroshky and Sea Wolf Bakery would become my most visited spots.",
+    "These are some of my favorite spots I crammed into a 4 day Seattle trip. I can't wait to go back to Piroshky Piroshky and Sea Wolf Bakery.",
   Portland:
-    "I’ve visited Portland a handful of times. These are spots I keep going back to. Most notable are Nong’s, Pambiche, and Jen’s Pastries.",
+    "Portland is known for its coffee, breweries, and food pods. Some of my favorite spots are Nong’s, Pambiche, and Jen’s Pastries.",
   Oakland:
-    "I worked in Oakland for a year. This list features some of my favorite lunch and post-work dinner + drinks spots. I've been to both Drake’s and Bare Knuckle 5+ times.",
+    "This list features some of my favorite lunch and post-work dinner + drinks spots. I've been to both Drake’s and Bare Knuckle 5+ times.",
   Hawaii:
-  "These are some of my favorite spots during a vacation in December 2022. Kaka'ako Farmer's Market, Nisshodo, and Helena's Hawaiian Food are my top recommendations."
+  "Enjoy the gorgeous views with some delicious food. Kaka'ako Farmer's Market, Nisshodo, and Helena's Hawaiian Food are my top recommendations.",
+  "San Diego":
+      "A beach day followed by Oscars Tacos is a perfect day."
 };
 
 function App() {
@@ -132,7 +134,8 @@ function App() {
           if (category) {
             return <button className={category.isActive ? stylesheet.categoryButtonActive : stylesheet.categoryButton } onClick={(e) => handleCategoryChange(e)}>{category.category}</button>
           }
-        } )}</div>
+        } )}
+        </div>
         <label htmlFor="cityDropdown" className={stylesheet.selectLabel}>
           Use the filters above to browse through different cities and categories.
         </label>
@@ -146,7 +149,7 @@ function App() {
           >
             Sophia
           </a>.
-           I enjoy travelling and trying new food.
+           I enjoy travelling, trying new food, and sharing hidden gems.
         </p>
         <p className={stylesheet.description}>
           {cityDescription[selectedCity]}
