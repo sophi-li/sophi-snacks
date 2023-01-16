@@ -1478,13 +1478,14 @@ const data = [
     neighborhood: "South East Side",
     category: ["Asian", "Lunch", "Dinner"],
     items: [
-      { item: "Khao Man Gai" },
-      { item: "Khao Kha Muu" },
+      { item: "Khao Man Gai (Thai Chicken & Rice)" },
+      { item: "Khao Kha Muu (Pork and Rice)" },
     ],
     contact: [
       {
         website: "https://khaomangai.com/",
         order: "https://nongskhaomangai.square.site/",
+        directions:"https://goo.gl/maps/JBvsD1YWvum6tYb78"
       },
     ],
   },
@@ -1502,6 +1503,7 @@ const data = [
     contact: [
       {
         website: "https://www.pambiche.com/",
+        directions: "https://goo.gl/maps/iEo8xbQ9M353D7Ci9"
       },
     ],
   },
@@ -1518,6 +1520,7 @@ const data = [
     contact: [
       {
         website: "https://www.broderpdx.com/",
+        directions:"https://goo.gl/maps/caPmd5PvbkrwU2Cg7"
       },
     ],
   },
@@ -1534,6 +1537,7 @@ const data = [
     contact: [
       {
         website: "https://www.jenspdx.com/",
+        directions:"https://goo.gl/maps/syyvcoxoMEk235FF7"
       },
     ],
   },
@@ -1548,7 +1552,7 @@ const data = [
     ],
     contact: [
       {
-        phone: "503-317-9328",
+        directions:"https://goo.gl/maps/4yXTe6DMNQMRbnpV9"
       },
     ],
   },
@@ -1565,6 +1569,7 @@ const data = [
       {
         website: "https://kensartisan.com/pizza",
         order: "https://nongskhaomangai.square.site/",
+        directions:"https://goo.gl/maps/y9HT8JeqVWT6zxK57"
       },
     ],
   },
@@ -1582,7 +1587,7 @@ const data = [
       {
         website: "https://lechonpdx.com/menu",
         directions:
-          "https://www.google.com/maps/dir//Lechon,+Southwest+Naito+Parkway,+Portland,+OR/@45.551687,-122.7457459,12z/data=!3m1!5s0x80857e735be18845:0x8ccf98710399e5dd!4m8!4m7!1m0!1m5!1m1!1s0x54950a07af647a0b:0x8c454aa10fab612a!2m2!1d-122.6707479!2d45.5212647",
+          "https://goo.gl/maps/v4fH7FptqYrRJhA5A",
       },
     ],
   },
@@ -1596,7 +1601,7 @@ const data = [
       {
         website: "https://gravyrestaurant.com/",
         directions:
-          "https://www.google.com/maps/dir//Gravy,+North+Mississippi+Avenue,+Portland,+OR/@45.551687,-122.7457459,12z/data=!3m2!4b1!5s0x80857e735be18845:0x8ccf98710399e5dd!4m8!4m7!1m0!1m5!1m1!1s0x5495a76bad32c0af:0x4caaadead7350eff!2m2!1d-122.6756663!2d45.5517081",
+          "https://goo.gl/maps/hkAqJs31srWvvk8V9",
       },
     ],
   },
@@ -1629,6 +1634,7 @@ const data = [
       {
         website: "https://screendoorrestaurant.com/",
         order: "https://direct.chownow.com/order/11490/locations/15935",
+        directions:"https://goo.gl/maps/dJq2Cc58KGCbwfK17"
       },
     ],
   },
@@ -1644,6 +1650,7 @@ const data = [
     contact: [
       {
         website: "https://www.jamonhawthorne.com/",
+        directions:"https://goo.gl/maps/sVcseZNkezWzXW3D8"
       },
     ],
   },
@@ -1655,7 +1662,7 @@ const data = [
     items: [{ item: "Senga-tera Special" }],
     contact: [
       {
-        phone: "503-288-3787",
+        directions:"https://goo.gl/maps/6bsTMM7JEVcrcsB67",
         website: "https://sengateraethiopianrestaurant.com/index.html",
       },
     ],
@@ -1673,6 +1680,7 @@ const data = [
       {
         website: "https://www.friedegglove.com/",
         order: "https://www.friedegglove.com/orderonline",
+        directions:"https://goo.gl/maps/9doGaCS2pNef3N429"
       },
     ],
   },
@@ -1689,6 +1697,7 @@ const data = [
       {
         website: "https://www.nicholasrestaurant.com/",
         order: "https://www.nicholasrestaurant.com/order-now",
+        directions:"https://goo.gl/maps/VnaJBm9ZKmznfJcCA"
       },
     ],
   },
@@ -1704,7 +1713,7 @@ const data = [
     contact: [
       {
         website: "https://www.stammtischpdx.com/",
-        phone: "503-206-7983",
+        directions:"https://goo.gl/maps/7w7wfQdhUaC9Ljfx5"
       },
     ],
   },
@@ -1712,15 +1721,15 @@ const data = [
     name: "Nepali Kitchen and Chai Garden",
     city: "Portland",
     neighborhood: "Beaumont-Wilshire",
-    category: ["Lunch", "Dinner"],
+    category: ["Asian", "Lunch", "Dinner"],
     items: [
-      { item: "Chai" },
       { item: "Pork Momo" },
       { item: "Chicken Curry" },
+      { item: "Chai" , isCaffeine: true},
     ],
     contact: [
       {
-        phone: "(503) 477-6683",
+        directions:"https://goo.gl/maps/dRaSgRUFg4eCXrBT8",
         website: "https://cybergardencafenepali-kitchen.business.site/",
       },
     ],
@@ -1730,11 +1739,12 @@ const data = [
     city: "Portland",
     neighborhood: "Irvington",
     category: ["Dinner", "Asian"],
-    items: [{ item: "Salmon" }],
+    items: [{ item: "Salmon Nigiri" }],
     contact: [
       {
         website: "https://www.sushiohanapdx.com/",
         order: "https://www.sushiohanapdx.com/order-online-takeout-delivery",
+        directions:"https://goo.gl/maps/WSWBv4gkDtkazLax8"
       },
     ],
   },
@@ -1751,6 +1761,7 @@ const data = [
       {
         website: "https://pinestatebiscuits.com/",
         order: "https://pine-state-biscuits.square.site/",
+        directions:"https://goo.gl/maps/KzKE5fp45PJJT5Uq7"
       },
     ],
   },
@@ -1768,6 +1779,7 @@ const data = [
       {
         website: "https://bottosbbq.com/",
         order: "https://bottosbbq.square.site/",
+        directions:"https://goo.gl/maps/jhaBVRpEUq9xWktr6"
       },
     ],
   },
@@ -1784,6 +1796,75 @@ const data = [
       {
         website: "https://www.mattsbbqpdx.com/",
         order: "https://www.mattsbbqpdx.com/order-now/",
+        directions:"https://goo.gl/maps/V65rWYBiANV9Z8ND6"
+      },
+    ],
+  },
+  {
+    name: "Jojo",
+    city: "Portland",
+    neighborhood: "Pearl District",
+    category: ["American", "Lunch", "Dinner"],
+    items: [
+      { item: "Fried Chicken Sandwich with Jojo Sauce" },
+    ],
+    contact: [
+      {
+        website: "https://jojopdx.com/",
+        directions: "https://goo.gl/maps/uy5P4MxVxD7FCcUn6"
+      },
+    ],
+  },
+  {
+    name: "Paadee",
+    city: "Portland",
+    neighborhood: "Burnside",
+    category: ["Asian", "Lunch", "Dinner"],
+    items: [
+      { item: "Khao Soi" },
+      { item: "Pad See Ew" },
+      { item: "Green Curry" },
+      { item: "Bha Mee" },
+    ],
+    contact: [
+      {
+        website: "https://www.paadeepdx.com/",
+        directions: "https://goo.gl/maps/VNiQBXhGnXJ8NJmZ7"
+      },
+    ],
+  },
+  {
+    name: "Luc Lac Vietnamese Kitchen",
+    city: "Portland",
+    neighborhood: "Downtown",
+    category: ["Asian", "Lunch", "Dinner"],
+    items: [
+      { item: "Bo Tai Chanh (Steak Salad)" },
+      { item: "Sugar Cane Shrimp" },
+      { item: "Luc Lac" },
+      { item: "Asian Vacation", isAlcohol: true },
+    ],
+    contact: [
+      {
+        website: "https://luclackitchen.com/",
+        directions: "https://goo.gl/maps/i8EyEkjSAjnNdiFK9"
+      },
+    ],
+  },
+  {
+    name: "Excellent Cuisine",
+    city: "Portland",
+    neighborhood: "South Tabor",
+    category: ["Asian", "Lunch", "Brunch"],
+    items: [
+      { item: "Sui Mai (Pork Dumplings)" },
+      { item: "Pai Gwut (Spare ribs)" },
+      { item: "Gai Gurk (Chicekn Feet)" },
+    ],
+    contact: [
+      {
+        website: "https://www.excellentcuisine-or.com/",
+        directions: "https://goo.gl/maps/sY9MevSkFGL7qMnW9"
       },
     ],
   },
@@ -1804,6 +1885,94 @@ const data = [
     ],
   },
   {
+    name: "Stumptown Coffee Roasters",
+    city: "Portland",
+    neighborhood: "Belmont",
+    category: ["Cafe"],
+    items: [],
+    contact: [
+      {
+        directions:
+            "https://goo.gl/maps/ajWm9utgaz7XpMwL6",
+        website:
+            "https://www.stumptowntogo.com/",
+      },
+    ],
+  },
+  {
+    name: "Portland Coffee Roasters",
+    city: "Portland",
+    neighborhood: "Buckman Neighborhood",
+    category: ["Cafe"],
+    items: [],
+    contact: [
+      {
+        directions:
+            "https://goo.gl/maps/JzQqQirdk4r9vLtUA",
+        website:
+            "https://www.portlandcoffeeroasters.com/consumer/",
+      },
+    ],
+  },
+  {
+    name: "Coava Coffee Roasters",
+    city: "Portland",
+    neighborhood: "East Portland",
+    category: ["Cafe"],
+    items: [],
+    contact: [
+      {
+        directions:
+            "https://goo.gl/maps/cnwpsb22wej6x8ur6",
+        website:
+            "https://www.coavacoffee.com/",
+      },
+    ],
+  },
+  {
+    name: "Sterling Coffee Roasters",
+    city: "Portland",
+    neighborhood: "Northwest District",
+    category: ["Cafe"],
+    items: [],
+    contact: [
+      {
+        directions:
+            "https://goo.gl/maps/CDyiUeTnXCnmZ1vCA",
+        website:
+            "https://www.sterling.coffee/",
+      },
+    ],
+  },
+  {
+    name: "Never Coffee",
+    city: "Portland",
+    neighborhood: "Belmont",
+    category: ["Cafe"],
+    items: [],
+    contact: [
+      {
+        directions:
+            "https://goo.gl/maps/Zqsmi52FtzEhjBDW7",
+        website:
+            "https://www.nevercoffeelab.com/",
+      },
+    ],
+  },
+  {
+    name: "Albina Press",
+    city: "Portland",
+    neighborhood: "Mt. Tabor",
+    category: ["Cafe"],
+    items: [],
+    contact: [
+      {
+        directions:
+            "https://goo.gl/maps/tRmjJUCtpLihNYio6",
+      },
+    ],
+  },
+  {
     name: "Deschutes",
     city: "Portland",
     neighborhood: "Pearl District",
@@ -1817,14 +1986,111 @@ const data = [
     ],
   },
   {
+    name: "Breakside Brewery - NW Slabtown",
+    city: "Portland",
+    neighborhood: "Slabtown",
+    items: [],
+    category: ["Brewery", "American", "Dinner"],
+    contact: [
+      {
+        website:
+            "https://breakside.com/",
+        directions: "https://goo.gl/maps/FhidFCC7gKBokSTU7"
+      },
+    ],
+  },
+  {
+    name: "10 Barrel Brewing Portland",
+    city: "Portland",
+    neighborhood: "Pearl District",
+    items: [],
+    category: ["Brewery", "American", "Dinner"],
+    contact: [
+      {
+        website:
+            "https://10barrel.com/pub/portland-brewery/",
+        directions:"https://goo.gl/maps/jbtZPZkG39z6oF657"
+      },
+    ],
+  },{
+    name: "Steeplejack Brewing Company",
+    city: "Portland",
+    neighborhood: "Sullivan's Gulch",
+    items: [],
+    category: ["Brewery", "American", "Dinner"],
+    contact: [
+      {
+        website:
+            "https://www.steeplejackbeer.com/",
+        directions:"https://goo.gl/maps/pbWXCbCkxhEXg5rd7"
+      },
+    ],
+  },
+  {
+    name: "Loyal Legion",
+    city: "Portland",
+    neighborhood: "East Portland",
+    items: [],
+    category: ["Brewery", "American", "Dinner"],
+    contact: [
+      {
+        website:
+            "https://loyallegionbeerhall.com/",
+        directions:"https://goo.gl/maps/5FhdxA11pN74QUfj7"
+      },
+    ],
+  },
+  {
+    name: "Migration Brewing - Glisan",
+    city: "Portland",
+    neighborhood: "Laurelhurst",
+    items: [],
+    category: ["Brewery", "American", "Dinner"],
+    contact: [
+      {
+        website:
+            "https://migrationbrewing.com/",
+        directions: "https://goo.gl/maps/2T9avtFtXKMTTfNT8"
+      },
+    ],
+  },
+  {
+    name: "Portland Cider House",
+    city: "Portland",
+    neighborhood: "Hawthorne",
+    items: [],
+    category: ["Brewery"],
+    contact: [
+      {
+        website:
+            "https://www.portlandcider.com/pdxciderhouse",
+        directions:"https://goo.gl/maps/AR3s2HDFJbGaCwgi6"
+      },
+    ],
+  },
+  {
+    name: "Roof Deck at Revolution Hall",
+    city: "Portland",
+    neighborhood: "Buckman Neighborhood",
+    category: ["Bar"],
+    items: [],
+    contact: [
+      {
+        website: "https://www.revolutionhall.com/",
+        directions:"https://goo.gl/maps/SrdFfjdXNrrgw7Xy6"
+      },
+    ],
+  },
+  {
     name: "A Roadside Attraction",
     city: "Portland",
     neighborhood: "Buckman Neighborhood",
-    category: ["Brewery"],
+    category: ["Bar"],
     items: [],
     contact: [
       {
         website: "https://www.instagram.com/roadsidepdx/?hl=en",
+        directions: "https://goo.gl/maps/wGcxhmk6avTa6HUw7"
       },
     ],
   },
