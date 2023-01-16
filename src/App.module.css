@@ -142,7 +142,8 @@
 
   .keyContainer {
     display: flex;
-    line-height: 1.2;
+    font-size: 0.9rem;
+    margin-bottom: -1rem;
   }
 
   .keyItem {
